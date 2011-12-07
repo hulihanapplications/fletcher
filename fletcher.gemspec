@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dave Hulihan", "Hulihan Applications"]
   s.date = %q{2011-12-07}
-  s.description = %q{Fletcher pulls product/item information from third party websites(such as Amazon, eBay, etc) and returns it in a standardized, usable object.}
+  s.description = %q{A cross-website product/item information fetcher.}
   s.email = %q{dave@hulihanapplications.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
