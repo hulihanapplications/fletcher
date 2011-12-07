@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "README.textile",
     "Rakefile",
     "VERSION",
+    "fletcher.gemspec",
     "index.html",
     "lib/fletcher.rb",
     "lib/fletcher/data.rb",
