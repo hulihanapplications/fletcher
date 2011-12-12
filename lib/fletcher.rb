@@ -6,9 +6,14 @@ module Fletcher
   autoload :Data, 'fletcher/data'
   autoload :Nokogiri, 'fletcher/nokogiri'
   
-  module Item 
+  module Item
+    dir = 'fletcher/item'
+    Dir[File.join(dir, "*.rb")].each do |f|
+       #autoload f      
+    end 
     autoload :Base, 'fletcher/item/base'
     autoload :Amazon, 'fletcher/item/amazon'
+    autoload :Ebay, 'fletcher/item/ebay'
   end 
   
   # Detect service by url
