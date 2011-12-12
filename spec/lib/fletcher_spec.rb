@@ -30,7 +30,6 @@ describe Fletcher do
         item = described_class.fetch(Factory(:ebay_item).url)
         item.should_not be_nil
         item.name.should_not be_nil
-        item.description.should_not be_nil
       end      
     end    
   end

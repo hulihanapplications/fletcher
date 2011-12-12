@@ -8,14 +8,18 @@ module Fletcher
       def self.generate(service = nil, data = nil)
         case service
         when :amazon
-          return Fletcher::Item::Amazon.new(data)
+          item = Fletcher::Item::Amazon.new
         when :ebay
-        end 
+          item = Fletcher::Item::Ebay.new
+        end
+        
+        item.parse(data)
+        return item 
       end
 
       # Parse data and set object attributes    
       def parse(data)
-        @doc = data # save data for if user wants to access it later      
+        self.doc = data # save data for if user wants to access it later      
       end      
     end # Base
   end # Product

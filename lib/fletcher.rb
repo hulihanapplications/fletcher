@@ -24,6 +24,8 @@ module Fletcher
       host = uri.host
       if host =~ Fletcher::Item::Amazon.regexp
         service = :amazon
+      elsif host =~ Fletcher::Item::Ebay.regexp
+        service = :ebay        
       else 
         service = :unknown 
         raise ArgumentError, "Fletcher doesn't support #{host} yet."

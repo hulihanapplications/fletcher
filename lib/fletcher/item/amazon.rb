@@ -23,7 +23,7 @@ module Fletcher
           self.description = doc.xpath_gets("//meta[@name='description']/@content") if description.nil?
           
           # Get Image
-          self.image = doc.xpath_gets("//table[@class='productImageGrid']//img//@src")
+          self.image = doc.xpath_gets("//table[@class='productImageGrid']//img/@src")
         end            
       end
     end

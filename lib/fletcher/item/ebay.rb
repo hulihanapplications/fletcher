@@ -15,6 +15,12 @@ module Fletcher
         when Nokogiri::HTML::Document
           # Get Name
           self.name = doc.xpath_gets("//h1[@itemprop='name']")
+          
+          # Get Description
+          # OMITTED: This is tough to get because ebay item descriptions are custom html/content created by sellers
+          
+          # Get Image
+          self.image = doc.xpath_gets("//span[@itemprop='image']/@content")          
         end            
       end
     end
