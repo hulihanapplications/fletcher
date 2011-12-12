@@ -20,7 +20,10 @@ module Fletcher
           self.description = doc.css_gets("div#productDescriptionWrapper")     
                 
           # Get description from meta title if not found
-          self.description = doc.xpath_gets("//meta[@name='description']/@content") if description.nil? 
+          self.description = doc.xpath_gets("//meta[@name='description']/@content") if description.nil?
+          
+          # Get Image
+          self.image = doc.xpath_gets("//table[@class='productImageGrid']//img//@src")
         end            
       end
     end
