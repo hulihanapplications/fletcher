@@ -4,6 +4,7 @@ require "uri"
 
 module Fletcher
   autoload :Data, 'fletcher/data'
+  autoload :Nokogiri, 'fletcher/nokogiri'
   
   module Item 
     autoload :Base, 'fletcher/item/base'

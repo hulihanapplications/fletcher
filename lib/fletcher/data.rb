@@ -6,7 +6,7 @@ module Fletcher
   class Data
     # Get read url and get data object
     def self.read(url)
-      doc = Nokogiri::HTML(open(url))
+      doc = ::Nokogiri::HTML(open(url))
     end 
   end
 end

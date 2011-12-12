@@ -13,8 +13,10 @@ describe Fletcher do
   
   describe :fetch do 
     context :amazon do 
-      it "should retrieve amazon item info successfully" do 
-        described_class.fetch(Factory(:amazon_item).url).should != nil        
+      it "should fetch amazon item info successfully" do 
+        item = described_class.fetch(Factory(:amazon_item).url)
+        item.should != nil
+        item.title.should != nil        
       end      
     end
   end

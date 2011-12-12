@@ -21,13 +21,16 @@ gem install fletcher
 ## Examples
 
 ```ruby
-product = Fletcher.fetch("http://www.amazon.com/Avenir-Deluxe-Unicycle-20-Inch-Wheel/dp/B00165Q9F8")
+product = Fletcher.fetch "http://www.amazon.com/Avenir-Deluxe-Unicycle-20-Inch-Wheel/dp/B00165Q9F8"
 
 product.name # => "Avenir Deluxe Unicycle (20-Inch Wheel)"
 
 product.description # => "A wonderful unicycle"
 
 product.images # => [{:url => "http://ecx.images-amazon.com/images/I/41b3TNb3uCL._SL500_AA300_.jpg", :alt => "Avenir Deluxe Unicycle (20-Inch Wheel)"}]
+
+# Get Raw Nokogiri Document
+product.doc # => Nokogiri::HTML::Document
 ```
 
 ## Attributes
