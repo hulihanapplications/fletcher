@@ -1,6 +1,6 @@
 # Fletcher 
 
-Fletcher is a cross-website product/item information fetcher. Give fletcher a product url and you'll get back a nice, standardized object that's easy to work with.
+Fletcher is a cross-website product/item information fetcher. Give fletcher a product url and you'll get back a nice, simple object that's easy to work with.
 
 ## Features 
 
@@ -9,8 +9,8 @@ Fletcher is a cross-website product/item information fetcher. Give fletcher a pr
 
 ## Supported Websites
 
-* "Amazon":http://www.amazon.com (name, description, image)
-* "eBay":http://www.ebay.com (name, image)
+* [Amazon](http://www.amazon.com) (name, description, image)
+* ["eBay"](http://www.ebay.com) (name, image)
 
 ## Installation
 
