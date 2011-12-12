@@ -10,7 +10,7 @@ Fletcher is a cross-website product/item information fetcher. Give fletcher a pr
 ## Supported Websites
 
 * [Amazon](http://www.amazon.com) (name, description, image)
-* ["eBay"](http://www.ebay.com) (name, image)
+* [eBay](http://www.ebay.com) (name, image)
 
 ## Installation
 
@@ -30,7 +30,7 @@ product.description # => "A wonderful unicycle"
 product.images # => [{:url => "http://ecx.images-amazon.com/images/I/41b3TNb3uCL._SL500_AA300_.jpg", :alt => "Avenir Deluxe Unicycle (20-Inch Wheel)"}]
 
 # Get Raw Nokogiri Document
-product.doc # => Nokogiri::HTML::Document
+product.doc.class.name # => Nokogiri::HTML::Document
 ```
 
 ## Attributes
