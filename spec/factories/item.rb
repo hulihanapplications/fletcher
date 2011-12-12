@@ -1,6 +1,6 @@
 require "hashie"
 
-Factory.define :item, :class => Hashie::Mash  do |o|
+Factory.define :url, :class => Hashie::Mash  do |o|
   o.url "http://www.example.com"  
 end
 

@@ -2,12 +2,11 @@ require "hashie"
 
 module Fletcher
   module Item
-    class Base < ::Hashie::Mash
-         
+    class Base < ::Hashie::Mash         
       # Create a product object based on service
       #   Fletcher::Item::Base.generate(:amazon, "<html>...") # => #<Fletcher::Item::Amazon:0x...> 
       def self.generate(service = nil, data = nil)
-        case service.downcase.to_sym
+        case service
         when :amazon
           return Fletcher::Item::Amazon.new(data)
         when :ebay

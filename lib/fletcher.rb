@@ -12,8 +12,8 @@ module Fletcher
   end 
   
   # Detect service by url
-  #   Fletcher.service("http://www.amazon.com/whatever") => :amazon
-  def self.service(url)
+  #   Fletcher.identify_service("http://www.amazon.com/whatever") => :amazon
+  def self.identify_service(url)
     if url =~ ::URI::regexp
       uri = ::URI::parse(url)
       host = uri.host
@@ -30,9 +30,12 @@ module Fletcher
   
   # Fetch information based on url
   def self.fetch(url) 
-    service_sym = service(url)
+    service = identify_service(url)
     data = Fletcher::Data.read(url)
-    item = Fletcher::Item::Base.generate(service_sym, data)
+    item = Fletcher::Item::Base.generate(service, data)
+    # Store url
+    item.url = url
+    
     item.parse(data)
     return item   
   end

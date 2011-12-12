@@ -8,14 +8,19 @@ module Fletcher
         
       # Parse data and look for object attributes to give to object    
       def parse(data)
-        self.doc = data # save raw document object 
+        # Store raw document object 
+        self.doc = data 
+        
         case doc
         when Nokogiri::HTML::Document
           # Get Name
-          self.name = doc.css_gets("h1.parseasinTitle") 
+          self.name = doc.css_gets("h1.parseasinTitle")
+           
           # Get Description
-          self.description = doc.css_gets("div#productDescriptionWrapper")           
-          self.description = doc.xpath_gets("//meta[@name='description']/@content") if description.nil? # get description from meta title
+          self.description = doc.css_gets("div#productDescriptionWrapper")     
+                
+          # Get description from meta title if not found
+          self.description = doc.xpath_gets("//meta[@name='description']/@content") if description.nil? 
         end            
       end
     end

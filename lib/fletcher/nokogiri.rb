@@ -8,7 +8,7 @@ module Fletcher
         #   doc.css_gets("h1.title") # => "Some Title"
         #
         def css_gets(string)
-          node_gets(css(string))         
+          nodeset_gets(css(string))         
         end
         
         # Get a string from an XPATH selector     
@@ -16,17 +16,22 @@ module Fletcher
         #   doc.xpath_gets("//meta[@name='description']/@content") # => "Some Description"
         #        
         def xpath_gets(string)
-          node_gets(xpath(string))                   
+          nodeset_gets(xpath(string))                   
         end  
         
-        # Extract a string from an unknown Nokogiri node type/class
-        def node_gets(node)                
-          case node.first
-          when ::Nokogiri::XML::Element # xml/html element?
-            extracted_string = node.first.content.strip
-          when ::Nokogiri::XML::Attr # xml/html attribute?
-            extracted_string = node.first.value.strip
-          else # no node found
+        # Extract a string from a Nokogiri nodeset
+        def nodeset_gets(nodeset)  
+          # Identify the type/class from the nodeset's first child, then extract a string from it 
+          node = nodeset.first          
+          case node
+          # xml/html element?
+          when ::Nokogiri::XML::Element 
+            extracted_string = node.content.strip
+          # xml/html attribute?
+          when ::Nokogiri::XML::Attr
+            extracted_string = node.value.strip
+          # no node found
+          else 
             extracted_string = nil
           end 
           return extracted_string          
