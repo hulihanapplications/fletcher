@@ -9,8 +9,8 @@ Fletcher is a cross-website product/item information fetcher. Give fletcher a pr
 
 ## Supported Websites
 
-* "Amazon":http://www.amazon.com
-* "eBay":http://www.ebay.com (Coming Soon)
+* "Amazon":http://www.amazon.com(name, description, image)
+* "eBay":http://www.ebay.com(name, image)
 
 ## Installation
 
