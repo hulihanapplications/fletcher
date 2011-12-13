@@ -22,5 +22,5 @@ module Fletcher
         self.doc = data # save data for if user wants to access it later      
       end      
     end # Base
-  end # Product
+  end # Item
 end # Fletcher

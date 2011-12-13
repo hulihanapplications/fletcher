@@ -9,6 +9,8 @@ end
 
 Factory.define :valid_item, :parent => :item do |o|
   o.url "http://www.amazon.com/Kindle-Fire-Amazon-Tablet/dp/B0051VVOB2"
+  o.title_xpath "//h1[@class='parseasinTitle']"
+  o.images_xpath "//table[@class='productImageGrid']//img"
 end
 
 Factory.define :amazon_item, :parent => :item do |o|

@@ -1,10 +1,12 @@
 # = Fletcher
 # Author:: Dave Hulihan - 2011  
 require "uri"
+require "fletcher/data"
+require "fletcher/nokogiri"
 
 module Fletcher
-  autoload :Data, 'fletcher/data'
-  autoload :Nokogiri, 'fletcher/nokogiri'
+  #autoload :Data, 'fletcher/data'
+  #autoload :Nokogiri, 'fletcher/nokogiri'
   
   module Item
     dir = 'fletcher/item'

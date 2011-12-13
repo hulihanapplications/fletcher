@@ -3,42 +3,49 @@ module Fletcher
   module Nokogiri
     module HTML
       module Document
-        # Get a string from a CSS selector
-        # 
-        #   doc.css_gets("h1.title") # => "Some Title"
-        #
-        def css_gets(string)
-          nodeset_gets(css(string))         
-        end
-        
-        # Get a string from an XPATH selector     
-        # 
-        #   doc.xpath_gets("//meta[@name='description']/@content") # => "Some Description"
-        #        
-        def xpath_gets(string)
-          nodeset_gets(xpath(string))                   
-        end  
-        
-        # Extract a string from a Nokogiri nodeset
-        def nodeset_gets(nodeset)  
-          # Identify the type/class from the nodeset's first child, then extract a string from it 
-          node = nodeset.first          
+         
+      end # Document
+    end # HTML
+    
+    module XML
+      module NodeSet
+        # get string from first nodeset item
+        def first_string
+          node = first
           case node
           # xml/html element?
           when ::Nokogiri::XML::Element 
-            extracted_string = node.content.strip
+            return node.content.strip
           # xml/html attribute?
           when ::Nokogiri::XML::Attr
-            extracted_string = node.value.strip
-          # no node found
-          else 
-            extracted_string = nil
-          end 
-          return extracted_string          
-        end
-      end
-    end
-  end
-end
+            return node.value.strip 
+          end
+        end          
+        
+        # convert nodeset items to an array of hashes
+        #   @doc.xpath("//img")).attribute_array # => [{:element => "img", :src => ".../someimage.png"}]
+        def attribute_array
+          a = Array.new
+          for node in self
+            temp_hash = Hash.new 
+            case node 
+            when ::Nokogiri::XML::Element
+              temp_hash[:element] = node.name
+              node.attributes.each do |key, value|
+                case value
+                when ::Nokogiri::XML::Attr
+                  temp_hash[key.to_sym] = value.value.strip
+                end 
+              end
+            end 
+            a << temp_hash             
+          end
+          return a          
+        end 
+      end # Nodeset
+    end # XML 
+  end # Nokogiri 
+end # Fletcher
 
-::Nokogiri::HTML::Document.send(:include, ::Fletcher::Nokogiri::HTML::Document) 
+::Nokogiri::HTML::Document.send(:include, ::Fletcher::Nokogiri::HTML::Document)
+::Nokogiri::XML::NodeSet.send(:include, ::Fletcher::Nokogiri::XML::NodeSet)  
