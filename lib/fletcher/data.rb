@@ -6,7 +6,7 @@ module Fletcher
   class Data
     # Get read url and get data object
     def self.read(url)
-      remote_file = open(url)
+      remote_file = open(url).read
       doc = ::Nokogiri::HTML(remote_file)
       
       # Save contents of URL/Remote File
