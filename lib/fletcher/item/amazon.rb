@@ -14,18 +14,17 @@ module Fletcher
         case doc
         when Nokogiri::HTML::Document
           # Get Name
-          self.name = doc.css_gets("h1.parseasinTitle")
+          self.name = doc.css("h1.parseasinTitle").first_string
            
           # Get Description
-          self.description = doc.css_gets("div#productDescriptionWrapper")     
+          self.description = doc.css("div#productDescriptionWrapper").first_string    
                 
           # Get description from meta title if not found
-          self.description = doc.xpath_gets("//meta[@name='description']/@content") if description.nil?
+          self.description = doc.xpath("//meta[@name='description']/@content").first_string if description.nil?
           
-          # Get Image
-          self.images = doc.xpath_get("//table[@class='productImageGrid']//img/@src", :attr_array) #parse_images() # get images
-          
-          #self.image = doc.xpath_gets("//table[@class='productImageGrid']//img/@src")
+          # Get Images
+          self.images = doc.xpath("//table[@class='productImageGrid']//img").attribute_array
+          self.image = images.first
         end            
       end
     end

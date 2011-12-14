@@ -11,6 +11,10 @@ module Fletcher
           item = Fletcher::Item::Amazon.new
         when :ebay
           item = Fletcher::Item::Ebay.new
+        when :thinkgeek
+          item = Fletcher::Item::Thinkgeek.new
+        when :etsy
+          item = Fletcher::Item::Etsy.new
         end
         
         item.parse(data)

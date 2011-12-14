@@ -8,6 +8,7 @@ describe Fletcher::Item::Amazon do
         item.parse Fletcher::Data.read(Factory(:amazon_item).url)    
         item.name.should_not be_nil
         item.description.should_not be_nil
+        item.image.should_not be_nil        
       end       
     end
   end

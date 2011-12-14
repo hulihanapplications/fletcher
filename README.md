@@ -9,8 +9,10 @@ Fletcher is a cross-website product/item information fetcher. Give fletcher a pr
 
 ## Supported Websites
 
-* [Amazon](http://www.amazon.com) (name, description, image)
-* [eBay](http://www.ebay.com) (name, image)
+* [Amazon](http://www.amazon.com) (name, description, images)
+* [eBay](http://www.ebay.com) (name, images)
+* [ThinkGeek](http://www.thinkgeek.com) (name, description, images)
+* [Etsy](http://www.etsy.com) (name, description, images)
 
 ## Installation
 
@@ -27,7 +29,10 @@ item.name # => "Avenir Deluxe Unicycle (20-Inch Wheel)"
 
 item.description # => "A wonderful unicycle"
 
-item.image # => "http://ecx.images-amazon.com/images/I/41b3TNb3uCL._SL500_AA300_.jpg"
+item.image # => {:url => "http://ecx.images-amazon.com/images/I/41b3TNb3uCL._SL500_AA300_.jpg", :alt => "Picture of Unicycle"}
+
+item.image.url # => "http://ecx.images-amazon.com/images/I/41b3TNb3uCL._SL500_AA300_.jpg"
+
 
 # Get Raw Nokogiri Document
 item.doc.class.name # => Nokogiri::HTML::Document
@@ -39,6 +44,6 @@ The following attributes are available from items:
 
 * title - (String) The name of the item/product
 * description - (String) The item/product description
-* image - (String) The main image of the item
-* images - (Array) Any available images of the item(Coming Soon)
+* image - (Hash) The main image of the item
+* images - (Array) Any available images of the item
 

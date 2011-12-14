@@ -2,6 +2,7 @@
 # Author:: Dave Hulihan - 2011  
 require "uri"
 require "fletcher/data"
+require "fletcher/string"
 require "fletcher/nokogiri"
 
 module Fletcher
@@ -16,6 +17,8 @@ module Fletcher
     autoload :Base, 'fletcher/item/base'
     autoload :Amazon, 'fletcher/item/amazon'
     autoload :Ebay, 'fletcher/item/ebay'
+    autoload :Thinkgeek, 'fletcher/item/thinkgeek'
+    autoload :Etsy, 'fletcher/item/etsy'
   end 
   
   # Detect service by url
@@ -28,6 +31,10 @@ module Fletcher
         service = :amazon
       elsif host =~ Fletcher::Item::Ebay.regexp
         service = :ebay        
+      elsif host =~ Fletcher::Item::Thinkgeek.regexp
+        service = :thinkgeek
+      elsif host =~ Fletcher::Item::Etsy.regexp
+        service = :etsy
       else 
         service = :unknown 
         raise ArgumentError, "Fletcher doesn't support #{host} yet."
@@ -47,5 +54,5 @@ module Fletcher
     
     item.parse(data)
     return item   
-  end
+  end  
 end

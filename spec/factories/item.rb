@@ -21,3 +21,10 @@ Factory.define :ebay_item, :parent => :item do |o|
   o.url "http://www.ebay.com/itm/24-Wheel-Leakproof-Butyl-Tire-Adjustable-Unicycle-Free-Stand-Cycling-Bike-Green-/370564417915"
 end
 
+Factory.define :thinkgeek_item, :parent => :item do |o|
+  o.url "http://www.thinkgeek.com/geektoys/plush/e7f8/"
+end
+
+Factory.define :etsy_item, :parent => :item do |o|
+  o.url "http://www.etsy.com/listing/78608690/farm-fresh-125-x-19-in-pick-your-color"
+end

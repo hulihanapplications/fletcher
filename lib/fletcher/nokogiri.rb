@@ -1,3 +1,5 @@
+require "cgi"
+
 module Fletcher
   # This contains helper methods for Nokogiri interactions
   module Nokogiri
@@ -15,10 +17,10 @@ module Fletcher
           case node
           # xml/html element?
           when ::Nokogiri::XML::Element 
-            return node.content.strip
+            return node.content.sanitize
           # xml/html attribute?
           when ::Nokogiri::XML::Attr
-            return node.value.strip 
+            return node.value.sanitize
           end
         end          
         
@@ -26,7 +28,7 @@ module Fletcher
         #   @doc.xpath("//img")).attribute_array # => [{:element => "img", :src => ".../someimage.png"}]
         def attribute_array
           a = Array.new
-          for node in self
+          each do |node|
             temp_hash = Hash.new 
             case node 
             when ::Nokogiri::XML::Element
@@ -34,11 +36,11 @@ module Fletcher
               node.attributes.each do |key, value|
                 case value
                 when ::Nokogiri::XML::Attr
-                  temp_hash[key.to_sym] = value.value.strip
+                  temp_hash[key.to_sym] = value.value.sanitize
                 end 
               end
             end 
-            a << temp_hash             
+            a << temp_hash            
           end
           return a          
         end 
