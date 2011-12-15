@@ -5,16 +5,16 @@
 
 Gem::Specification.new do |s|
   s.name = %q{fletcher}
-  s.version = "0.1.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dave Hulihan", "Hulihan Applications"]
-  s.date = %q{2011-12-07}
-  s.description = %q{A cross-website product/item information fetcher.}
+  s.date = %q{2011-12-15}
+  s.description = %q{Easily fetch product/item information from third party websites such as Amazon, eBay, etc.}
   s.email = %q{dave@hulihanapplications.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
-    "README.textile"
+    "README.md"
   ]
   s.files = [
     ".document",
@@ -22,19 +22,28 @@ Gem::Specification.new do |s|
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
-    "README.textile",
+    "README.md",
     "Rakefile",
     "VERSION",
     "fletcher.gemspec",
-    "index.html",
     "lib/fletcher.rb",
     "lib/fletcher/data.rb",
     "lib/fletcher/item/amazon.rb",
     "lib/fletcher/item/base.rb",
+    "lib/fletcher/item/ebay.rb",
+    "lib/fletcher/item/etsy.rb",
+    "lib/fletcher/item/image.rb",
+    "lib/fletcher/item/thinkgeek.rb",
+    "lib/fletcher/nokogiri.rb",
+    "lib/fletcher/string.rb",
     "spec/factories/item.rb",
     "spec/lib/fletcher/data_spec.rb",
     "spec/lib/fletcher/item/amazon_spec.rb",
     "spec/lib/fletcher/item/base_spec.rb",
+    "spec/lib/fletcher/item/ebay_spec.rb",
+    "spec/lib/fletcher/item/etsy_spec.rb",
+    "spec/lib/fletcher/item/thinkgeek_spec.rb",
+    "spec/lib/fletcher/nokogiri_spec.rb",
     "spec/lib/fletcher_spec.rb",
     "spec/spec_helper.rb",
     "spec/support/benchmark.rb",
