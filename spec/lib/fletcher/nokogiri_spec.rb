@@ -21,7 +21,7 @@ describe Fletcher::Nokogiri::XML::NodeSet do
     it "should return an array of attribute hashes" do
       nodeset = @doc.xpath(Factory(:valid_item).images_xpath)
       attribute_array = nodeset.attribute_array 
-      puts attribute_array.first.inspect
+      attribute_array.class.should == Array
     end       
   end
 end 

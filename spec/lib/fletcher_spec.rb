@@ -32,5 +32,21 @@ describe Fletcher do
         item.name.should_not be_nil
       end      
     end    
+
+    context :thinkgeek do 
+      it "should fetch item info successfully" do 
+        item = described_class.fetch(Factory(:thinkgeek_item).url)
+        item.should_not be_nil
+        item.name.should_not be_nil
+      end      
+    end    
+    
+    context :etsy do 
+      it "should fetch item info successfully" do 
+        item = described_class.fetch(Factory(:etsy_item).url)
+        item.should_not be_nil
+        item.name.should_not be_nil
+      end      
+    end        
   end
 end  
