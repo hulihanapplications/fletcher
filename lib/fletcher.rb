@@ -55,4 +55,14 @@ module Fletcher
     item.parse(data)
     return item   
   end  
+  
+  # Get gem version
+  def self.version
+    File.read(File.join(root, "VERSION"))
+  end
+  
+  # Get gem root directory
+  def self.root
+    File.expand_path("../..", __FILE__)
+  end
 end

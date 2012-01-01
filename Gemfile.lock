@@ -38,6 +38,7 @@ DEPENDENCIES
   bundler (~> 1.0.0)
   factory_girl
   hashie
+  i18n
   jeweler (~> 1.6.4)
   money
   nokogiri

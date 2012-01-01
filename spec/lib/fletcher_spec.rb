@@ -49,4 +49,10 @@ describe Fletcher do
       end      
     end        
   end
+  
+  describe :version do
+    it "should return a string" do
+      described_class.version.should_not be_nil
+    end
+  end
 end  
