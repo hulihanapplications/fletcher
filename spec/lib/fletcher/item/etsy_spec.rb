@@ -8,6 +8,7 @@ describe Fletcher::Item::Etsy do
         item.parse Fletcher::Data.read(Factory(:etsy_item).url)    
         item.name.should_not be_nil
         item.description.should_not be_nil
+        item.price.should_not be_nil        
         item.image.should_not be_nil        
       end       
     end

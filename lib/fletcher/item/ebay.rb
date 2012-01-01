@@ -18,6 +18,9 @@ module Fletcher
           
           # Get Description
           # OMITTED: This is tough to get because ebay item descriptions are custom html/content created by sellers
+
+          # Get Price
+          parse_price(doc.xpath("//span[@itemprop='price']").first_string.gsub(/US/, ""))
           
           # Get Image
           self.images = [{:url => doc.xpath("//span[@itemprop='image']/img").first_string}]

@@ -1,4 +1,6 @@
-# Fletcher 
+# Fletcher
+[![Build Status](http://travis-ci.org/hulihanapplications/fletcher.png)](http://travis-ci.org/hulihanapplications/fletcher)
+ 
 
 Fletcher is a cross-website product/item information fetcher. Give fletcher a product url and you'll get back a nice, simple object that's easy to work with.
 
@@ -9,7 +11,7 @@ Fletcher is a cross-website product/item information fetcher. Give fletcher a pr
 
 ## Supported Websites
 
-* [Amazon](http://www.amazon.com) (name, description, images)
+* [Amazon](http://www.amazon.com) (name, description, price, images)
 * [eBay](http://www.ebay.com) (name, images)
 * [ThinkGeek](http://www.thinkgeek.com) (name, description, images)
 * [Etsy](http://www.etsy.com) (name, description, images)
@@ -23,7 +25,9 @@ gem install fletcher
 ## Examples
 
 ```ruby
-item = Fletcher.fetch "http://www.amazon.com/Avenir-Deluxe-Unicycle-20-Inch-Wheel/dp/B00165Q9F8"
+require "fletcher"
+
+item = Fletcher.fetch # => "http://www.amazon.com/Avenir-Deluxe-Unicycle-20-Inch-Wheel/dp/B00165Q9F8"
 
 item.name # => "Avenir Deluxe Unicycle (20-Inch Wheel)"
 
@@ -33,6 +37,10 @@ item.image # => {:url => "http://ecx.images-amazon.com/images/I/41b3TNb3uCL._SL5
 
 item.image.url # => "http://ecx.images-amazon.com/images/I/41b3TNb3uCL._SL500_AA300_.jpg"
 
+item.price # => #<Money cents:500 currency:USD>
+item.price.to_f # => 5.0
+item.price.format # => "$5.00"  
+item.price.currency.symbol # => "$"
 
 # Get Raw Nokogiri Document
 item.doc.class.name # => Nokogiri::HTML::Document
@@ -44,6 +52,7 @@ The following attributes are available from items:
 
 * title - (String) The name of the item/product
 * description - (String) The item/product description
+* price - (Money) A [Money](https://github.com/RubyMoney/money) object representing the item price. This makes exchange rates and math functionality easy to use.
 * image - (Hash) The main image of the item
 * images - (Array) Any available images of the item
 

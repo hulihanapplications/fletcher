@@ -7,6 +7,7 @@ describe Fletcher::Item::Thinkgeek do
         item = described_class.new
         item.parse Fletcher::Data.read(Factory(:thinkgeek_item).url)  
         item.name.should_not be_nil
+        item.price.should_not be_nil                
         item.image.should_not be_nil        
       end       
     end

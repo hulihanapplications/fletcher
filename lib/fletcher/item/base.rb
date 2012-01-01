@@ -1,4 +1,5 @@
 require "hashie"
+require "money"
 
 module Fletcher
   module Item
@@ -25,6 +26,15 @@ module Fletcher
       def parse(data)
         self.doc = data # save data for if user wants to access it later      
       end      
+      
+      # Parse a raw price string to get usable data
+      #   item.parse_price("$5.00") # => #<Money cents:500 currency:USD>
+      #   item.price.to_f # => 5.0
+      #   item.price.currency.symbol # => '$'
+      def parse_price(raw_price = nil)
+        return if raw_price.nil?
+        self.price = ::Money.parse(raw_price)
+      end
     end # Base
   end # Item
 end # Fletcher

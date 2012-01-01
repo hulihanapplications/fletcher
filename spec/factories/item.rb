@@ -1,7 +1,14 @@
 require "hashie"
 
-Factory.define :item, :class => Hashie::Mash  do |o|
+Factory.define :item, :class => Fletcher::Item::Base  do |o|
   o.url "http://www.example.com"  
+end
+
+Factory.define :sample_item, :parent => :item  do |o|
+  o.url "http://www.example.com"
+  o.name "Sample Item"
+  o.description "This is a sample description."
+  o.raw_price "$5.00"   
 end
 
 Factory.define :invalid_item, :parent => :item do |o|

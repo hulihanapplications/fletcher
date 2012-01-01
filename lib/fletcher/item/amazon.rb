@@ -22,6 +22,9 @@ module Fletcher
           # Get description from meta title if not found
           self.description = doc.xpath("//meta[@name='description']/@content").first_string if description.nil?
           
+          # Get Price
+          parse_price(doc.css("b.priceLarge").first_string)
+          
           # Get Images
           self.images = doc.xpath("//table[@class='productImageGrid']//img").attribute_array
           self.image = images.first
