@@ -2,24 +2,24 @@ require "hashie"
 require "money"
 
 module Fletcher
-  module Item
+  module Model
     class Base < ::Hashie::Mash         
       # Create a product object based on service
-      #   Fletcher::Item::Base.generate(:amazon, "<html>...") # => #<Fletcher::Item::Amazon:0x...> 
+      #   Fletcher::Model::Base.generate(:amazon, "<html>...") # => #<Fletcher::Model::Amazon:0x...> 
       def self.generate(service = nil, data = nil)
         case service
         when :amazon
-          item = Fletcher::Item::Amazon.new
+          model = Fletcher::Model::Amazon.new
         when :ebay
-          item = Fletcher::Item::Ebay.new
+          model = Fletcher::Model::Ebay.new
         when :thinkgeek
-          item = Fletcher::Item::Thinkgeek.new
+          model = Fletcher::Model::Thinkgeek.new
         when :etsy
-          item = Fletcher::Item::Etsy.new
+          model = Fletcher::Model::Etsy.new
         end
         
-        item.parse(data)
-        return item 
+        model.parse(data)
+        return model 
       end
 
       # Parse data and set object attributes    
@@ -28,13 +28,13 @@ module Fletcher
       end      
       
       # Parse a raw price string to get usable data
-      #   item.parse_price("$5.00") # => #<Money cents:500 currency:USD>
-      #   item.price.to_f # => 5.0
-      #   item.price.currency.symbol # => '$'
+      #   model.parse_price("$5.00") # => #<Money cents:500 currency:USD>
+      #   model.price.to_f # => 5.0
+      #   model.price.currency.symbol # => '$'
       def parse_price(raw_price = nil)
         return if raw_price.nil?
         self.price = ::Money.parse(raw_price)
       end
     end # Base
-  end # Item
+  end # Model
 end # Fletcher

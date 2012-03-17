@@ -1,6 +1,6 @@
 module Fletcher
-  module Item
-    class Thinkgeek < Fletcher::Item::Base
+  module Model
+    class Thinkgeek < Fletcher::Model::Base
       # A regular expression for determining if a url comes from a specific service/website
       def self.regexp
         /thinkgeek\.com/
@@ -8,8 +8,7 @@ module Fletcher
         
       # Parse data and look for object attributes to give to object    
       def parse(data)
-        # Store raw document object 
-        self.doc = data 
+        super(data)
         
         case doc
         when Nokogiri::HTML::Document

@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dave Hulihan", "Hulihan Applications"]
   s.date = %q{2012-01-01}
-  s.description = %q{Easily fetch product/item information from third party websites such as Amazon, eBay, etc.}
+  s.description = %q{Easily fetch product/model information from third party websites such as Amazon, eBay, etc.}
   s.email = %q{dave@hulihanapplications.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -28,21 +28,21 @@ Gem::Specification.new do |s|
     "fletcher.gemspec",
     "lib/fletcher.rb",
     "lib/fletcher/data.rb",
-    "lib/fletcher/item/amazon.rb",
-    "lib/fletcher/item/base.rb",
-    "lib/fletcher/item/ebay.rb",
-    "lib/fletcher/item/etsy.rb",
-    "lib/fletcher/item/image.rb",
-    "lib/fletcher/item/thinkgeek.rb",
+    "lib/fletcher/model/amazon.rb",
+    "lib/fletcher/model/base.rb",
+    "lib/fletcher/model/ebay.rb",
+    "lib/fletcher/model/etsy.rb",
+    "lib/fletcher/model/image.rb",
+    "lib/fletcher/model/thinkgeek.rb",
     "lib/fletcher/nokogiri.rb",
     "lib/fletcher/string.rb",
-    "spec/factories/item.rb",
+    "spec/factories/model.rb",
     "spec/lib/fletcher/data_spec.rb",
-    "spec/lib/fletcher/item/amazon_spec.rb",
-    "spec/lib/fletcher/item/base_spec.rb",
-    "spec/lib/fletcher/item/ebay_spec.rb",
-    "spec/lib/fletcher/item/etsy_spec.rb",
-    "spec/lib/fletcher/item/thinkgeek_spec.rb",
+    "spec/lib/fletcher/model/amazon_spec.rb",
+    "spec/lib/fletcher/model/base_spec.rb",
+    "spec/lib/fletcher/model/ebay_spec.rb",
+    "spec/lib/fletcher/model/etsy_spec.rb",
+    "spec/lib/fletcher/model/thinkgeek_spec.rb",
     "spec/lib/fletcher/nokogiri_spec.rb",
     "spec/lib/fletcher_spec.rb",
     "spec/spec_helper.rb",
@@ -54,7 +54,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.7.2}
-  s.summary = %q{A cross-website product/item information fetcher.}
+  s.summary = %q{A cross-website product/model information fetcher.}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3

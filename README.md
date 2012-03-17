@@ -2,7 +2,7 @@
 [![Build Status](http://travis-ci.org/hulihanapplications/fletcher.png)](http://travis-ci.org/hulihanapplications/fletcher)
  
 
-Fletcher is a cross-website product/item information fetcher. Give fletcher a product url and you'll get back a nice, simple object that's easy to work with.
+Fletcher is a cross-website product/model information fetcher. Give fletcher a product url and you'll get back a nice, simple object that's easy to work with.
 
 ## Features 
 
@@ -27,32 +27,32 @@ gem install fletcher
 ```ruby
 require "fletcher"
 
-item = Fletcher.fetch "http://www.amazon.com/Avenir-Deluxe-Unicycle-20-Inch-Wheel/dp/B00165Q9F8"
+model = Fletcher.fetch "http://www.amazon.com/Avenir-Deluxe-Unicycle-20-Inch-Wheel/dp/B00165Q9F8"
 
-item.name # => "Avenir Deluxe Unicycle (20-Inch Wheel)"
+model.name # => "Avenir Deluxe Unicycle (20-Inch Wheel)"
 
-item.description # => "A wonderful unicycle"
+model.description # => "A wonderful unicycle"
 
-item.image # => {:url => "http://ecx.images-amazon.com/images/I/41b3TNb3uCL._SL500_AA300_.jpg", :alt => "Picture of Unicycle"}
+model.image # => {:url => "http://ecx.images-amazon.com/images/I/41b3TNb3uCL._SL500_AA300_.jpg", :alt => "Picture of Unicycle"}
 
-item.image.url # => "http://ecx.images-amazon.com/images/I/41b3TNb3uCL._SL500_AA300_.jpg"
+model.image.url # => "http://ecx.images-amazon.com/images/I/41b3TNb3uCL._SL500_AA300_.jpg"
 
-item.price # => #<Money cents:500 currency:USD>
-item.price.to_f # => 5.0
-item.price.format # => "$5.00"  
-item.price.currency.symbol # => "$"
+model.price # => #<Money cents:500 currency:USD>
+model.price.to_f # => 5.0
+model.price.format # => "$5.00"  
+model.price.currency.symbol # => "$"
 
 # Get Raw Nokogiri Document
-item.doc.class.name # => Nokogiri::HTML::Document
+model.doc.class.name # => Nokogiri::HTML::Document
 ```
 
 ## Attributes
 
-The following attributes are available from items:
+The following attributes are available from models:
 
-* title - (String) The name of the item/product
-* description - (String) The item/product description
-* price - (Money) A [Money](https://github.com/RubyMoney/money) object representing the item price. This makes exchange rates and math functionality easy to use.
-* image - (Hash) The main image of the item
-* images - (Array) Any available images of the item
+* title - (String) The name of the model/product
+* description - (String) The model/product description
+* price - (Money) A [Money](https://github.com/RubyMoney/money) object representing the model price. This makes exchange rates and math functionality easy to use.
+* image - (Hash) The main image of the model
+* images - (Array) Any available images of the model
 

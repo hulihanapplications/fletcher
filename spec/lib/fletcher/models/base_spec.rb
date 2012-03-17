@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Fletcher::Item::Base do
+describe Fletcher::Model::Base do
   describe "generate" do     
   end
   
@@ -11,10 +11,10 @@ describe Fletcher::Item::Base do
 
   describe "parse_price" do 
     it "should return a price float and currency" do
-      item = Factory.build(:sample_item)
-      item.parse_price(item.raw_price)
-      item.price.is_a?(Money).should == true
-      item.price.currency.should_not be_nil
+      model = Factory.build(:sample_model)
+      model.parse_price(model.raw_price)
+      model.price.is_a?(Money).should == true
+      model.price.currency.should_not be_nil
     end
   end
 end  

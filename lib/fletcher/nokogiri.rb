@@ -11,7 +11,7 @@ module Fletcher
     
     module XML
       module NodeSet
-        # get string from first nodeset item
+        # get string from first nodeset model
         def first_string
           node = first
           case node
@@ -24,7 +24,7 @@ module Fletcher
           end
         end          
         
-        # convert nodeset items to an array of hashes
+        # convert nodeset models to an array of hashes
         #   @doc.xpath("//img")).attribute_array # => [{:element => "img", :src => ".../someimage.png"}]
         def attribute_array
           a = Array.new
