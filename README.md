@@ -12,9 +12,9 @@ Fletcher is a cross-website product/item information fetcher. Give fletcher a pr
 ## Supported Websites
 
 * [Amazon](http://www.amazon.com) (name, description, price, images)
-* [eBay](http://www.ebay.com) (name, images)
-* [ThinkGeek](http://www.thinkgeek.com) (name, description, images)
-* [Etsy](http://www.etsy.com) (name, description, images)
+* [eBay](http://www.ebay.com) (name, price, images)
+* [ThinkGeek](http://www.thinkgeek.com) (name, description, price, images)
+* [Etsy](http://www.etsy.com) (name, description, price, images)
 
 ## Installation
 
@@ -22,12 +22,12 @@ Fletcher is a cross-website product/item information fetcher. Give fletcher a pr
 gem install fletcher
 ```
 
-## Examples
+## Usage
 
 ```ruby
 require "fletcher"
 
-item = Fletcher.fetch # => "http://www.amazon.com/Avenir-Deluxe-Unicycle-20-Inch-Wheel/dp/B00165Q9F8"
+item = Fletcher.fetch "http://www.amazon.com/Avenir-Deluxe-Unicycle-20-Inch-Wheel/dp/B00165Q9F8"
 
 item.name # => "Avenir Deluxe Unicycle (20-Inch Wheel)"
 
