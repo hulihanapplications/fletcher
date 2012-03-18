@@ -9,21 +9,21 @@ module Fletcher
       # Parse data and look for object attributes to give to object    
       def parse(data)
         super(data)
-        
+
         case doc
         when Nokogiri::HTML::Document
           # Get Name
-          self.name = doc.xpath("//h1[@modelprop='name']").first_string
+          self.name = doc.xpath("//h1[@itemprop='name']").first_string
           
           # Get Description
           # OMITTED: This is tough to get because ebay item descriptions are custom html/content created by sellers
 
           # Get Price
-          raw_price = doc.xpath("//span[@modelprop='price']").first_string
+          raw_price = doc.xpath("//span[@itemprop='price']").first_string
           parse_price(raw_price.gsub(/US/, "")) if raw_price
           
           # Get Image
-          self.images = [{:url => doc.xpath("//span[@modelprop='image']/img").first_string}]
+          self.images = [{:url => doc.xpath("//span[@itemprop='image']/img").first_string}]
           self.image = images.first
         end            
       end

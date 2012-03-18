@@ -49,3 +49,6 @@ pkg
 
 # For rspec
 .rspec
+
+# Debugging 
+last_response

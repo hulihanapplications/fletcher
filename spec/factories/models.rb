@@ -25,8 +25,9 @@ Factory.define :amazon, :parent => :base do |o|
   o.url "http://www.amazon.com/Kindle-Fire-Amazon-Tablet/dp/B0051VVOB2"
 end
 
+# This may need to be updated if the item is expired/deleted
 Factory.define :ebay, :parent => :base do |o|
-  o.url "http://www.ebay.com/itm/24-Wheel-Leakproof-Butyl-Tire-Adjustable-Unicycle-Free-Stand-Cycling-Bike-Green-/370564417915"
+  o.url "http://www.ebay.com/itm/Franklin-Library-3V-ESSAYS-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-/190654183378"
 end
 
 Factory.define :thinkgeek, :parent => :base do |o|

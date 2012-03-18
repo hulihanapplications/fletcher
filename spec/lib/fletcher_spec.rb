@@ -17,10 +17,10 @@ describe Fletcher do
     describe :fetch do
       for model in [Fletcher.models[2]]
         it "should return valid data for #{model} model" do
-          model = described_class.fetch(Factory(model).url)
-          model.should_not be_nil
-          model.name.should_not be_nil       
-          model.description.should_not be_nil if model == :amazon
+          item = described_class.fetch(Factory(model).url)
+          item.should_not be_nil
+          item.name.should_not be_nil       
+          item.description.should_not be_nil if model == :amazon
         end 
       end   
     end    

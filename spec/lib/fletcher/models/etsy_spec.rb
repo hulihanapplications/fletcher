@@ -5,7 +5,7 @@ describe Fletcher::Model::Etsy do
     context "with valid data" do
       it "should return correct model info" do 
         model = described_class.new
-        model.parse Fletcher::Data.read(Factory(:etsy_model).url)    
+        model.parse Fletcher::Data.read(Factory(:etsy).url)    
         model.name.should_not be_nil
         model.description.should_not be_nil
         model.price.should_not be_nil        

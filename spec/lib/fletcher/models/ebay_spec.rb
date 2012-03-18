@@ -5,7 +5,7 @@ describe Fletcher::Model::Ebay do
     context "with valid data" do
       it "should return correct model info" do 
         model = described_class.new
-        model.parse Fletcher::Data.read(Factory(:ebay_model).url)
+        model.parse Fletcher::Data.read(Factory(:ebay).url)
         model.name.should_not be_nil
         model.price.should_not be_nil        
         model.image.should_not be_nil        
