@@ -44,6 +44,9 @@ model.price.currency.symbol # => "$"
 
 # Get Raw Nokogiri Document
 model.doc.class.name # => Nokogiri::HTML::Document
+
+# Get list of supported websites/services
+Fletcher.models # => [:amazon, :ebay, :etsy, :thinkgeek]
 ```
 
 ## Attributes

@@ -70,7 +70,7 @@ module Fletcher
     # end 
     autoload :Base, 'fletcher/models/base'
     for model in Fletcher.models
-      autoload model.capitalize, "fletcher/models/#{model}"
+      autoload model.to_s.capitalize.to_sym, "fletcher/models/#{model}"
     end
   end 
 end
