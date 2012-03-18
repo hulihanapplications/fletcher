@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{fletcher}
-  s.version = "0.3.0"
+  s.name = "fletcher"
+  s.version = "0.4.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dave Hulihan", "Hulihan Applications"]
-  s.date = %q{2012-01-01}
-  s.description = %q{Easily fetch product/model information from third party websites such as Amazon, eBay, etc.}
-  s.email = %q{dave@hulihanapplications.com}
+  s.date = "2012-03-18"
+  s.description = "Easily fetch product/model information from third party websites such as Amazon, eBay, etc."
+  s.email = "dave@hulihanapplications.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md"
@@ -28,21 +28,20 @@ Gem::Specification.new do |s|
     "fletcher.gemspec",
     "lib/fletcher.rb",
     "lib/fletcher/data.rb",
-    "lib/fletcher/model/amazon.rb",
-    "lib/fletcher/model/base.rb",
-    "lib/fletcher/model/ebay.rb",
-    "lib/fletcher/model/etsy.rb",
-    "lib/fletcher/model/image.rb",
-    "lib/fletcher/model/thinkgeek.rb",
+    "lib/fletcher/models/amazon.rb",
+    "lib/fletcher/models/base.rb",
+    "lib/fletcher/models/ebay.rb",
+    "lib/fletcher/models/etsy.rb",
+    "lib/fletcher/models/thinkgeek.rb",
     "lib/fletcher/nokogiri.rb",
     "lib/fletcher/string.rb",
-    "spec/factories/model.rb",
+    "spec/factories/models.rb",
     "spec/lib/fletcher/data_spec.rb",
-    "spec/lib/fletcher/model/amazon_spec.rb",
-    "spec/lib/fletcher/model/base_spec.rb",
-    "spec/lib/fletcher/model/ebay_spec.rb",
-    "spec/lib/fletcher/model/etsy_spec.rb",
-    "spec/lib/fletcher/model/thinkgeek_spec.rb",
+    "spec/lib/fletcher/models/amazon_spec.rb",
+    "spec/lib/fletcher/models/base_spec.rb",
+    "spec/lib/fletcher/models/ebay_spec.rb",
+    "spec/lib/fletcher/models/etsy_spec.rb",
+    "spec/lib/fletcher/models/thinkgeek_spec.rb",
     "spec/lib/fletcher/nokogiri_spec.rb",
     "spec/lib/fletcher_spec.rb",
     "spec/spec_helper.rb",
@@ -50,11 +49,11 @@ Gem::Specification.new do |s|
     "test/helper.rb",
     "test/test_fletcher.rb"
   ]
-  s.homepage = %q{http://github.com/hulihanapplications/fletcher}
+  s.homepage = "http://github.com/hulihanapplications/fletcher"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.7.2}
-  s.summary = %q{A cross-website product/model information fetcher.}
+  s.rubygems_version = "1.8.15"
+  s.summary = "A cross-website product/model information fetcher."
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
