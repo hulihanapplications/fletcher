@@ -49,14 +49,14 @@ describe Fletcher do
         item = described_class.fetch(Factory(:gamecouk).url)
         item.should_not be_nil
         item.name.should_not be_nil       
-        item.description.should_not be_nil if model == :gamecouk
+        item.description.should_not be_nil 
       end
 
       it "should fetch googleshopping product" do
         item = described_class.fetch(Factory(:googleshopping).url)
         item.should_not be_nil
         item.name.should_not be_nil       
-        item.description.should_not be_nil if model == :googleshopping
+        item.description.should_not be_nil
       end      
 
       it "should fetch playcom product" do

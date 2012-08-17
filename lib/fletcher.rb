@@ -24,7 +24,7 @@ module Fletcher
         elsif host =~ Fletcher::Model::Googleshopping.regexp
           model = :googleshopping          
         elsif host =~ Fletcher::Model::Playcom.regexp
-          model = :playcom                 
+          model = :playcom
         elsif host =~ Fletcher::Model::Thinkgeek.regexp          
           model = :thinkgeek
         else 

@@ -3,7 +3,7 @@ module Fletcher
     class Googleshopping < Fletcher::Model::Base
       # A regular expression for determining if a url comes from a specific service/website
       def self.regexp
-        /google\.com\/products/
+        /google\.com/
       end
         
       # Parse data and look for object attributes to give to object    

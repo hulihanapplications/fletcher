@@ -45,7 +45,8 @@ FactoryGirl.define do
   
   factory :gamecouk, :parent => :base do
     url "http://www.game.co.uk/en/rise-of-nightmares-kinect-compatible-93535"
-
+  end
+  
   factory :playcom, :parent => :base do
     url "http://www.play.com/DVD/DVD/4-/14805648/-/Product.html"
   end

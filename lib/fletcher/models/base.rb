@@ -20,6 +20,8 @@ module Fletcher
           model = Fletcher::Model::Googleshopping.new
         when :gamecouk
           model = Fletcher::Model::Gamecouk.new
+        when :playcom
+          model = Fletcher::Model::Playcom.new          
         end
         
         model.parse(data)
