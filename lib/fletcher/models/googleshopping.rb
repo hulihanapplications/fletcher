@@ -9,7 +9,6 @@ module Fletcher
       # Parse data and look for object attributes to give to object    
       def parse(data)
         super(data)
-        
         case doc
         when Nokogiri::HTML::Document
           # Get Name
