@@ -11,10 +11,13 @@ Fletcher is a cross-website product/model information fetcher. Give fletcher a p
 
 ## Supported Websites
 
-* [Amazon](http://www.amazon.com) (name, description, price, images)
-* [eBay](http://www.ebay.com) (name, price, images)
-* [ThinkGeek](http://www.thinkgeek.com) (name, description, price, images)
-* [Etsy](http://www.etsy.com) (name, description, price, images)
+* [Amazon](http://www.amazon.com) 
+* [eBay](http://www.ebay.com)
+* [Etsy](http://www.etsy.com) 
+* [game.co.uk](http://www.game.co.uk)
+* [Google Shopping](http://www.google.com/products/)
+* [play.com](http://www.play.com)
+* [ThinkGeek](http://www.thinkgeek.com)
 
 ## Installation
 
