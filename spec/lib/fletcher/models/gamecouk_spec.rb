@@ -9,6 +9,7 @@ describe Fletcher::Model::Gamecouk do
         model.name.should_not be_nil
         model.description.should_not be_nil
         model.price.should_not be_nil        
+        model.price.currency.iso_code.should == 'GBP'
         model.image.should_not be_nil        
       end       
     end

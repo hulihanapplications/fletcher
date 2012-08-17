@@ -33,9 +33,9 @@ module Fletcher
       #   model.parse_price("$5.00") # => #<Money cents:500 currency:USD>
       #   model.price.to_f # => 5.0
       #   model.price.currency.symbol # => '$'
-      def parse_price(raw_price = nil,cur=:USD)
+      def parse_price(raw_price = nil)
         return if raw_price.nil?
-        self.price = ::Money.parse(raw_price,cur)
+        self.price = ::Money.parse(raw_price)
       end
     end # Base
   end # Model
