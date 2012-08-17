@@ -16,6 +16,8 @@ module Fletcher
           model = Fletcher::Model::Thinkgeek.new
         when :etsy
           model = Fletcher::Model::Etsy.new
+        when :gamecouk
+          model = Fletcher::Model::Gamecouk.new
         end
         
         model.parse(data)
