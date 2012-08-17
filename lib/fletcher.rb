@@ -1,5 +1,5 @@
 # = Fletcher
-# Author:: Dave Hulihan - 2011  
+# Author:: Dave Hulihan - 2012
 require "uri"
 require "fletcher/data"
 require "fletcher/string"
@@ -8,7 +8,7 @@ require "fletcher/nokogiri"
 module Fletcher  
   class << self
     # Detect model by url
-    #   Fletcher.identify_model("http://www.amazon.com/whatever") => :amazon
+    #   Fletcher.identify_model("http://www.amazon.com/whatever") # => :amazon
     def identify_model(url)
       if url =~ ::URI::regexp
         uri = ::URI::parse(url)
@@ -17,10 +17,16 @@ module Fletcher
           model = :amazon
         elsif host =~ Fletcher::Model::Ebay.regexp
           model = :ebay        
-        elsif host =~ Fletcher::Model::Thinkgeek.regexp
-          model = :thinkgeek
         elsif host =~ Fletcher::Model::Etsy.regexp
-          model = :etsy
+          model = :etsy          
+        elsif host =~ Fletcher::Model::Gamecouk.regexp
+          model = :gamecouk
+        elsif host =~ Fletcher::Model::Googleshopping.regexp
+          model = :googleshopping          
+        elsif host =~ Fletcher::Model::Playcom.regexp
+          model = :playcom                 
+        elsif host =~ Fletcher::Model::Thinkgeek.regexp          
+          model = :thinkgeek
         else 
           model = :unknown 
           raise ArgumentError, "Fletcher doesn't support #{host} yet."
