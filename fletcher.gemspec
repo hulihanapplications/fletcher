@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "fletcher"
-  s.version = "0.4.1"
+  s.version = "0.4.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dave Hulihan", "Hulihan Applications"]
-  s.date = "2012-04-27"
+  s.date = "2012-08-17"
   s.description = "Easily fetch product/model information from third party websites such as Amazon, eBay, etc."
   s.email = "dave@hulihanapplications.com"
   s.extra_rdoc_files = [
@@ -32,6 +32,9 @@ Gem::Specification.new do |s|
     "lib/fletcher/models/base.rb",
     "lib/fletcher/models/ebay.rb",
     "lib/fletcher/models/etsy.rb",
+    "lib/fletcher/models/gamecouk.rb",
+    "lib/fletcher/models/googleshopping.rb",
+    "lib/fletcher/models/playcom.rb",
     "lib/fletcher/models/thinkgeek.rb",
     "lib/fletcher/nokogiri.rb",
     "lib/fletcher/string.rb",
@@ -41,6 +44,9 @@ Gem::Specification.new do |s|
     "spec/lib/fletcher/models/base_spec.rb",
     "spec/lib/fletcher/models/ebay_spec.rb",
     "spec/lib/fletcher/models/etsy_spec.rb",
+    "spec/lib/fletcher/models/gamecouk_spec.rb",
+    "spec/lib/fletcher/models/googleshopping_spec.rb",
+    "spec/lib/fletcher/models/playcom_spec.rb",
     "spec/lib/fletcher/models/thinkgeek_spec.rb",
     "spec/lib/fletcher/nokogiri_spec.rb",
     "spec/lib/fletcher_spec.rb",
@@ -52,7 +58,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/hulihanapplications/fletcher"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.15"
+  s.rubygems_version = "1.8.24"
   s.summary = "A cross-website product/model information fetcher."
 
   if s.respond_to? :specification_version then
