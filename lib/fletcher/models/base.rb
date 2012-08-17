@@ -18,6 +18,8 @@ module Fletcher
           model = Fletcher::Model::Etsy.new
         when :googleshopping
           model = Fletcher::Model::Googleshopping.new
+        when :gamecouk
+          model = Fletcher::Model::Gamecouk.new
         end
         
         model.parse(data)
