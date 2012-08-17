@@ -38,4 +38,7 @@ FactoryGirl.define do
   factory :etsy, :parent => :base do
     url "http://www.etsy.com/listing/78608690/farm-fresh-125-x-19-in-pick-your-color"
   end
+  factory :playcom, :parent => :base do
+    url "http://www.play.com/DVD/DVD/4-/14805648/-/Product.html"
+  end
 end
