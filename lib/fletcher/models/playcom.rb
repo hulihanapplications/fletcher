@@ -1,3 +1,4 @@
+# encoding: utf-8
 module Fletcher
   module Model
     class Playcom < Fletcher::Model::Base
