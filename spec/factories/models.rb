@@ -38,4 +38,7 @@ FactoryGirl.define do
   factory :etsy, :parent => :base do
     url "http://www.etsy.com/listing/78608690/farm-fresh-125-x-19-in-pick-your-color"
   end
+  factory :gamecouk, :parent => :base do
+    url "http://www.game.co.uk/en/rise-of-nightmares-kinect-compatible-93535"
+  end
 end

@@ -16,6 +16,8 @@ module Fletcher
           model = Fletcher::Model::Thinkgeek.new
         when :etsy
           model = Fletcher::Model::Etsy.new
+        when :gamecouk
+          model = Fletcher::Model::Gamecouk.new
         end
         
         model.parse(data)
@@ -31,9 +33,9 @@ module Fletcher
       #   model.parse_price("$5.00") # => #<Money cents:500 currency:USD>
       #   model.price.to_f # => 5.0
       #   model.price.currency.symbol # => '$'
-      def parse_price(raw_price = nil)
+      def parse_price(raw_price = nil,cur=:USD)
         return if raw_price.nil?
-        self.price = ::Money.parse(raw_price)
+        self.price = ::Money.parse(raw_price,cur)
       end
     end # Base
   end # Model
