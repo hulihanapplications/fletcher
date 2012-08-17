@@ -7,8 +7,6 @@ describe Fletcher::Model::Playcom do
         model = described_class.new
         model.parse Fletcher::Data.read(Factory(:playcom).url)
         model.doc = nil
-        abort model.inspect
-        
         model.name.should_not be_nil
         model.description.should_not be_nil
         model.price.should_not be_nil        
