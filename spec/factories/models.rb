@@ -38,4 +38,9 @@ FactoryGirl.define do
   factory :etsy, :parent => :base do
     url "http://www.etsy.com/listing/78608690/farm-fresh-125-x-19-in-pick-your-color"
   end
+
+  factory :googleshopping, :parent => :base do
+    url "http://www.google.com/products/catalog?hl=en&q=xbox+360&um=1&ie=UTF-8&tbm=shop&cid=6970582693578667145&sa=X&ei=-UAuUOi7G4P80QX8hYHwDA"
+  end
+  
 end
