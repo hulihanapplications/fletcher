@@ -32,11 +32,11 @@ describe Fletcher, :vcr do
       end
 
       # Disable ebay fetch test, since auctions always end
-      # it "should fetch ebay product" do
-      #   item = described_class.fetch(Factory(:ebay).url)
-      #   item.should_not be_nil
-      #   item.name.should_not be_nil       
-      # end
+      it "should fetch ebay product" do
+        item = described_class.fetch(Factory(:ebay).url)
+        item.should_not be_nil
+        item.name.should_not be_nil       
+      end
 
       it "should fetch etsy product" do
         item = described_class.fetch(Factory(:etsy).url)
