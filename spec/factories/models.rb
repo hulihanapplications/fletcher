@@ -50,4 +50,9 @@ FactoryGirl.define do
   factory :playcom, :parent => :base do
     url "http://www.play.com/DVD/DVD/4-/14805648/-/Product.html"
   end
+
+  factory :steam, :parent=> :base do
+    url "http://store.steampowered.com/app/212580/"
+  end
+
 end

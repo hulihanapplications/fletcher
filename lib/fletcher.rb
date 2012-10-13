@@ -27,6 +27,8 @@ module Fletcher
           model = :playcom
         elsif host =~ Fletcher::Model::Thinkgeek.regexp          
           model = :thinkgeek
+        elsif host =~ Fletcher::Model::Steam.regexp          
+          model = :steam
         else 
           model = :unknown 
           raise ArgumentError, "Fletcher doesn't support #{host} yet."
