@@ -4,12 +4,12 @@ describe Fletcher::Nokogiri::HTML::Document do
 
 end  
 
-describe Fletcher::Nokogiri::XML::NodeSet do
+describe Fletcher::Nokogiri::XML::NodeSet, :vcr do
   before :each do 
     @doc = Fletcher::Data.read(Factory(:valid).url)
   end  
    
-  describe "first_string" do
+  describe "first_string", :vcr do
     it "should return a valid string" do
       nodeset = @doc.xpath(Factory(:valid).title_xpath)
       string = nodeset.first_string
@@ -17,7 +17,7 @@ describe Fletcher::Nokogiri::XML::NodeSet do
     end   
   end 
   
-  describe "attribute_array" do
+  describe "attribute_array", :vcr do
     it "should return an array of attribute hashes" do
       nodeset = @doc.xpath(Factory(:valid).images_xpath)
       attribute_array = nodeset.attribute_array 

@@ -1,0 +1,1849 @@
+--- 
+recorded_with: VCR 2.2.5
+http_interactions: 
+- request: 
+    method: get
+    uri: http://www.ebay.com/itm/Franklin-Library-3V-ESSAYS-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-/190654183378
+    body: 
+      string: ""
+    headers: 
+      user-agent: 
+      - Ruby/1.8.7
+      accept: 
+      - "*/*"
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      transfer-encoding: 
+      - chunked
+      content-type: 
+      - text/html;charset=UTF-8
+      set-cookie: 
+      - JSESSIONID=37696193AA5B15BE82D60A2C5CDBB721; Path=/
+      - ebay=%5Esbf%3D%23%5E;Domain=.ebay.com;Path=/
+      - dp1=bu1p/QEBfX0BAX19AQA**525b3062^bl/GB543c63e2^;Domain=.ebay.com;Expires=Mon, 13-Oct-2014 23:44:34 GMT;Path=/
+      - s=CgAD4ACBQe05iNWM4M2QzMTMxM2EwYTU2YTBmMjc3YTE3ZmZmZWQ4ZmGohcBO;Domain=.ebay.com;Path=/; HttpOnly
+      - nonsession=CgAAIABxQoYniMTM1MDE3MTg3NHgxOTA2NTQxODMzNzh4MHgyTgDLAAFQegPqMQDKACBZ3/5iNWM4M2QzMTMxM2EwYTU2YTBmMjc3YTE3ZmZmZWQ4ZmHYDXA3;Domain=.ebay.com;Expires=Sun, 13-Oct-2013 23:44:34 GMT;Path=/
+      - lucky9=2356859;Domain=.ebay.com;Expires=Thu, 12-Oct-2017 23:44:34 GMT;Path=/
+      date: 
+      - Sat, 13 Oct 2012 23:44:34 GMT
+      content-language: 
+      - en-US
+      server: 
+      - Apache-Coyote/1.1
+      rlogid: 
+      - t6ulcpjqcj9%3Fvo%7B2d71f%2B%3E20g-13a5c83d31c-0x10f
+    body: 
+      string: |-
+        <!DOCTYPE html>
+        <html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+        <head>
+        <!--  fix for IE freezing.  -->
+        <style type="text/css">
+        body #Body .btn, body #Body c-std {
+        filter:none;
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#0079bc',endColorstr='#00509d')";
+        }
+        </style>
+        	<meta name="layout" content="main" />
+        	<!-- Use ?ForceSiteSpeedGauge=true for forcing -->
+        	<script>var oGaugeInfo = {sUrl:"http://sofe.ebay.com/ws/web/SojPagePerf?cmdname=ViewItemPageRaptor&st1=1350171874077",iST:(new Date()).getTime()};</script>
+        <title> Franklin Library 3V ESSAYS OF MONTAIGNE Leather Great Books 1979 Donald Frame | eBay</title>
+        			<meta name="y_key" content="acf32e2a69cbc2b0"></meta>
+        						<meta name="description" content="Franklin Library 3V ESSAYS OF MONTAIGNE Leather Great Books 1979 Donald Frame in Books, Antiquarian & Collectible | eBay"></meta>
+        						<meta property="og:type" content="ebay-objects:item"></meta>
+        						<meta property="og:site_name" content="eBay"></meta>
+        						<meta name="google-site-verification" content="8kHr3jd3Z43q1ovwo0KVgo_NZKIEMjthBxti8m8fYTg"></meta>
+        						<meta name="msvalidate.01" content="31154A785F516EC9842FC3BA2A70FB1A"></meta>
+        						<meta property="og:url" content="http://www.ebay.com/itm/Franklin-Library-3V-ESSAYS-OF-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-/190654183378"></meta>
+        						<meta property="og:title" content="Franklin Library 3V ESSAYS OF MONTAIGNE Leather Great Books 1979 Donald Frame"></meta>
+        						<meta property="og:description" content="Franklin Library 3V ESSAYS OF MONTAIGNE Leather Great Books 1979 Donald Frame in Books, Antiquarian & Collectible | eBay"></meta>
+        						<meta name="keywords" content="Franklin Library 3V ESSAYS OF MONTAIGNE Leather Great Books 1979 Donald Frame , Books, Antiquarian & Collectible"></meta>
+        						<meta property="og:image" content="http://thumbs3.ebaystatic.com/m/m-PgbjucPVLBAyxAyfAjMZg/96.jpg"></meta>
+        						<meta property="fb:app_id" content="102628213125203"></meta>
+        						<link rel="canonical" 
+        					
+        					  href="http://www.ebay.com/itm/Franklin-Library-3V-ESSAYS-OF-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-/190654183378"> </link>
+        				<!--[if IE]><link/><![endif]-->
+        	<!--[if lt IE 8]>
+        		<![endif]-->
+        	<link href="http://ir.ebaystatic.com/z/qr/2baf5yrduiyrblwvn3w45ethg.css" type="text/css" rel="stylesheet"><link rel="stylesheet" type="text/css" href="http://gh.ebaystatic.com/header/css/all.min?combo=53&rvr=67&app=RAPTOR&siteid=0&factor=REFRESHER"/><!-- Merch CSS  -->
+        	
+        </head>
+        <body>
+        	<div id="Head">	
+        		</div>
+        	<div id="Body" class="sz940 " itemscope="itemscope" itemtype="http://schema.org/Product">
+        		<div id="TopPanelDF"><div id="Top"> 
+        				<div id="TopPanel">			
+        				<a class="gh-hdn" href="#mainContent">Skip to main content</a><div id=gh class="gh-post1010 gh-w gh-site-0"><table class=gh-tbl><tr><td class=gh-td><a id="gh-la" _sp="m570.l2586" class="iclg" href="http://www.ebay.com">eBay<img alt="" src="http://p.ebaystatic.com/aw/pics/s.gif" id="gh-logo" class="gspr iclg" border="0"></a></td><td class=gh-td><div id=gh-shop><a id="gh-shop-a" href="http://www.ebay.com/sch/allcategories/all-categories?_trksid=m570.l3694">Browse by<span id=gh-shop-e>category<i id=gh-shop-ei ></i></span></a></div></td></td><td class=gh-td-s><form action="http://www.ebay.com/sch/i.html" method=get id=gh-f class="lftd l-shad"><input type=hidden value=m570.l3201 name=_trksid><table class=gh-tbl2><tr><td class=gh-td-s><div id=gh-ac-box><div id=gh-ac-box2><label class="gh-hdn g-hdn" for="gh-ac">Enter your search keyword</label><input autocomplete=on name=_nkw id=gh-ac title="Enter your search keyword" maxlength=300 size=50 class=gh-tb type=text ></div></div></td><td class=gh-td><div id="gh-cat-box"><select name=_sacat id=gh-cat size=1 class=gh-sb title="Select a category for search"><option value="0" selected="selected">All Categories </option></select></div></td> <td class=gh-td><input value="Search" id=gh-btn class="btn btn-ter" type=submit _sp="m570.l1313"/></td><td class=gh-td><div id=gh-as><a title="Advanced Search" id="gh-as-a" _sp="m570.l2614" class="thrd" href="http://www.ebay.com/sch/ebayadvsearch/?rt=nc">Advanced</a></div></td> </tr></table></form></td></tr></table><div id=gh-top><noscript class=gh-t id=_nkw>Welcome, (<a class="gh-a" href="https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&_trksid=m570.l3348">Sign in</a> to bid or buy)</noscript><ul id=gh-topl><li id=gh-eb-u class=gh-t></li><li class=gh-t><a id="gh-p1" _sp="m570.l3188" href="http://deals.ebay.com/">Daily Deals</a></li></ul><ul id=gh-eb class=gh-clearfix><li class=gh-eb-li id=gh-eb-My><a _sp="m570.l2919" class="gh-eb-li-a" href="http://my.ebay.com/ws/eBayISAPI.dll?MyEbay&amp;gbh=1">My eBay</a></li><li class=gh-eb-li id=gh-eb-Sell><a _sp="m570.l1528" class="gh-eb-li-a" href="http://cgi5.ebay.com/ws/eBayISAPI.dll?aidZ153=&MfcISAPICommand=SellHub3">Sell</a></li><li class=gh-eb-li id=gh-eb-Comm><a _sp="m570.l1540" class="gh-eb-li-a" href="http://community.ebay.com">Community</a></li><li class=gh-eb-li id=gh-eb-Cust><a _sp="m570.l1545" class="gh-eb-li-a" href="http://ocs.ebay.com/ws/eBayISAPI.dll?CustomerSupport">Customer Support</a></li><li class=gh-eb-li id=gh-cart><a _sp="m570.l2633" class="gh-eb-li-a" href="http://cart.payments.ebay.com/sc/view"><i class="gspr icsc"></i>Cart</a></li></ul></div></div><a name="mainContent"></a> <!--ts:2012.10.12.17:46--><!--rq:--><table width="100%" class="vi-bc-topM"><tr><td>
+        <div class="bc-cnt" style="width:100%">
+        	<div class="u-flL"  id="vi-bcrumb-smb" style="width:100%">
+        	<table>
+        		<tr>
+        		<td class="vi-bc-valignT" id="vi-bc-smbTd">
+        			<span class="smbHead" style="white-space:nowrap;"> 
+        					<a href="http://www.ebay.com" title="Click to Go Back to home page" id="smtBackToAnchor">
+        						<img src="http://p.ebaystatic.com/aw/pics/icon/iconLtArrow_20x20.gif" height="20" width="20" border="0" align="middle" alt="Click to Go Back to home page" >
+        						<span>Back to home page</span>
+        					</a>
+        			</span>
+        		</td>
+        		<td class="vi-bc-valignT">
+        			<span id="vi_pg_brdcrmb_pipe">
+        				<div class="u-flL bc-pipe" id="vi-bcrumb-pipe">&nbsp;|&nbsp;</div>
+        				</span>			
+        		</td>
+        		<td id="vi-bcrumb1">		
+        		<span id="vi_pg_brdcrmb">
+        			<div class="bc-lbl u-flL">Listed in category:</div>
+        					<ul class="bc-ul u-flL">
+        						<li>
+        								<span class="bc-w"> 
+        				<a href="http://www.ebay.com/sch/Books-/267/i.html">Books</a>
+        						<span class="bc-ar">&gt;</span>
+        					<span class="bc-sel"><a href="http://www.ebay.com/sch/Antiquarian-Collectible-/29223/i.html">Antiquarian & Collectible</a></span> 
+        				</span>			
+        		</li>
+        						</ul>
+        				</span>
+        		</td></tr>
+        	</table>	
+        	</div>
+        </div>
+        </td>
+        <td class="vi-bc-svyTd" id="vi-bcrumb-survy">
+        <div class="vi-bc-svySpn">
+        	<link href="http://ir.ebaystatic.com/z/mf/duovypg5ae2rldwccbldg1thl.css" type="text/css" rel="stylesheet"><a rel="nofollow" id="surveylink" href="javascript:void(0)"></a>
+        </div>
+        </td></tr></table>
+        </div>
+        			</div>
+        		</div><div id="CenterPanelDF"><div id="CenterPanel">
+        					<!-- msgType.code eq 3 -->
+            <div class="tmpnl">
+        	<div id="msgPanel" class="pnl u-dspn">
+        	<div class="msg ">
+        		<div class="msgPad ">
+        			<span id="w1-4-_msg" class="msgTextAlign" ></span> 
+        				<span id="listPanel">
+        					<span id="w1-5-_lmsgC" class="u-dspn" >
+        		<span id="w1-5-_lmsg"></span>
+        		
+        		<span id="w1-5-_rmvC">
+        			<span class="addSpace">|</span>
+        			<a id="w1-5-_rmv" class="vi_lst_tpm_rmv" href="javascript:;"></a>
+        		</span>
+        		<div id="w1-5-_lstP" class="lpnl " >
+        			<div class="scroll" >
+        				<div id="w1-5-_lstC" class="listC" >
+        					<!-- <a>list name 1 </a>
+        					<a>list name 1 </a>
+        					<a>list name 1 </a>
+        					<a>list name 1 </a>
+        					<a>list name 1 </a>
+        					<a>list name 1 </a>
+        					<a>list name 1 </a> -->
+        				</div>
+        			</div>
+        			</div>
+        	</span>
+        	
+        	<!-- TODO: set myebay url  -->
+        		
+        		</span>
+        			</div>
+        		
+        	</div>
+        </div><div id="listingHistory"></div><div id="otherMsg"></div></div>
+        
+        <div id="vi_sme_prmts_bnr_cntr"></div>
+        
+        <!-- Placement 100011 && 100012 -->
+        <div id="PicturePanel" class="pp-c">
+        	<div class="pp-ic pp-ic300">
+        		<div class=" img img300">
+        			<table class="img img300">
+        				<tbody>
+        					<tr>
+        						<td class="img img300">
+        						<div id="picturePanelIcon"><img id="freeShip" src="http://pics.ebaystatic.com/aw/pics/images/spacer.gif" alt="FREE shipping" class="picIcon freeShip" style="left:255px;display:none;" />
+        	</div><div id="test"><!-- test --></div><a href="javascript:;" style="display: block; cursor: default;">
+        									<div id="mainImgHldr" style="width:300px" title="Franklin-Library-3V-ESSAYS-OF-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame">
+        										<!-- <span id="mainImgHldr" style="display: inline-block;"> -->
+        											<img id="icThrImg"
+        												class="img img300 vi-hide-mImgThr" src="http://p.ebaystatic.com/aw/pics/globalAssets/imgLoading_30x30.gif" imgsel="0" alt="Franklin-Library-3V-ESSAYS-OF-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame" /> <img id="icImg" class="img img300" itemprop="image" src="http://i.ebayimg.com/t/Franklin-Library-3V-ESSAYS-OF-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-/00/$(KGrHqIOKiYE2of1(,woBN2CSp3Mm!~~_35.JPG" style="display:none;" clk="" alt="" />
+        										<!-- </span> -->
+        									</div>
+        									</a>
+        								<span id="imgNATxt" class="imgNa">Image not available</span>
+        						<span id="varImgNATxt" class="imgNa" style="display:none">Photos not available for this variation</span>
+        						<noscript><style type="text/css">.vi-hide-mImgThr {display: none;}</style><img id="icImg" class="img img300" itemprop="image" src="http://i.ebayimg.com/t/Franklin-Library-3V-ESSAYS-OF-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-/00/$(KGrHqIOKiYE2of1(,woBN2CSp3Mm!~~_35.JPG" style="" clk="" /></noscript>
+        						<script type="text/javascript">
+        							function picOnLoad(isSetClkId){
+        								var elem = document.getElementById('icThrImg'); 
+        								var pic = document.getElementById('icImg'); 
+        								elem.style.display = 'none'; 
+        								pic.style.display = ''; 
+        								if(isSetClkId) {
+        									pic.setAttribute('clk', elem.getAttribute('imgsel'));	
+        								} 
+        								document.getElementById('imgNATxt').style.display = 'none';
+        								return;
+        							}
+        							function picOnError(){
+        								var elemThr = document.getElementById('icThrImg');
+        								var pic = document.getElementById('icImg'); 
+        								elemThr.src='http://pics.ebaystatic.com/aw/pics/cmp/icn/iconImgNA_96x96.gif'; 
+        								elemThr.style.display = ''; 
+        								pic.style.display = 'none'; 
+        								pic.setAttribute('clk', elemThr.getAttribute('imgsel')); 
+        								document.getElementById('imgNATxt').style.display = 'block';
+        								return;
+        							}
+        							var image = document.createElement('img');
+        							image.src= 'http://i.ebayimg.com/t/Franklin-Library-3V-ESSAYS-OF-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-/00/$(KGrHqIOKiYE2of1(,woBN2CSp3Mm!~~_35.JPG';
+        							if(image.complete ||  image.readyState === 4){
+        								picOnLoad(true);
+        							}else{
+        							    image.onload = function(){ 
+        							    	picOnLoad(true);
+        							    };
+        							    image.onerror = function(){ 
+        									picOnError();	
+        								};
+        							}
+        							image.onerror = function(){ 
+        								picOnError();	
+        							};
+        						</script>
+        						</td>
+        					</tr>
+        				</tbody>
+        			</table>
+        		</div>
+        		<div class="spr"></div>
+        		<div class="pt-p" style="visibility:hidden;" id="zoom_enlarge_msg_cnt">
+        		<a class="pt-i pt-tx  " id="zoom_enlarge_msg"  href="javascript:;"></a>
+        	</div>
+        	
+        	<div class="oly_upnl" id="vi_pic_enlarge_oly"><div id="enlarge_panel" class="vi_en_panel">
+        			<div id="enlarge_img_panel" class="vi_en_img" >
+        				<table class="en_img_tbl">
+        					<tbody>
+        						<tr>
+        							<td class="en_img_tbl">			
+        								<div id="en_img_span" style="overflow:hidden; display:inline-block; position: relative;">
+        									<div id="en_img_span_cnt" style="top:0; left:0; position:absolute;display: inline;"><img id="en_img_id" style="display: none;" alt="" src="http://pics.ebaystatic.com/aw/pics/spacer.gif" clk=""></div>
+        									<span id="en_layer_selector"></span>
+        								</div>									
+        							</td>
+        						</tr>
+        					</tbody>
+        				</table>
+        			</div>
+        			<div id="enlarge_img_fs" class="vi_en_fs">				
+        				<ul id="en_fs_ul" class="lst icon">
+        					</ul>				
+        			</div>
+        		</div>		
+        	</div>
+        	</div>
+        	<div class="vi-pbh">	
+        		<center>
+        			<table width="">
+        			<tr>
+        				<td width="100%" style="text-align:center">	
+        					<a class="vi-slt " rel="nofollow" href="http://cgi5.ebay.com/ws/eBayISAPI.dll?SellLikeItem&_trksid=p2047675.l2567&rt=nc&item=190654183378">
+        						<b></b>
+        						Sell one like this</a>
+        				</td>
+        				</tr>
+        			</table>			
+        		</center>
+        	</div>
+        </div>
+        
+        <div >
+        		<h1 class="it-ttl" itemprop="name" id="itemTitle">Franklin Library 3V ESSAYS OF MONTAIGNE Leather Great Books 1979 Donald Frame </h1>	
+        			<div ></div> 
+        		<div class="sig-ht20" style="display:inline"><span id="ebay-scjs-div" ><eb:fbLikeWantOwn spid="2047675" url="http://www.ebay.com/itm/Franklin-Library-3V-ESSAYS-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-/190654183378" /></span>
+        		</div>
+        				<span class="watchPipe" style="position:relative;top:5px;visibility:hidden">|</span>
+        		<!-- DO NOT change linkToTagId="rwid" as the catalog response has this ID set  -->
+        		</div>
+        	<div class="it-rlBr  it-rlBr300 "></div>
+        		<div id="RightSummaryPanel" class="rsp-c">	
+        			<div class="share si-cnt no-flt" style="">
+        					<table align="right" class=" ">
+        						<tr>
+        							<td>			
+        									<div style="float:right;width:100px;">
+        				<div id="ebay-scShare-div" data-imageUrl=""  data-share=" " data-url="http://www.ebay.com/itm/Franklin-Library-3V-ESSAYS-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-/190654183378" data-language="en_US" data-spid="2047675" data-destinations="email,facebook,twitter,pinterest"  class="eb:share" ></div>	
+        			</div>
+        		</td>
+        							<td>				
+        								<div class="watchLnk">
+        	<span id="linkTopAct" class="watchlinkSpan " style="display: ">
+        			<span class="watchPipe">|</span>
+        			<span>
+        				<a href="http://cgi1.ebay.com/ws/eBayISAPI.dll?MakeTrack&_trksid=p2047675.l1359&rt=nc&item=190654183378&tagId=-99&sourcePage=4340&ssPageName=VIP:watchlink:top:en&wt=ef297dee67fe2674d8a7786e802c309b&etn=Watch list"  class=" " id="watchLink" title="" rel="nofollow">Add to Watch list</a></span>
+        		</span>		
+        	</div>
+        </td>
+        							</tr>
+        					</table>				
+        			</div>
+        			<div class="si-cnt si-cnt-eu">
+        	<div >
+        		<div class="si-inner">
+        			<div class="si-content">
+        				<h2 class="si-ttl">
+        					Seller information</h2>
+        				<div class="bdg-90">
+        					<div class="mbg">
+        		<a href="http://myworld.ebay.com/zedsbooks?_trksid=p2047675.l2559" title="zedsbooks"> <span class="mbg-nw">zedsbooks</span></a>
+        	
+        			<span class="mbg-l">
+        			
+        				(<a href="http://feedback.ebay.com/ws/eBayISAPI.dll?ViewFeedback&userid=zedsbooks&iid=190654183378&ssPageName=VIP:feedback&ftab=FeedbackAsSeller&rt=nc&_trksid=p2047675.l2560" title="Feedback Score: 10769 ">10769</a>
+        						<img 
+        								alt="Feedback Score: 10769 "
+        								title="Feedback Score: 10769 "
+        								src="http://pics.ebaystatic.com/aw/pics/star-11.gif"">)
+        							&nbsp;</span> 
+        			<span class="mbg-l">	
+        				</span>
+        		 
+        	</div>
+        <div id="si-fb" >100%&nbsp;Positive feedback</div>
+        						</div>	
+        				<div class="si-rlDot"></div>
+        							<div class="si-bdg si-pd-eu">
+        					<div class="si-pd-a">
+        						<a href="http://my.ebay.com/ws/eBayISAPI.dll?AcceptSavedSeller&mode=0&preference=0&sellerid=zedsbooks&rt=nc&ru=http%3A%2F%2Fcgi.ebay.com%2Fws%2FeBayISAPI.dll%3FViewItemNext%26item%3D190654183378&ssPageName=STRK:MEFS:ADDVI&_trksid=p2047675.l2561" rel="nofollow">Save this seller</a>
+        					</div>
+        					<div class="si-pd-a">
+        							<a href="http://www.ebay.com/sch/zedsbooks/m.html?item=190654183378&rt=nc&_trksid=p2047675.l2562">See other items</a>
+        						</div>
+        					</div>
+        				<div id="storeSeller" style="display:inline;"><div class="si-ss-eu">
+        				<div class="u-flL si-ss-lbl " id="">
+        	Visit store:</div><a href="http://stores.ebay.com/Zeds-Books?_trksid=p2047675.l2563" alt="Zeds Books" title="Zeds Books"><img src="http://pics.ebaystatic.com/aw/pics/s.gif" alt="Ebay Stores" height="1" width="1" class="si-ss-spr" /> Zeds Books</a>
+        			</div>	
+        		</div></div>
+        		</div>
+        	</div>
+        </div><div id="rtm_html_1527"></div>
+        	</div> 	
+        	<!--[if IE 7]><style type="text/css">.lsp-c{min-width: 380px!important;}</style><![endif]-->
+        	
+        	<div id="LeftSummaryPanel" class="lsp-c lsp-cRight  lsp-cL300 ">
+        		<div class="is " style="overflow:hidden;">
+        	<form action="http://offer.ebay.com/ws/eBayISAPI.dll?BinController&_trksid=p2047675.l1356&rev=5&item=190654183378&fromPage=2047675&quantity=1&fb=1&gch=1" method="post" name="viactiondetails">
+        		<div class="nonActPanel">
+        		<div>
+        	<div class="u-flL lable">Item condition:</div>
+        	<div class="u-flL condText">--</div>
+        		</div>
+        
+        <div class="u-cb" style="height: 6px;"></div>
+        
+        <div class="u-cb spcr"></div>
+        				<div class="u-cb spcr"></div>
+        			</div>
+        		<div class="actPanel">
+        	<!-- //TODO : remove hardcoded ID for Shipping cost -->
+        	
+        <div class="u-cb spcr"></div>
+        			
+        			<div class="u-cb">
+        				<div class="u-flL lable binLable" id="prcIsum-lbl">Price:</div>
+        				<div class="u-flL w29 vi-price" itemprop="offers" itemscope="itemscope"
+        									itemtype="http://schema.org/Offer">
+        						<span id="prcIsum" itemprop="price">US $250.00</span>
+        						<span itemprop="availability" content="http://schema.org/OnlineOnly"></span>
+        						<span itemprop="priceCurrency" content="USD"></span>
+        						<!--Added for VAT message - DE site. Show VAT included msg just below the price. Converted price message should come after this message.-->
+        						<!-- Vat Excluded message -->
+        						</div>
+        						<div class="u-flL">
+        						<span class="vib  s  bl  vibs1"  >
+        				<input    style=""   id="binBtn_btn" class="bt" type="submit"  onclick="javascript:return false;"  value="Buy It Now"
+        							 title="" />
+        					</span>
+        		</div>
+        				</div>			
+        		<div class="u-cb spcr"></div>
+        	<div class="u-cb">
+        			<div class="u-flL lable">&nbsp</div>
+        			<div class="u-flL w29">&nbsp</div>	
+        			<span>
+        						<!--[if lt IE 8]><style type="text/css">.vib #isCartBtn_btn{padding-top:6px !important;} .vib.s #isCartBtn_btn{padding-top:3px !important;} .atc-icon-ie{display: inline-block !important; padding-left: 4px !important;}</style><![endif]-->
+        			<span class="vib  s  bl  vibs1"  >
+        				<a   style=""  id="isCartBtn_btn" class="bt" title="" href="http://payments.ebay.com/ws/eBayISAPI.dll?ShopCartProcessor&_trksid=p2047675.l1473&atc=true&item=190654183378&ssPageName=CART:ATC&quantity=1" >
+        									Add to cart&nbsp;<span class='atc-icon atc-icon-ie'></span></a>
+        							</span>
+        		</span>
+        					</div>
+        		<div class="u-cb spcr"></div>
+        		<!--[if lt IE 8]>
+        		<style>
+        		.sz980 .vi-VR-qmarkAlgn, .sz1200 .vi-VR-qmarkAlgn{
+        			vertical-align:top;
+        			position:relative;
+        			top:10px;
+        			padding-left:5px;
+        		}
+        		body span.vi-VR-splitFrndsBubble {
+        			display:inline-block;
+        			width:12px;
+        			vertical-align:top;
+        		}
+        		</style>
+        		<![endif]-->
+        <div class="sprtr"></div>			
+        			<div class="u-cb spcr"></div>
+        		<div class="u-cb">
+        			<div class="u-flL lable">Best Offer:</div>
+        			<div class="u-flL w29">&nbsp</div>		
+        				<div class="u-flL">
+        						<span class="vib  s  bl  vibs1"  >
+        				<a   style=""  id="boBtn_btn" class="bt" title="" href="http://offer.ebay.com/ws/eBayISAPI.dll?MakeBestOffer&rev=5&itemId=190654183378" >
+        									Make Offer</a>
+        							</span>
+        		<div class="oly_upnl" id="e1"><div class="bo-olp">
+        		<div id="_BO_CNT_ID">
+        		</div>
+        		<div id="_BO_TRBR_ID" class="bo-trbr">
+        		<div>Loading... </div>
+        			<div class="bo-trbr-txt"><a href="http://offer.ebay.com/ws/eBayISAPI.dll?MakeBestOffer&amp;rev=5&amp;itemId=190654183378&amp;_trksid=p2047675.l3239">Resume making your offer</a>, if the page does not update immediately. </div>
+        		</div>
+        	</div>
+        </div>
+        	</div>
+        		</div>
+        		<div class="u-cb spcr"></div>
+        	</div>
+        
+        <wrty:Warranty model="com.ebay.raptor.viewitem.pres.model.WarrantyModel@2b3a2b3a" cssSlot="page-css" jsSlot="body-js" configModel=""/>
+        		<!--[if lt IE 8]>
+        		<style>
+        		body .sz980 .vi-VR-qmarkAlgn{
+        			vertical-align:top;
+        			position:relative;
+        			top:10px;
+        			padding-left:5px;
+        		}
+        
+        		</style>
+        		<![endif]-->
+        <div class="watchListCmp">
+        	<div class="u-flL lable">&nbsp;</div>
+        			<div class="u-flL w29">&nbsp;</div>
+        		<div class="u-flL">
+        	<div class="drpdwnCmp">
+        	<span id="atl_btn" class="drpdwnBtn vi-VR-lst-L" >
+        		<a id="atl_btn_lnk" i="-99" n="Watch list" href="javascript:;">Add to Watch list</a>
+        			</span>
+        	<span id="atl_arr" class="drpdwnIn btn-split-m vi-VR-lstIcon-L" >
+        		<a href="javascript:;" class=""></a>
+        	</span>
+        </div><div id="addToListDropdown"><div id="atl_drpdwnLayerId" class="drpdwnLayer  " style="display:none; min-width:150px;">
+        		<div id="atl_drpdwnListId">
+        			<ul class="addToList">				
+        				<li>
+        						<a  i="-99" n="Watch list" id="atl_-99" href="javascript:;">Add to Watch list</a>
+        							</li>
+        				<li>
+        						<a t='wish' i="-97" n="Wish list" id="atl_-97" href="javascript:;">Add to Wish list</a>
+        							</li>
+        				</ul>
+        		</div>
+        		<div class="drpdwnBrk"></div>
+        		<div id="atl_atnId" class="vi_list_atn">
+        			<a n="addtolist" id="atl_addtolist" href="https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&ru=http%3A%2F%2Fcgi.ebay.com%2Fws%2FeBayISAPI.dll%3FViewItem%26actionType%3Dsinginformore%26item%3D190654183378">Sign in for more lists</a>
+        				</div>
+        	</div>	
+        	
+        	<!-- adding to new list overlay -->
+        	</div></div>
+        	<div class="u-cb spcr"></div>
+        	<div id="atl_status_msg" class="atlstatusMsg"><div class="atlStatusMasgSpr">&nbsp;</div><span id="atl_status_msg_content" ></span></div>
+        	</div><!--[if IE ]>
+            <style>
+            body div#eBayNectarMsg {
+        		height:100%;
+            }
+            </style>
+            <![endif]-->
+        <div class="u-cb spcr"></div><div id="incentiveDiv" class="">
+        		<div class="incContDiv">		
+        		<div id="bmlDiv">
+          						<div style="">
+        			<table>
+        				<tbody>
+        					<tr>
+        						<td valign="top"  class="vi-VR-firstcol">
+        							<img width="77" height="18" alt="BillMeLater" src="http://pics.ebaystatic.com/aw/pics/payments/bml/logoBML_77x18.gif">
+        							</td>				
+        						<td style="padding-top:4px;"  class="vi-VR-scndcol">
+        							<span class="bmlDispMsg"><span style=" font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#333333"> <strong>Spend $99 -$498 and get 6 months to pay</strong></span><br><span style=" font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#333333">Subject to credit approval.</span></span>
+        							<span style="padding-left:5px">
+        									<a target="_blank" class="bmlDispLink" href="https://www.billmelater.com/cm/paypal/landers/12ebaybmlappNBk.html">See terms</a>
+        								</span>
+        							</td>
+        					</tr>
+        				</tbody>
+        			</table>
+        		</div>
+        	</div>
+          				</div>	
+        	</div>
+        	
+        	<div id="shippingSummary"><div class="u-cb spcr"></div>
+        				<div id="sh-gspLogoWrapper" style="display:none;">
+        		<div class="u-cb spcr"></div>
+        		<div class="sh-gspShadow">
+        			<div class="sh-gspLeftShadow"></div>
+        			<div class="sh-gspRightShadow"></div>
+        		</div>
+        		<div class="u-flL lable">
+        			<div class="sh-gspLogo"></div>
+        		</div>
+        		<div class="u-flL sh-col">
+        			<div class="sh-gspFirstLine">No additional charges at delivery!</div>
+        			<div class="sh-gspSecondLine" >
+        				This item will be shipped through the Global Shipping Program and includes international tracking. <a href="http://pages.ebay.com/help/buy/shipping-globally.html" target="_blank">Learn more</a></div>
+        			<div class="sh-gspDashedBorder"></div>
+        		</div>		
+        	</div>	
+        
+        						
+        <div>
+        	<div class="u-flL lable">Shipping:</div>
+        	<div class="u-flL sh-col">
+        	<span id="shSummary">
+        		<!-- TODO:check whether to display none or not -->
+        					<span id="fshippingCost" class="sh-cst">
+        						<span>$7.39</span>
+        						</span>
+        				<span id="fShippingSvc">
+        				Economy Shipping<!-- GSP -->
+        						</span>
+        		<span> | </span>
+        		<span>
+        			<a id="e2" href="#shId" class="si-pd sh-nwr"> See details </a>
+        		</span>		
+        	</span>
+        	<!-- Build Estimated delivery and CBT message -->
+        	</div>
+        	<div class="clear"></div>
+        </div>
+        </div><div class="lable u-flL">&nbsp;</div>
+        			<div class="u-flL iti-w75">
+        				<div class="iti-eu-txt iti-spacing">
+        <div class="iti-eu-label u-flL" id="">
+        	Item location:</div><div class="iti-eu-bld-gry">Springfield, Virginia, United States</div>
+        		<div class="clear"></div>
+        </div>
+        </div>
+        		<div class="u-cb"></div>
+        		<div id="shipsTo"><div class="lable u-flL">&nbsp;</div>
+        				<div class="u-flL iti-w75">
+        					<div class="iti-eu-txt iti-spacing">
+        		<div class="iti-eu-label u-flL">Ships to: </div>
+        		<div class="iti-eu-bld-gry vi-shp-pdg-rt">
+        			Worldwide</div>
+        	</div>
+        </div>
+        			</div><div id="deliverySummary"><div class="u-cb spcr"></div>
+        				<div id="impchSummary" style="display: none;">
+        	<div class="u-flL lable">Import charges:</div>
+        	<div class="u-flL sh-col">
+        		<div>
+        			<span id="impch_show" style="display: none;">
+        				<span id="impchCost" class="sh-impchCost"></span>		
+        				 (amount confirmed at checkout) </span>					
+        			<span id="impch_xo" style="">To be provided at checkout </span>
+        			<span class="sh-bubble">
+        				<a id="imprthlp" class="sh-qmark" href="javascript:;">&nbsp;</a>
+        			</span>
+        			<div class="oly_upnl" id="imprtoly"><div class="vi-shp-shpolay">
+        					 This amount includes applicable customs duties, taxes, brokerage and other fees. This amount is subject to change until you make payment. For additional information, see the Global Shipping Program <a href="http://pages.ebay.com/shipping/globalshipping/buyer-tnc.html" target="_blank">terms and conditions</a></div>
+        			</div>
+        	</div>
+        	</div>
+        	<div class="u-cb spcr"></div>
+        </div><div class="u-flL lable">Delivery:</div>
+        	<div class="u-flL sh-col">
+        	<span id="delSummary">
+        			<!-- Fi rst shipping service's cost -->
+        		<!-- PC 5555 cases -->
+        				<div role="alert" class="sh-del-frst "> 
+        Estimated between <span><b>Wed. Oct. 17 and Wed. Oct. 24</b></span><span class="sh-bubble">
+        		<a id="hldhlp" class="sh-qmark" href="javascript:;">&nbsp;</a>
+        	</span>
+        	<div class="oly_upnl" id="w1-23-overlay"><div class="vi-shp-shpolay">
+        			 <a href="http://pages.ebay.com/help/buy/contextual/estimated-delivery.html" target="_blank">Estimated delivery dates <b class="g-hdn">[newWindowTxt]</b></a> include seller's handling time, and will depend on shipping service selected and receipt of <a href="http://pages.ebay.com/help/buy/contextual/domestic-handling-time.html" target="_blank">cleared payment<b class="g-hdn">[newWindowTxt]</b></a>. Delivery times may vary, especially during peak periods.</div>
+        	</div>
+        	</div>
+        </span>
+        	</div>
+        	</div><div class="u-cb spcr"></div>
+        			<div class="u-flL lable" id="">
+        	Payments:</div><div class="u-flL rpColWid">
+        	<div id="payDet1">
+        			<img class="pd-img" src="http://pics.ebaystatic.com/aw/pics/logos/logoPayPal_51x14.gif" alt="PayPal" border="0"/>
+        									,&nbsp;Bill Me Later<span>&nbsp;|&nbsp;<a rel="nofollow"></a><a id="e5" href="#payId" class="pd-lnk ">See <b class="u-dspn">payment</b> details</a></span>
+        			</div>
+        	</div><div class="u-cb spcr"></div>
+        			<div>
+        			<div class="u-flL lable">Returns:</div>
+        			<div class="u-flL rpColWid">
+        					<table width="100%">
+        						<tr>
+        							<td class="rpWrapCol">
+        								14 days&nbsp;money back,&nbsp;buyer pays return shipping&nbsp;|&nbsp;<a rel="nofollow"></a><a href="#rpdId" class="si-pd" id="e6">Read details</a>
+        							</td>
+        						</tr>
+        				</table>
+        			</div>
+        		
+        		</div>
+        
+        <div class="u-cb spcr"></div>
+        			<div style="overflow:hidden">
+        			<table width="100%" class="u-cb spcr" style="width: 100%; overflow: hidden;">
+        			<tr style="width: 100%; overflow: hidden;"><td style="width: 100%; overflow: hidden;">
+        					<div class="vi-bg-cpn vi-bg-cm" id="ebpHdr"  style="width: 100%; overflow: hidden;">
+        						<div class="vi-bg-oh vi-bg-cpn"  style="width: 100%; overflow: hidden;">
+        							<div class="vi-bg-crp vi-bg-sh vi-bg-logo"></div>
+        							<div id="ebpVarWidth" class="vi-bg-bgn vi-bg-cpn vi-bg-oh vi-bg-l65 " style="z-index:0;left: 65px;  width: 93% "></div>
+        						</div>
+        						<div class="vi-bg-il vi-bg-bdrh vi-bg-crp vi-ebp-raptr">
+        							<div class="vi-bg-txth"></div>
+        							<div class="vi-bg-stxt"></div>
+        							<span class="vi-g-btn">
+        								<a href="http://pages.ebay.com/coverage/index.html">Learn more<b class="g-hdn">about eBay Buyer Protection  - opens in a new window or tab</b></a></span>
+        						</div>
+        					</div>
+        			</td></tr>
+        			</table>
+        		</div>
+        	</form>
+        </div>
+        
+        
+        <!-- The attribute(value) of UseJsTag is null. --></div>
+        <div style="clear:both"></div></div>
+        				
+        			</div><div id="vi_zoomEnl_plc_hldr"></div>
+        		<div id="BottomPanelDF"><div id="BottomPanel">
+        					<!-- <h2> Bottom panel for Description </h2> -->
+        					<!-- Placement 100005 -->
+        
+        <div style="height:20px; width:100%; clear:both; "></div> <!-- TODO:remove this line -->
+        <div class="pglv-pr-rep">
+        	<a href="http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&rt=nc&item=190654183378&si=Fo1C1ZeJUseDU5ewGwuP%2FjeyuDw%3D&print=all&category=29223" class="" target="_blank">Print</a>
+        	
+        	| 
+        	<a href="http://cgi1.ebay.com/ws/eBayISAPI.dll?ReportThisItemRedirect&_trksid=p2047675.l2566&rt=nc&active=1&itemid=190654183378&seller=zedsbooks" class=""  target="_blank">Report item</a>
+        	</div><div class="tab_wp" id="viTabs">
+        				<div class="tab g">
+        					<a id="viTabs_0" class="item  sel" href="javascript:;">Description</a>
+        					<a id="viTabs_1" class="item " href="javascript:;">Shipping and payments</a>
+        					<div class="tab_clr"></div>
+        					</div>
+        				<div id="viTabs_0_cnt" class="content sel">
+        						<!-- call this inside Tab for Item description -->
+        				<div class="iti-eu-txt iti-eu-pd u-flR iti-ncntr">
+        		<div class="u-flR">190654183378</div>
+        		<div class="iti-lbl u-flR iti-num" id="">
+        	Item number:</div></div>
+        <div id="readMore" class="ds-lgl-txt u-cb">
+        	Seller assumes all responsibility for this listing.</div><div class="vi-desc-revHistory">
+        	<div>
+        		<span class="vi-desc-revHistory-lbl">Last updated on</span>
+        		&nbsp;Aug 22, 2012 05:37:28 PDT&nbsp;
+        		<span><a href="http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItemRevisionDetails&_trksid=p2047675.l2569&rt=nc&item=190654183378">View all revisions</a>
+        		</span>
+        	</div>
+        </div><div class="itemAttr">
+        		<div class="section">
+        				<h3>Item specifics</h3>
+        				<!-- New Item condition bottom of page changes. -->
+        				<table width="100%" cellspacing="0" cellpadding="0">
+        						<tr>
+        								<th>
+        								 			Binding: </th>
+        										 
+        										<td width="50.0%">
+        											Leather</td>
+        									<th>
+        								 			Origin: </th>
+        										 
+        										<td width="50.0%">
+        											American</td>
+        									</tr>
+        						<tr>
+        								<th>
+        								 			Subject: </th>
+        										 
+        										<td width="50.0%">
+        											Literature & Fiction</td>
+        									<th>
+        								 			Printing Year: </th>
+        										 
+        										<td width="50.0%">
+        											1979</td>
+        									</tr>
+        						<tr>
+        								<th>
+        								 			Topic: </th>
+        										 
+        										<td width="50.0%">
+        											Literature, Modern</td>
+        									<th>
+        								 			3rd Level Category: </th>
+        										 
+        										<td width="50.0%">
+        											Classics</td>
+        									</tr>
+        						<tr>
+        								<th>
+        								 			Special Attributes: </th>
+        										 
+        										<td width="50.0%">
+        											1st Edition, Illustrated</td>
+        									</tr>
+        						<!-- Added for see review link -->
+        						</table>
+        					
+        				</div>
+        		</div>
+        <div class="sh-cnt u-cb">
+        			<div class="sh-hdr" style='background-color: #006633;'>
+        					<div class="u-flL" style='color: #E8E5D3;'><h3 class="sh-ttl">Zeds Books</h3></div>
+        					<div class="sh-vs u-flR" style='color: #E8E5D3;'>
+        						Visit my eBay store&nbsp;
+        						<a href="http://stores.ebay.com/Zeds-Books?_trksid=p2047675.l2568"><img class="sh-vs-img" src="http://pics.ebaystatic.com/aw/pics/s.gif" border="0" alt="Zeds Books"></a></div>
+        				</div>
+        				<div class="sh-inner" style='background-color: #E8E5D3;'>
+        					<div>
+        						<div class="sh-info  u-flL">
+        							<div class="sh-info-lnk">
+        								<a href="http://my.ebay.com/ws/eBayISAPI.dll?AcceptSavedSeller&linkname=includenewsletter&sellerid=zedsbooks&_trksid=">Sign up for newsletter</a>
+        								</div>
+        							</div>
+        					</div>
+        					</div>
+        			</div>
+        	<table width="100%">
+        		<tr>
+        			<td class="ds-cl" id="storeHeader">
+        				<div class="cl-cnt u-flL">
+        			<div class="cl-hdr" style='background-color: #006633;'>
+        					<h3 class="cl-ttl" style='color: #E8E5D3;'>Store Categories</h3>
+        				</div>
+        				<div class="cl-lcat" style='background-color: #E8E5D3;'>
+        					<div class="cl-lcat-ttl">
+        						<a href="http://stores.ebay.com/Zeds-Books?_trksid=p2047675.l2563">Store home</a>
+        							</div>
+        					<ul>
+        						<li><a href="http://stores.ebay.com/Zeds-Books/Easton-Press-/_i.html?_fsub=2">Easton Press</a><li><a href="http://stores.ebay.com/Zeds-Books/Signed-Easton-Press-/_i.html?_fsub=3">Signed Easton Press</a><li><a href="http://stores.ebay.com/Zeds-Books/Franklin-Library-/_i.html?_fsub=4">Franklin Library</a><li><a href="http://stores.ebay.com/Zeds-Books/First-Editions-/_i.html?_fsub=8">First Editions</a><li><a href="http://stores.ebay.com/Zeds-Books/Stephen-King-/_i.html?_fsub=10">Stephen King</a><li><a href="http://stores.ebay.com/Zeds-Books/Antiquarian-Literature-/_i.html?_fsub=12">Antiquarian Literature</a><li><a href="http://stores.ebay.com/Zeds-Books/Signed-First-Editions-/_i.html?_fsub=1694498014">Signed First Editions</a><li><a href="http://stores.ebay.com/Zeds-Books/Easton-Press-Set-/_i.html?_fsub=1694503014">Easton Press Set</a><li><a href="http://stores.ebay.com/Zeds-Books/Limited-Editions-Club-/_i.html?_fsub=1694528014">Limited Editions Club</a><li><a href="http://stores.ebay.com/Zeds-Books/Military-History-/_i.html?_fsub=1697260014">Military History</a><li><a href="http://stores.ebay.com/Zeds-Books/Science-Fiction-/_i.html?_fsub=1697261014">Science Fiction</a><li><a href="http://stores.ebay.com/Zeds-Books/Fantasy-/_i.html?_fsub=1697262014">Fantasy</a><li><a href="http://stores.ebay.com/Zeds-Books/History-/_i.html?_fsub=1697263014">History</a><li><a href="http://stores.ebay.com/Zeds-Books/Presidents-/_i.html?_fsub=1697264014">Presidents</a><li><a href="http://stores.ebay.com/Zeds-Books/Folio-Society-/_i.html?_fsub=1742077014">Folio Society</a><li><a href="http://stores.ebay.com/Zeds-Books/International-Collectors-Lib-/_i.html?_fsub=1743174014">Internationa<wbr/>l Collector's Lib.</a><li><a href="http://stores.ebay.com/Zeds-Books/Southern-Classics-Library-/_i.html?_fsub=1852070014">Southern Classics Library</a><li><a href="http://stores.ebay.com/Zeds-Books/Other-/_i.html?_fsub=1">Other</a></ul>
+        					<div class="cl-spc1"></div>
+        					</div>
+        			</div>
+        	</td>
+        			<td class="ds-dtd">
+        <div id="desc_div">
+        				<table align="center" style="border-spacing: 0px; width: 100%;">
+        	<tr>
+        		<td>
+        			<div><img border="0" src="http://imagehost.vendio.com/img/spacers/pixel.gif"> 
+        <p><!--VGMVAGRVKGEVRGFST--><!-- GVAVLVLVEVRVYV -->
+        </p><center>
+        <script language="javascript1.1">
+        <!--
+        var MM_contentVersion = 6;
+        var flashplugin = (navigator.mimeTypes && navigator.mimeTypes["application/x-shockwave-flash"]) ?
+        navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin : 0;
+        if (flashplugin) { 
+        var words = navigator.plugins["Shockwave Flash"].description.split(" ");
+        for(var i=0; i<words.length; ++i) {
+        if( isNaN(parseInt(words[i]))) continue;
+        var MM_PluginVersion = words[i];
+        }
+        var MM_FlashCanPlay = MM_PluginVersion >= MM_contentVersion;
+        }
+        else if (navigator.userAgent && navigator.userAgent.indexOf("MSIE")>=0 && (navigator.appVersion.indexOf("Win") != -1)) {
+        document.write('<SCR'+'IPT LANGUAGE=VBScript\>\n');
+        document.write('on error resume next\n');
+        document.write('MM_FlashCanPlay = ( IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash." & MM_contentVersion)))\n');
+        document.write('</SCR'+'IPT\>\n');
+        }
+        if (MM_FlashCanPlay) {
+        document.write('<OBJECT border=0 classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" ');
+        document.write(' codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" ');
+        document.write(' ID="vendio_gallery" width="750" height="210" ALIGN="center">');
+        document.write(' <PARAM NAME=movie VALUE="http://imagehost.vendio.com/my/gallery/marquee.swf?cat=29223&SId=1&clink=0x003399&scbkg=0xf5f5f5&ctxt=0x000000&bbkg=0xbdcee7&sbkg=0xfdfae0&vName=zeddicarus"> ');
+        document.write(' <PARAM NAME=menu VALUE=false>');
+        document.write(' <PARAM NAME=quality VALUE=best>');
+        document.write(' <PARAM NAME=scale VALUE=noscale>');
+        document.write(' <PARAM NAME=wmode VALUE=transparent>');
+        document.write(' <PARAM NAME=salign VALUE=LT>');
+        document.write(' <PARAM NAME=bgcolor VALUE=#FFFFFF>');
+        document.write(' <EMBED src="http://imagehost.vendio.com/my/gallery/marquee.swf?cat=29223&SId=1&clink=0x003399&scbkg=0xf5f5f5&ctxt=0x000000&bbkg=0xbdcee7&sbkg=0xfdfae0&vName=zeddicarus"');
+        document.write(' WMODE="transparent" ALIGN="center" swLiveConnect=FALSE ');
+        document.write(' NAME="vendio_gallery" width="750" height="210" ');
+        document.write(' TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer">');
+        document.write(' </EMBED>');
+        document.write(' </OBJECT>');
+        }
+        else {
+        document.write(' <table width="450" border=1> ');
+        document.write(' <tr><td bgcolor=#eeeeee align=center valign=center><br><font color=#000000 face=Arial size=2> ');
+        document.write(' This Vendio Gallery is best viewed with <br><br> <b>Macromedia Flash Player 6</b><br>or higher.<br><br> ');
+        document.write(' <a href=http://www.macromedia.com/go/getflashplayer ');
+        document.write(' target=_blank>Click here to get the latest<br>Macromedia Flash Player.</a> ');
+        document.write(' <br><img src="http://imagehost.vendio.com/my/gallery/pixel_noflash.gif?SId=1&sk=ma&vName=zeddicarus"><br>');
+        document.write(' <br><br></td></tr>');
+        document.write(' </table>');
+        }
+        //-->
+        </script>
+        <noscript></noscript></center><!--VGMVAGRVKGEVRGSND--><!--VGPVRGOVMGOVMGAVRGKVEGRVFST-->
+        <center><img vspace="2" src="http://imagehost.vendio.com/img/logos/88x33.gif" width="88" height="33"><br><a href="http://www.vendio.com/bin/ref.x/1272353073" target="_blank"><font color="#0000ff" size="2" face="Verdana, Arial, Helvetica, sans-serif"><b>
+        <div id="vgalcredit">Increase Sales by 18% and double your hits - Vendio Gallery</div></b></font></a><br><br></center><!--VGPVRGOVMGOVMGAVRGKVEGRVSND--><b>
+        <h3><font color="green">
+        <center><big>From the&nbsp;Franklin Library&nbsp;Great Books of the Western World Collection... </big></center></font></h3>
+        <p>
+        </p><center><big>
+        <h2></h2></big></center>
+        <p>
+        </p><h3></h3>
+        <h2>
+        <center><big><font color="navy"><font size="6">The Essays of Montaigne</font></font></big></center>
+        <center><big><font color="navy"><font size="2"></font></font></big><font color="navy">&nbsp;</font></center>
+        <center><big><font color="navy"><font size="5">Translated by Donald Frame</font></font></big></center></h2>
+        <h3>
+        <p>
+        </p><center><big><font color="maroon">Complete&nbsp;Three Volume Set</font></big></center>
+        <center><big><font color="maroon"><font size="2"><font size="2"></font></font></font></big><font color="maroon"><font size="2">&nbsp;</font></font></center>
+        <center><big><font color="maroon">Copyright&nbsp;1979 by The Franklin Library! </font></big></center>
+        <center>&nbsp;</center>
+        <center><big><font color="silver">Bound in Premium Full Leather!</font></big></center>
+        <center>&nbsp;</center>
+        <center>
+        <hr>
+        </center>
+        <center>&nbsp;</center></h3>
+        <center>
+        <p>
+        </p><center><img src="http://www.zedsbooks.com/Franklin/GreatBooks/EssaysMontaigne3VB/EssaysMontaigne1.jpg"> </center>
+        <p>
+        </p><hr>
+        
+        <p>
+        </p><center>These three elusive volumes contain all of the classic Franklin Library trimmings: </center>
+        <center>&nbsp;</center>
+        <center>
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr>
+        <td>
+        <ul><b>
+        <li>Premium Leather 
+        </li><li>Silk Moire Endleaves 
+        </li><li>Distinctive Cover Design 
+        </li><li>Hubbed Spine, Acccented in&nbsp;Gold 
+        </li><li>Satin Ribbon Page Marker 
+        </li><li>Gilded Page Edges 
+        </li><li>Long-lasting, High Quality Acid-neutral Paper </li></b></ul></td></tr></tbody></table></center></center>
+        <center></center>
+        <p>
+        </p><hr>
+        
+        <p>
+        </p><center><img src="http://www.zedsbooks.com/Franklin/GreatBooks/EssaysMontaigne3VB/EssaysMontaigne2.jpg"><img src="http://www.zedsbooks.com/Franklin/GreatBooks/EssaysMontaigne3VB/EssaysMontaigne3.jpg"><img src="http://www.zedsbooks.com/Franklin/GreatBooks/EssaysMontaigne3VB/EssaysMontaigne4.jpg"> </center>
+        <p>
+        </p><hr>
+        
+        <p>Very scarce titles in any condition, these&nbsp;three volumes are in&nbsp;Excellent condition.&nbsp;&nbsp;The front and back covers are in excellent condition and the gilded page edges show moderate spotting - each contains a previous owners' bookplate affixed to the second page.&nbsp; Volume one shows water damage to the front pages.&nbsp; These books&nbsp;are part of The Great Books of the Western World Collection published by The&nbsp;Franklin Library&nbsp;and would be a beautiful addition to your library.&nbsp; Hopefully you can add this set to your collection and enjoy it in the years to come... 
+        </p><p>
+        </p><hr>
+        
+        <p>
+        </p><center><img src="http://www.zedsbooks.com/Franklin/GreatBooks/EssaysMontaigne3VB/EssaysMontaigne5.jpg"></center>
+        <p>
+        </p><hr>
+        
+        <p>
+        </p><center><big>Please Email Me With Any Questions You Might Have! 
+        <p>For Answers to Frequently Asked Questions, <a href="http://www.zedsbooks.com/FAQs.html">click here </a></p></big></center>
+        <center></center>
+        <p>
+        </p><p>Shipping Info: 
+        </p><p>
+        </p><ul>
+        <li>Buyer To Pay Shipping and Handling 
+        </li><li>International Bidders Pay Extra Shipping 
+        </li><li>Seller Not Responsible For Uninsured Items Lost or Damaged in Mail </li></ul>
+        <p>
+        </p><hr>
+        
+        <p>
+        </p><center><img src="http://www.zedsbooks.com/Franklin/GreatBooks/EssaysMontaigne3VB/EssaysMontaigne6.jpg"></center>
+        <p>
+        </p><hr>
+        
+        <p>Forms of Payment Accepted: 
+        </p><p>
+        </p><ul>
+        <li>Paypal</li></ul>
+        <p><big>
+        </big></p><center><big>Good luck and happy bidding! 
+        <p></p></big></center></b>
+        <ul></ul>
+        <p><br>
+        </p><center><a href="http://pages.ebay.com/selling_manager_pro"><img border="0" src="http://pics.ebay.com/aw/pics/sellingmanager/sellingmanagerPro/smPro_248x50.gif" width="248" height="50"></a></center>
+        <p></p>
+        <center><img border="0" src="http://pics.ebay.com/aw/pics/sell/templates/images/k2/tagline.gif"> <br><font size="2" face="Arial,Helvetica">Powered by <a href="http://pages.ebay.com/turbo_lister/">eBay Turbo Lister</a> <br>The free listing tool. List your items fast and easy and manage your active items. </font></center></div>
+        		</td>
+        	</tr>
+        </table>
+        </div>
+        </td>
+        		</tr>
+        	</table>
+        <div class="asqMain">
+        	<div class="asqHeader section-ttl">
+        		<h3>Questions and answers about this item</h3>
+        		<div class="rd-sep"></div>
+        	</div>
+        	<div class="asqContent">
+        		No questions or answers have been posted about this item.</div>
+        	<div class="asqFooter">
+        		<a href="http://contact.ebay.com/ws/eBayISAPI.dll?ShowSellerFAQ&iid=190654183378&requested=zedsbooks&redirect=0&frm=284&rt=nc&_trksid=p2047675.l1499&ssPageName=PageSellerM2MFAQ_VI" >Ask a question</a>
+        			</div>
+        
+        </div><div>
+        	<br/><br/><br/><br/><center>
+        	<span class="BasicStyle">
+        		00175</span></center></div>
+        </div>
+        				<div id="viTabs_1_cnt" class="content">
+        						<div id="readMore" class="ds-lgl-txt u-cb">
+        	Seller assumes all responsibility for this listing.</div><!-- Surround by container -->
+        		<!-- Build Shipping and handling content -->
+        				<div class="sh-tab-bdr">
+        					<div id="shipNHadling" class="shippingSection_BottomVI vi-shp">
+        						<div id="shId" class="sh-shid section-sttl">
+        							<h3 class="sh-title">
+        								Shipping and handling</h3>
+        						</div>
+        						<div id="shCost-err" class="sh-err-costNotCalculable sh-err-hide">
+        							<span title="icon"></span>
+        							Shipping cannot be calculated for your area. You can <a href="http://contact.ebay.com/ws/eBayISAPI.dll?ShowCoreAskSellerQuestion&amp;redirect=0&amp;requested=zedsbooks&amp;iid=190654183378" target="_blank">contact the seller</a> for additional shipping costs and services.</div>
+        						<div id="shCost-err2" class="sh-err-costNotCalculable sh-err-hide">
+        							<span title="icon"></span>
+        							Shipping cost cannot be calculated. Please enter a valid ZIP Code.</div>
+        						<div>
+        							<div id="discounts" class="vi-dm" style="padding-left:15px">
+        							<!-- Discounts Section -->
+        									<!-- Need to refactor this to use one structure for both cases. But for now porting V4 code -->
+        <div id="discount_msg">
+        			<strong>Save on shipping.</strong> This seller offers shipping discounts on combined purchases for eligible items.</div>
+        	</div>
+        							<!-- Local pickup -->
+        							<div class="sh-loc"> 
+        									Item location: Springfield, Virginia, United States</div>
+        							<!-- ShipsTo -->
+        							<div class="sh-sLoc">
+        			Shipping to: Worldwide</div>
+        		<div style="padding:5px 0px 0px 0px" ></div>
+        		<!-- Calculate Row -->
+        							<div class="sh_calcShipPad" id="medium">
+        	<table width="100%" cellspacing="0" cellpadding="0" border="0">
+        			<tbody>
+        				<tr>
+        					<td width="53%" nowrap="nowrap">
+        						<div id="shCountryDiv" class="sh-InlCnt ">
+        							<div id="shCountry-errIcn" class="sh-err-icon sh-err-hide"></div>
+        							<label class="sh-ShipDtl" for="shCountry">Change country:</label>
+        							<select name="country" id="shCountry" class="sh-TxtCnt sh-InlCnt"  >
+        								<option value="-99" selected>-Select-</option>
+        								<option	value="4" >Afghanistan</option>
+        									<option	value="5" >Albania</option>
+        									<option	value="6" >Algeria</option>
+        									<option	value="7" >American Samoa</option>
+        									<option	value="8" >Andorra</option>
+        									<option	value="9" >Angola</option>
+        									<option	value="10" >Anguilla</option>
+        									<option	value="11" >Antigua and Barbuda</option>
+        									<option	value="12" >Argentina</option>
+        									<option	value="13" >Armenia</option>
+        									<option	value="14" >Aruba</option>
+        									<option	value="15" >Australia</option>
+        									<option	value="16" >Austria</option>
+        									<option	value="17" >Azerbaijan Republic</option>
+        									<option	value="18" >Bahamas</option>
+        									<option	value="19" >Bahrain</option>
+        									<option	value="20" >Bangladesh</option>
+        									<option	value="21" >Barbados</option>
+        									<option	value="22" >Belarus</option>
+        									<option	value="23" >Belgium</option>
+        									<option	value="24" >Belize</option>
+        									<option	value="25" >Benin</option>
+        									<option	value="26" >Bermuda</option>
+        									<option	value="27" >Bhutan</option>
+        									<option	value="28" >Bolivia</option>
+        									<option	value="29" >Bosnia and Herzegovina</option>
+        									<option	value="30" >Botswana</option>
+        									<option	value="31" >Brazil</option>
+        									<option	value="32" >British Virgin Islands</option>
+        									<option	value="33" >Brunei Darussalam</option>
+        									<option	value="34" >Bulgaria</option>
+        									<option	value="35" >Burkina Faso</option>
+        									<option	value="37" >Burundi</option>
+        									<option	value="38" >Cambodia</option>
+        									<option	value="39" >Cameroon</option>
+        									<option	value="2" >Canada</option>
+        									<option	value="40" >Cape Verde Islands</option>
+        									<option	value="41" >Cayman Islands</option>
+        									<option	value="42" >Central African Republic</option>
+        									<option	value="43" >Chad</option>
+        									<option	value="44" >Chile</option>
+        									<option	value="45" >China</option>
+        									<option	value="46" >Colombia</option>
+        									<option	value="47" >Comoros</option>
+        									<option	value="48" >Congo, Democratic Republic of the</option>
+        									<option	value="49" >Congo, Republic of the</option>
+        									<option	value="50" >Cook Islands</option>
+        									<option	value="51" >Costa Rica</option>
+        									<option	value="52" >Cote d Ivoire (Ivory Coast)</option>
+        									<option	value="53" >Croatia, Republic of</option>
+        									<option	value="55" >Cyprus</option>
+        									<option	value="56" >Czech Republic</option>
+        									<option	value="57" >Denmark</option>
+        									<option	value="58" >Djibouti</option>
+        									<option	value="59" >Dominica</option>
+        									<option	value="60" >Dominican Republic</option>
+        									<option	value="61" >Ecuador</option>
+        									<option	value="62" >Egypt</option>
+        									<option	value="63" >El Salvador</option>
+        									<option	value="64" >Equatorial Guinea</option>
+        									<option	value="65" >Eritrea</option>
+        									<option	value="66" >Estonia</option>
+        									<option	value="67" >Ethiopia</option>
+        									<option	value="68" >Falkland Islands (Islas Malvinas)</option>
+        									<option	value="69" >Fiji</option>
+        									<option	value="70" >Finland</option>
+        									<option	value="71" >France</option>
+        									<option	value="72" >French Guiana</option>
+        									<option	value="73" >French Polynesia</option>
+        									<option	value="74" >Gabon Republic</option>
+        									<option	value="75" >Gambia</option>
+        									<option	value="76" >Georgia</option>
+        									<option	value="77" >Germany</option>
+        									<option	value="78" >Ghana</option>
+        									<option	value="79" >Gibraltar</option>
+        									<option	value="80" >Greece</option>
+        									<option	value="81" >Greenland</option>
+        									<option	value="82" >Grenada</option>
+        									<option	value="83" >Guadeloupe</option>
+        									<option	value="84" >Guam</option>
+        									<option	value="85" >Guatemala</option>
+        									<option	value="86" >Guernsey</option>
+        									<option	value="87" >Guinea</option>
+        									<option	value="88" >Guinea-Bissau</option>
+        									<option	value="89" >Guyana</option>
+        									<option	value="90" >Haiti</option>
+        									<option	value="91" >Honduras</option>
+        									<option	value="92" >Hong Kong</option>
+        									<option	value="93" >Hungary</option>
+        									<option	value="94" >Iceland</option>
+        									<option	value="95" >India</option>
+        									<option	value="96" >Indonesia</option>
+        									<option	value="98" >Iraq</option>
+        									<option	value="99" >Ireland</option>
+        									<option	value="100" >Israel</option>
+        									<option	value="101" >Italy</option>
+        									<option	value="102" >Jamaica</option>
+        									<option	value="104" >Japan</option>
+        									<option	value="105" >Jersey</option>
+        									<option	value="106" >Jordan</option>
+        									<option	value="107" >Kazakhstan</option>
+        									<option	value="108" >Kenya</option>
+        									<option	value="109" >Kiribati</option>
+        									<option	value="111" >Korea, South</option>
+        									<option	value="112" >Kuwait</option>
+        									<option	value="113" >Kyrgyzstan</option>
+        									<option	value="114" >Laos</option>
+        									<option	value="115" >Latvia</option>
+        									<option	value="116" >Lebanon</option>
+        									<option	value="117" >Lesotho</option>
+        									<option	value="118" >Liberia</option>
+        									<option	value="119" >Libya</option>
+        									<option	value="120" >Liechtenstein</option>
+        									<option	value="121" >Lithuania</option>
+        									<option	value="122" >Luxembourg</option>
+        									<option	value="123" >Macau</option>
+        									<option	value="124" >Macedonia</option>
+        									<option	value="125" >Madagascar</option>
+        									<option	value="126" >Malawi</option>
+        									<option	value="127" >Malaysia</option>
+        									<option	value="128" >Maldives</option>
+        									<option	value="129" >Mali</option>
+        									<option	value="130" >Malta</option>
+        									<option	value="131" >Marshall Islands</option>
+        									<option	value="132" >Martinique</option>
+        									<option	value="133" >Mauritania</option>
+        									<option	value="134" >Mauritius</option>
+        									<option	value="135" >Mayotte</option>
+        									<option	value="136" >Mexico</option>
+        									<option	value="226" >Micronesia</option>
+        									<option	value="137" >Moldova</option>
+        									<option	value="138" >Monaco</option>
+        									<option	value="139" >Mongolia</option>
+        									<option	value="228" >Montenegro</option>
+        									<option	value="140" >Montserrat</option>
+        									<option	value="141" >Morocco</option>
+        									<option	value="142" >Mozambique</option>
+        									<option	value="143" >Namibia</option>
+        									<option	value="144" >Nauru</option>
+        									<option	value="145" >Nepal</option>
+        									<option	value="146" >Netherlands</option>
+        									<option	value="147" >Netherlands Antilles</option>
+        									<option	value="148" >New Caledonia</option>
+        									<option	value="149" >New Zealand</option>
+        									<option	value="150" >Nicaragua</option>
+        									<option	value="151" >Niger</option>
+        									<option	value="152" >Nigeria</option>
+        									<option	value="153" >Niue</option>
+        									<option	value="154" >Norway</option>
+        									<option	value="155" >Oman</option>
+        									<option	value="156" >Pakistan</option>
+        									<option	value="157" >Palau</option>
+        									<option	value="158" >Panama</option>
+        									<option	value="159" >Papua New Guinea</option>
+        									<option	value="160" >Paraguay</option>
+        									<option	value="161" >Peru</option>
+        									<option	value="162" >Philippines</option>
+        									<option	value="163" >Poland</option>
+        									<option	value="164" >Portugal</option>
+        									<option	value="165" >Puerto Rico</option>
+        									<option	value="166" >Qatar</option>
+        									<option	value="227" >Reunion</option>
+        									<option	value="167" >Romania</option>
+        									<option	value="168" >Russian Federation</option>
+        									<option	value="169" >Rwanda</option>
+        									<option	value="170" >Saint Helena</option>
+        									<option	value="171" >Saint Kitts-Nevis</option>
+        									<option	value="172" >Saint Lucia</option>
+        									<option	value="173" >Saint Pierre and Miquelon</option>
+        									<option	value="174" >Saint Vincent and the Grenadines</option>
+        									<option	value="175" >San Marino</option>
+        									<option	value="176" >Saudi Arabia</option>
+        									<option	value="177" >Senegal</option>
+        									<option	value="229" >Serbia</option>
+        									<option	value="178" >Seychelles</option>
+        									<option	value="179" >Sierra Leone</option>
+        									<option	value="180" >Singapore</option>
+        									<option	value="181" >Slovakia</option>
+        									<option	value="182" >Slovenia</option>
+        									<option	value="183" >Solomon Islands</option>
+        									<option	value="184" >Somalia</option>
+        									<option	value="185" >South Africa</option>
+        									<option	value="186" >Spain</option>
+        									<option	value="187" >Sri Lanka</option>
+        									<option	value="189" >Suriname</option>
+        									<option	value="191" >Swaziland</option>
+        									<option	value="192" >Sweden</option>
+        									<option	value="193" >Switzerland</option>
+        									<option	value="196" >Taiwan</option>
+        									<option	value="197" >Tajikistan</option>
+        									<option	value="198" >Tanzania</option>
+        									<option	value="199" >Thailand</option>
+        									<option	value="200" >Togo</option>
+        									<option	value="201" >Tonga</option>
+        									<option	value="202" >Trinidad and Tobago</option>
+        									<option	value="203" >Tunisia</option>
+        									<option	value="204" >Turkey</option>
+        									<option	value="205" >Turkmenistan</option>
+        									<option	value="206" >Turks and Caicos Islands</option>
+        									<option	value="207" >Tuvalu</option>
+        									<option	value="208" >Uganda</option>
+        									<option	value="209" >Ukraine</option>
+        									<option	value="210" >United Arab Emirates</option>
+        									<option	value="3" >United Kingdom</option>
+        									<option	value="1" selected>United States</option>
+        									<option	value="211" >Uruguay</option>
+        									<option	value="212" >Uzbekistan</option>
+        									<option	value="213" >Vanuatu</option>
+        									<option	value="214" >Vatican City State</option>
+        									<option	value="215" >Venezuela</option>
+        									<option	value="216" >Vietnam</option>
+        									<option	value="217" >Virgin Islands (U.S.)</option>
+        									<option	value="218" >Wallis and Futuna</option>
+        									<option	value="219" >Western Sahara</option>
+        									<option	value="220" >Western Samoa</option>
+        									<option	value="221" >Yemen</option>
+        									<option	value="223" >Zambia</option>
+        									<option	value="224" >Zimbabwe</option>
+        									</select>
+        							</div>
+        						<div id="shQuantity-errTxt" class="sh-err-text sh-err-hide">There are 1 items available. Please enter a number less than or equal to 1.</div>
+        						<div id="shCountry-errTxt" class="sh-err-text sh-err-hide">Select a valid country.</div>
+        					</td>
+        					<td width="47%">
+        						<div class="sh-InlCnt sh-float-l " id="shZipCodeDiv">
+        							<div id="shZipCode-errIcn" class="sh-err-icon sh-err-hide"></div> 										
+        							<label class="sh-ShipDtl" for="shZipCode" id="shZipCodeTextDiv">ZIP Code:</label>
+        							<div class="sh-ZipAln sh-InlCnt">
+        								<input type="text" class="sh-TxtCnt" name="zipCode"	size="12" id="shZipCode" value="" />
+        							</div>
+        							<div id="shZipCode-errTxt" class="sh-err-text sh-err-hide">Please enter a valid ZIP Code.</div>
+        							<div id="shZipCode-errTxt2" class="sh-err-text sh-err-hide">Please enter 5 or 9 numbers for the ZIP Code.</div>
+        						</div>
+        						<div id="shGetRatesDiv" class="sh-InlCnt ">
+        							<input type="button" class="sh-BtnTxt " name="getRates"	id="shGetRates" value="Get Rates" />
+        						</div>
+        					</td>
+        				</tr>
+        			</tbody>
+        		</table>
+        	</div>
+        	<!-- Shipping Table -->
+        									<div id="shippingSection" aria-live="assertive" style="padding:10px;">
+        										<table class="sh-tbl">
+        		<thead>
+        		<tr>
+        			<th><div>Shipping and handling</div></th>
+        							<th><div>To</div></th>
+        							<th><div>Service</div></th>
+        							<th><div>Delivery*</div></th>							
+        								</tr>
+        		</thead>
+        		<tbody>
+        			<tr>
+        									<td>
+        										<!-- Column 1 -->
+        											<div>
+        														US $7.39</div>
+        												</td>
+        									<!-- Column 2 -->
+        									<td>
+        									<!-- Column 3 -->
+        									<!-- TODO replace this with shipsTo from Shipping service because of each service -->
+        										<div>United States</div>
+        									</td>
+        									<td>
+        									<!-- Column 4 -->
+        										<div>
+        										Economy Shipping (USPS Media Mail<sup>TM</sup>)
+        											</div>
+        										<div></div>
+        											</td>
+        									<!-- Column 5 -->
+        									<td>
+        											<div role="alert" class="sh-del-frst "> 
+        Estimated between <span><b>Wed. Oct. 17 and Wed. Oct. 24</b></span></div>
+        </td>
+        										<!-- Column 6 -->
+        									 </tr>
+        								<!-- TODO see if colspan if loops are necessary -->
+        								</tbody>
+        	</table>
+        <!-- Shipping Delivery Transit time Text -->
+        <div id="instrTextTable" style="border-top:1px solid #c4c4c4; padding:5px 10px 15px 18px;font-family:Verdana; font-size:x-small; font-weight:normal; color:#999; margin-left:10px; margin-right:10px">
+        	 				* <a href="http://pages.ebay.com/help/buy/contextual/estimated-delivery.html" target="_blank">Estimated delivery dates</a> include seller's handling time, and will depend on shipping service selected and receipt of <a href="http://pages.ebay.com/help/buy/contextual/domestic-handling-time.html" target="_blank">cleared payment</a>. Delivery times may vary, especially during peak periods. </div>
+        	 		</div> 
+        								</div>
+        						<!-- HandlingTax -->
+        						<div class="sh-handTablePos">
+        		<table class="sh-tbl">
+        			<thead>
+        				<tr>
+        					<th>
+        							<div>
+        								Handling time</div>
+        						</th>
+        					<th>
+        							<div>Estimated sales tax</div>
+        						</th>
+        					</tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+        					<td>
+        							<div>Will usually ship within 1 business day of <a href="http://pages.ebay.com/help/buy/contextual/domestic-handling-time.html" target="_blank">receiving cleared payment<b class="g-hdn">[newWindowTxt]</b></a>.</div>
+        						</td>
+        					<td>
+        							<div>Seller charges sales tax for items shipped to: VA (5.0%).</div>
+        							</td>
+        					</tr>
+        			</tbody>
+        		</table>
+        	</div>
+        <!-- GetItFast -->
+        						<!-- Vat Shipping Proce -->
+        						</div>
+        				</div>
+        			<div class="rpMainCont">
+        	<div>
+        	<div id="rpdId" class="rpSubCont">
+        		<div class="section-sttl">
+        			<h3 class="rpHead">
+        				Return policy</h3>
+        			</div>
+        		
+        		<table  width="99%" cellspacing="0" cellpadding="5" border="0" class="rpTbl" >
+        			<tr>
+        					<th width="33%">
+        							<div>
+        								After receiving the item, contact seller within</div>		
+        						</th>
+        						
+        						<th width="33%">
+        								<div>Refund will be given as</div>
+        							</th>							
+        						<th width="33%">
+        									<div>Return shipping</div>
+        								</th>								
+        							</tr>
+        			
+        			<tr>
+        			
+        					<td width="33%" class="rpTblColm">
+        							<div>
+        								14 days</div>		
+        						</td>
+        						
+        						<td width="33%"  class="rpTblColm">
+        								<div>
+        											Money back</div>									
+        									</td>							
+        						<td width="33%"  class="rpTblColm">
+        									<div>Buyer pays return shipping</div>
+        										</td>								
+        							</tr>
+        		</table>
+        			<table  width="99%" cellspacing="0" cellpadding="5" border="0" class="rpTbl" >
+        			</table>
+        			
+        			<br />
+        				<table border="0" width="99%" cellpadding="5" cellspacing="0"  class="rpTbl">
+        					</table>
+        				
+        				</div>
+        	</div>
+        	</div>
+        <div class="pd-cnt">
+        			<div>
+        				<div id="payId" class="pd-inner">
+        					<div class="section-sttl"><h3 class="pd-ttl">Payment details</h3></div>
+        					<div class="pd-data">
+        										<table border="0" cellpadding="0" cellspacing="0" width="99%" class="pd-data-tbl">
+        											<thead>
+        												<tr class="pd-data-hdr">
+        													<th class="pd-data-th">Payment method</th>
+        													<th class="pd-data-th">Preferred / Accepted</th>
+        														<th class="pd-data-th">&nbsp;</th>
+        												</tr>
+        											</thead>
+        											<tbody>
+        												<tr>
+        														<td class="pd-data-col pd-data-aLft">
+        																	<div id="payDet1">
+        																		<img src="http://pics.ebaystatic.com/aw/pics/paypal/imgECheck.gif" alt="Credit or debit card through PayPal" title="Credit or debit card through PayPal" border="0"/>
+        																				</div>
+        																</td>
+        															<td class="pd-data-col pd-data-aLft">
+        																	<div id="payPref1" class="prefpay">
+        																		PayPal Preferred</div>
+        																</td>
+        															<td class="pd-data-col pd-data-aLft">&nbsp;</td>
+        													</tr>
+        													<tr>
+        																<td class="pd-data-col pd-data-aLft">
+        																	<div id="payDet1">
+        																		<img src="http://pics.ebaystatic.com/aw/pics/payments/bml/logoBML_114x44.gif" border="0" alt="Bill Me Later" title="Bill Me Later" />
+        																	</div>
+        																</td>
+        																<td class="pd-data-col pd-data-aLft">
+        																			<div id="payPref1">
+        																				Accepted</div>
+        																		</td>										
+        																	<td class="pd-data-col pd-data-aLft">&nbsp;</td>
+        															</tr>
+        															</tbody>
+        										</table>
+        									</div>
+        								</div>
+        			</div>
+        		</div>
+        	</div>
+        				</div>
+        			<div class="oly_upnl" id="w1-27-_olp"><!-- CurrentBidPrice --><!-- TODO:check a way to organise ID's -->
+        	<!-- YourMaxBidPrice for Confirmation -->
+        	<!-- YourMaxBidPrice/IncreaseBidPrice InputBox -->
+        	<div class="bid pb" style='width:; ' >
+        		<!-- Bid Title -->
+        		<h2 id="w1-29-_title" class="title" >Place bid</h2>
+        		<div class="spcr" ></div>
+        
+        		<!-- Status Messaging : call as a separate JSP TAG -->
+        		<div id="w1-29-_statusMsg_wrp" class="wrapper status" > 
+        			<div class="vimsg" id="w1-30-_o_container">
+        		<div id="w1-30-_o" class="sm-o smm-o smo-c">
+        			<div id="w1-30-_m" class="sm-mc cbg">
+        				<div class="sm-t">
+        					<div id="w1-29-_statusMsg_val" ></div>
+        			</div>
+        			</div>
+        		</div>	
+        	</div>
+        	
+        	</div>
+        		
+        		<!-- TODO:check if End Date is shown in any scenario? -->
+        		
+        		<!-- Time Left -->
+        		<div id="w1-29-_timeLeft_wrp" class="wrapper" >
+        			<div class="lable">Time left:</div>
+        			<div class="flL defaultText"><span id="w1-29-_timeLeft_val" ></span></div>
+        		<div class="spcr " ></div>
+        		</div>
+        		
+        		<!-- Current Bid -->
+        		<div id="w1-29-_cur_wrp" class="wrapper" >
+        			<div class="lable pdT2">Current bid:</div>
+        			<div class="flL">
+        				<span id="w1-29-_cur_val" class="current" ></span>
+        				<span id="w1-29-_cur_invat" class="u-dspn" ></span>
+        				<div id="w1-29-_cur_approx" class="u-dspn approx" >(Approximately ##1##)</div>
+        				<div id="w1-29-_cur_exvat" class="u-dspn" ></div>
+        			</div>
+        		<div class="spcr " ></div>
+        		</div>
+        		
+        		<!-- Shipping -->
+        		<div id="w1-29-_shp_wrp" class="wrapper" >
+        			<div class="lable">Shipping:</div>
+        			<div class="flL"><span id="w1-29-_shp_val" class="fontB " ></span></div>
+        		<div class="spcr" ></div>
+        		</div>
+        		
+        		
+        		<!-- Import charge -->
+        		<div id="w1-29-_impCh_wrp" class="wrapper" >
+        			<div class="lable">Import charges:</div>
+        			<div class="flL">
+        				<span id="w1-29-_impCh_val" class="fontB" ></span>
+        				<span id="w1-29-_impChBid_val" style="font-size:x-small;display:none;">(estimated and based on max bid)</span>
+        				<span id="w1-29-_impChBid_valErr" style="display:none;">To be provided at checkout</span>
+        			</div>
+        		<div class="spcr " ></div>
+        		</div>
+        		 
+        		<div id="w1-29-_grey" class="greyBG" >
+        			<div class="spcr" ></div>
+        			<!-- YourMaxBidPrice for Review -->
+        			<div id="w1-29-_review_wrp" class="wrapper" >
+        				<div class="lable  ">Your max bid:</div>
+        				<div class="flL">
+        					<span id="w1-29-_review_val" class="fontB " ></span>
+        					<span id="w1-29-_review_invat" class="dspn" ></span>
+        					<div id="w1-29-_review_approx" class="u-dspn approx" ></div>
+        					<div id="w1-29-_review_exvat" class="dspn" ></div>
+        				</div>
+        			<div class="spcr" style=""></div>
+        			</div>
+        			
+        			<!-- YourMaxBidPrice/IncreaseBidPrice InputBox -->
+        			<div id="w1-29-_enter_wrp" class="wrapper" >
+        				<div id="w1-29-_enter_lbl" class="lable pT3 " >Your max bid:</div>
+        				<div class="flL" id="">
+        					<span >
+        						<span id="w1-29-_enterw1-29-_currency" class="fontB" ></span>
+        						<input id="w1-29-_enter_val" type="text" maxlength="10" size="8" ></input>
+        					</span>
+        					<span id="w1-29-_enter_invat" class="dspn" ></span>
+        					<div id="w1-29-_enter_approx" class="dspn approx" ></div>
+        					<div id="w1-29-_enter_exvat" class="dspn" ></div>
+        					<div id="w1-29-_enter_min" class="note dspn" style=""></div>
+        				</div>
+        			<div class="spcr" ></div>
+        			</div>
+        		</div>
+        		
+        		
+        		<!-- Confirm Bidding Disclaimer -->
+        		<div id="w1-29-_disc" class="wrapper disclaimer" >
+        		<div class="spcr " ></div>
+        		<div class="spcr" ></div>
+        		By clicking <b>Confirm bid</b>, you commit to buy this item from the seller if you are the winning bidder.</div>
+        		<div id="w1-29-_disc_gsp" class="wrapper disclaimer" >
+        		<div class="spcr " ></div>
+        		<div class="spcr" ></div>
+        		By clicking <b>Confirm bid</b>, you are committing to buy this item from the seller if you are the winning bidder and have read and agree to the Global Shipping Program <a href="http://pages.ebay.com/shipping/globalshipping/buyer-tnc.html">terms and conditions</a>. Import charges previously quoted are subject to change if you increase you maximum bid amount. </div>
+        		<div class="spcr " ></div>
+        		<table class="btnLnk" >
+        			<!-- PlaceBid Button and cancel link -->
+        			<tr id="w1-29-_place_wrp" class="wrapper" >
+        				<td>
+        					<span class="vib  s  bl  vibs1"  >
+        				<input   style=""  id="w1-29-_place_btn" class="bt"  type="button" value="Place bid" 
+        							 title="" />
+        					</span>
+        		</td>
+        				<td>
+        					<span class="lnk" ><a id="w1-29-_place_lnk" href="javascript:;" >Cancel</a></span>
+        				</td>
+        			</tr>
+        		</table>
+        		<!-- Loading Throbber -->
+        		<div id="w1-29-_loading" class="wrapper" >
+        			<div class="throbber" >
+        				<div class="loading">Loading...</div>
+        			</div>
+        		</div>		
+        
+        		
+        		<!-- Resume Bidding Note -->
+        		<div id="w1-29-_resume" class="wrapper resume" >
+        			<a href="http://offer.ebay.com/ws/eBayISAPI.dll?MakeBid&amp;item=190654183378&amp;fromPage=2047675&amp;fb=2">Resume bidding</a>, if the page does not update immediately.</div>
+        		
+        	
+        		<div class="dspn" >
+        			<!-- Status messages -->
+        			<div id="w1-29-_placeBid">Place bid</div>
+        			<div id="w1-29-_reviewYourBid">Review and confirm your bid</div>
+        			<div id="w1-29-_bidConfirmation">Bid confirmation</div>
+        			<div id="w1-29-_d">d</div>
+        			<div id="w1-29-_h">h</div>
+        			<div id="w1-29-_m">m</div>
+        			<div id="w1-29-_s">s</div>
+        			<div id="w1-29-_day">day</div>
+        			<div id="w1-29-_hour">hour</div>
+        			<div id="w1-29-_hours">hours</div>
+        			<div id="w1-29-_freeShipping"><b>FREE shipping</b></div>
+        			<div id="w1-29-_shippingDefault">See item description</div>
+        			<div id="w1-29-_impChargeDefault"><a id="w1-29-_impChLnk" href="Javascript:;">Calculate</a></div>
+        			<div id="w1-29-_approximately">(Approximately ##1##)</div>
+        			<div id="w1-29-_minToBid">(Enter ##1## or more)</div>
+        			<div id="w1-29-_minToBidHighBidder">(Enter more than ##1##)</div>
+        			<div id="w1-29-_yourMaximumBid">Your max bid:</div>
+        			<div id="w1-29-_increaseMaxBid">Increase max bid</div>
+        			<div id="w1-29-_placeBtnTxt">Place bid</div>
+        			<div id="w1-29-_confirmBtnTxt">Confirm bid</div>
+        			<div id="w1-29-_increaseBtnTxt">Increase max bid</div>
+        			<div id="w1-29-_cancel">Cancel</div>
+        			<div id="w1-29-_change">Change bid</div>
+        			<div id="w1-29-_close">Close</div>
+        			
+        			<div id="w1-29-_outBid">You've been outbid. Don't let it get away - bid again!</div>
+        			<div id="w1-29-_highBid">, you're the highest bidder on this item. Hope you win it!</div>
+        			<div id="w1-29-_highBidFrst">You're the first bidder. Hope you win!</div>
+        			<div id="w1-29-_highBid1MaxBidAway">You're currently the high bidder, but you're close to getting outbid.</div>
+        			<div id="w1-29-_highBid60MinsLeft">This auction is almost over and you're currently the high bidder.</div>
+        			<div id="w1-29-_highBidReserveNotMet">You're the high bidder, but the reserve price hasn't been met.</div>
+        			
+        			<div id="w1-29-_decsep">Please enter your bid again.</div> 
+        			<div id="w1-29-_invalidBid">Please enter a valid number as the bid price.</div>
+        			<div id="w1-29-_lowBid">Enter an amount that is equal or greater than the minimum bid required. This can be found under the bid entry box.</div>
+        			<div id="w1-29-_invalidHighBid">Maximum bids can't be lowered once they're submitted.</div>
+        			<div id="w1-29-_noPaypal">This seller requires the buyer to have a PayPal account to purchase this item. <a href="http://www.paypal.com/us/cgi-bin/webscr?cmd=_registration-run">Get a PayPal account here </a>.</div>
+        			<div id="w1-29-_moreThanBin">Your bid is greater than or equal to the Buy It Now price. We recommend you purchase this item via Buy It Now. If you still wish to bid, you may do so below.</div>
+        			
+        		</div>
+        		
+        		<div class="clear"></div>
+        	</div>
+        	
+        	<!-- CurrentBidPrice -->
+        		<!-- YourMaxBidPrice for Review -->
+        		<!-- YourMaxBidPrice/IncreaseBidPrice InputBox -->
+        		</div>
+        	<div class="oly_upnl" id="w1-32-_olp"><!-- CurrentBidPrice --><!-- TODO:check a way to organise ID's -->
+        	<!-- YourMaxBidPrice for Confirmation -->
+        	<!-- YourMaxBidPrice/IncreaseBidPrice InputBox -->
+        	<div class="bid ocb" style='width:; ' >
+        		
+        		<!-- Status Messaging : call as a separate JSP TAG -->
+        		<div id="w1-34-_statusMsg_wrp" class="wrapper dspn" > 
+        			<div class="vimsg" id="w1-35-_o_container">
+        		<div id="w1-35-_o" class="sm-o smi-o smo-c">
+        			<div id="w1-35-_m" class="sm-mc cbg">
+        				<div class="sm-t">
+        					<div id="w1-34-_statusMsg_val" class="status" ></div>
+        			</div>
+        			</div>
+        		</div>	
+        	</div>
+        	
+        	</div>
+        		
+        		<!-- Time Left -->
+        		<div id="w1-34-_timeLeft_wrp" class="wrapper" >
+        			<div class="lable">Time left:</div>
+        			<div class="flL value"><span id="w1-34-_timeLeft_val" class="redTime" ></span></div>
+        			<div class=""><input id="w1-34-_updt_btn" type="button" value="Refresh" ></div>
+        		</div>
+        			
+        		<!-- Current Bid -->
+        		<div id="w1-34-_cur_wrp" class="wrapper" >
+        			<div id="w1-34-_cur_lbl" class="lable pdT2">Current bid:</div>
+        			<div class="flL">
+        				<span id="w1-34-_cur_val" class="current" ></span>
+        				<div id="w1-34-_cur_approx" class="u-dspn approx" >(approximately ##1##)</div>
+        			</div>
+        		<div class="spcr" ></div>
+        		</div>
+        		
+        		<!-- YourMaxBidPrice -->
+        		<div id="w1-34-_review_wrp" class="wrapper" >
+        			<div class="lable">Your maximum bid:</div>
+        			<div class="flL">
+        				<span id="w1-34-_review_val" class="fontB" ></span>
+        				<div id="w1-34-_review_approx" class="u-dspn approx" >(approximately ##1##)</div>
+        			</div>
+        		<div class="spcr" ></div>
+        		</div>
+        		<!-- IncreaseBidPrice InputBox -->
+        		<div id="w1-34-_enter_wrp" class="wrapper" >
+        			<div id="w1-34-_enter_lbl" class="lable " >Increase your maximum bid:</div>
+        			<div class="flL value"  id="">
+        				<span >
+        					<span id="w1-34-_enterw1-34-_currency" class="fontB" ></span>
+        					<input id="w1-34-_enter_val" type="text" maxlength="10" size="8" ></input>
+        				</span>
+        				<div id="w1-34-_enter_approx" class="dspn approx" ></div>
+        			</div>
+        			<div>			
+        				<span class="vib  s  bl  vibs1"  >
+        				<input   style=""  id="w1-34-_ocb_btn" class="bt"  type="button" value="1 Click Bid" 
+        							 title="" />
+        					</span>
+        		</div>
+        		<div class="spcr" ></div>
+        		</div>
+        		
+        		
+        		<!-- Confirm Bidding Disclaimer -->
+        		<div id="w1-34-_disc" class="wrapper disclaimer" >
+        		<div class="spcr height5" ></div>
+        			By clicking <b>1 Click Bid</b>, you commit to buy this item from the seller if you're the winning bidder. <a id="w1-34-_lrn" href="http://pages.ebay.com/help/buy/contextual/fastbidding.html" >Learn more<b class="g-hdn">about 1-click bid  - opens in a new window or tab</b></a>
+        		</div>
+        		
+        		<div id="w1-34-_cls_wrp" class="wrapper dspn flR" >
+        			<div class="clear" ></div>
+        		</div>
+        		
+        		
+        		<div class="dspn" >
+        			<!-- Status messages -->
+        			<div id="w1-34-_day">day</div>
+        			<div id="w1-34-_hour">hour</div>
+        			<div id="w1-34-_min">min</div>
+        			<div id="w1-34-_sec">sec</div>
+        			<div id="w1-34-_days">days</div>
+        			<div id="w1-34-_hours">hours</div>
+        			<div id="w1-34-_mins">mins</div>
+        			<div id="w1-34-_secs">secs</div>
+        			<div id="w1-34-_approximately">(approximately ##1##)</div>
+        			<div id="w1-34-_win">Winning bid:</div>
+        			<div id="w1-34-_start">Starting bid:</div>
+        			
+        			<div id="w1-34-_close">Close</div>
+        			
+        			<div id="w1-34-_aewin">Congrats! The auction has ended and you're the winner.</div>
+        			<div id="w1-34-_aenrwin">The auction has ended, but the reserve price was not met.</div>
+        			<div id="w1-34-_aeout">Sorry, the auction has ended and you were outbid.</div>
+        			<div id="w1-34-_high">Good news, you're the high bidder.</div>
+        			<div id="w1-34-_out">Sorry, you've been outbid.</div>
+        			<div id="w1-34-_highnr">You're the high bidder, but the reserve price is not met.</div> 
+        			<div id="w1-34-_errmin">Please enter a higher amount than the current bid.</div>
+        			<div id="w1-34-_errhigh">Maximum bids cannot be lowered once submitted.</div>
+        			<div id="w1-34-_errmake">Please enter a valid number.</div>
+        			
+        		</div>
+        		
+        		<div class="clear"></div>
+        	</div>
+        	
+        	<!-- CurrentBidPrice -->
+        		<!-- YourMaxBidPrice for Review -->
+        		<!-- YourMaxBidPrice/IncreaseBidPrice InputBox -->
+        		</div>
+        	</div>
+        					<!--[if IE]><style type="text/css">#BottomPanelDF {display: inline-block !important; width: 100%;}</style>
+        					<![endif]-->
+        				<div id="FootPanel">
+        				<!-- Bottom Tool bar -->
+        <div id="merch_html_100009"></div>
+        <div id="merch_html_100010"></div>
+        <div id="rtm_html_11575"></div>
+        	<div>
+        	<div class="ft-btyle">
+        		<span class="ft-rtmStyle">
+        			<div id="rtm_html_825"></div>
+        	</span>
+        		<span class="ft-rtmStyle">
+        			<div id="rtm_html_827"></div>
+        	</span>
+        		<span class="ft-rtmStyle">
+        			<div id="rtm_html_829"></div>
+        	</span>
+        		<div class="u-cb"></div>
+        	</div>
+        </div>
+        <div id="merch_html_100047"></div>
+        <div class="vi-btb-blinks">
+        		<span>
+        			<span class="" style="white-space:nowrap;"> 
+        					<a href="http://www.ebay.com" title="Click to Go Back to home page" id="smtBackToAnchor">
+        						<span>Back to home page</span>
+        					</a>
+        			</span>
+        		</span>
+        			<a href="#" id="_rtop" class="vi-btb-Rt">Return to top</a>
+        	</div>
+        <div id="glbfooter" class="gh-post1010
+         gh-w"><div><div id="rtm_html_1650" style="height: 0px; display: none;"></div><div id="rtm_html_1651" style="height: 0px; display: none;"></div></div><table class="gf-BIG-t" border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td class="g-pipe" colspan=2><a _sp="m571.l2602" class="thrd" href="http://www.ebayinc.com">About eBay</a> | <a _sp="m571.l3329" class="thrd" href="http://community.ebay.com/index.jspa">Community</a> | <a _sp="m571.l3330" class="thrd" href="http://announcements.ebay.com/">Announcements</a> | <a _sp="m571.l2616" class="thrd" href="http://pages.ebay.com/securitycenter/index.html">Security Center</a> | <a _sp="m571.l2604" class="thrd" href="http://pages.ebay.com/help/policies/overview.html">Policies</a> | <a _sp="m571.l1625" class="thrd" href="http://pages.ebay.com/sitemap.html">Site Map</a> | <a _sp="m571.l2606" class="thrd" href="http://viv.ebay.com/ws/eBayISAPI.dll?EbayTime">eBay official time</a> | <a _sp="m571.l1617" class="thrd" href="http://garden.ebay.com">Preview new features</a> | <a _sp="m571.l2911" class="thrd" href="http://ocs.ebay.com/ws/eBayISAPI.dll?CustomerSupport">Contact us</a> | <a id="gh-surveyLink" _sp="m571.l2628" target="eBaySurvey" class="thrd" rel="nofollow" href="http://qu.ebay.com/survey?srvName=globalheader+%28new-header%29">Tell us what you think</a><form class="gh-hdn g-hdn" target="eBaySurvey" method="post" id="gh-surveyForm"	action="http://qu.ebay.com/survey?srvName=globalheader+%28new-header%29"><input value="" name="domContent"></form></td></tr><tr valign="top"><td class="gf-legal">Copyright &copy; 1995-2012 eBay Inc. All Rights Reserved. <a _sp="m571.l2612" class="thrd" href="http://pages.ebay.com/help/policies/user-agreement.html?rt=nc">User Agreement</a> and <a _sp="m571.l2613" class="thrd" href="http://pages.ebay.com/help/policies/privacy-policy.html?rt=nc">Privacy Policy</a>.</td></tr></tbody></table>
+        <div id="cobrandFooter"></div></div><!--ts:2012.10.12.17:47--><!--rq:--></div>
+        		</div></div>
+        	
+        	
+        	<div id="JSDF"><script src="http://ir.ebaystatic.com/z/e2/1x0t00empizvveetlftnr1mxm.js" type="text/javascript"></script><script type="text/javascript" src="http://gh.ebaystatic.com/header/js/rpt.min?combo=53&app=RAPTOR&siteid=0&factor=REFRESHER&rvr=99"></script><script src="http://ir.ebaystatic.com/z/ug/2knrgsuqfa24nfrdmzfdcqjcy.js" type="text/javascript"></script><script src="http://ir.ebaystatic.com/z/ui/pd5kwtm0be3drocrk1bxbfwee.js" type="text/javascript"></script><script type="text/javascript">(function(){
+        		raptor.require('raptor.rtm.RtmManager').manage({"ver":5,"jsDependencyURLs":["http://ir.ebaystatic.com/z/yw/4eeyvqbioqzgrdzjxqewsyrtn.js","http://ir.ebaystatic.com/z/yg/ay42dc4xd20q5efg21zp5xc1r.js","http://ir.ebaystatic.com/z/qh/1xqcbqdtby5jxivfcveb1thwq.js","http://ir.ebaystatic.com/z/un/pl31anukri31hlt3o2cfigrud.js","http://ir.ebaystatic.com/z/20/qpl3znc0jm2mden1e21byi4kz.js"],"fallbackBaseURL":"http://srv.ebay.com/ws/eBayISAPI.dll?RtmCmd","placementsInfo":[[1527,1,0,0],[11575,1,0,0],[825,1,0,0],[827,1,0,0],[829,1,0,0]],"baseURL":"http://srx.main.ebayrtm.com/rtm?RtmCmd&a=json&g=5c83d31313a0a56a0f277a17fffed8fa&uf=0&c=1H4sIAAAAAAAAAD2QT0vDQBDF7%2FkUA4IHoTL7J9lsYA6ppkFo2kOqIHjZJkGXxqSu6cFv7yRFT%2FOYeczvzdzUboJ9M4FQIJJM60xpKKvDCk2GCBKFjM4KU9LRWShNMsZ7ZGlZJmYWgtZ%2BaFmZlNbjePp%2BuyCiyIfJf11c8G6AW3gY%2B75rJn%2Fsu%2Bt49sckrZQqanxLQl77Av%2FnWhMDJLNxLuaPzdylkyQkOZzkVCv2SxuTUCLWHHP2I22CG069H2Drj8GFH1AvUNR1%2FlrDfgPVfnfIn8pdAdvOTR9dgDKwgOUGENZYeBwH17fAez474ESpIonaJCbmn6SG3m31nOfFHeP4mOUtloTFhEOkSpk0%2BgX%2FJTR1XwEAAA%3D%3D&ord=1350171874197"});
+        		
+        			$("body").trigger("RTM_REGISTER_PLACEMENTS",{'placementsInfo':[[876,0,0,0],[912,0,0,0],[433,0,0,0],[1650,1,0,0],[1651,1,0,0]]});
+        		
+        			$("body").trigger("RTM_INIT",{'init':0});
+        		})();</script><script type="text/javascript">(function(){ if (typeof GH != "undefined" && GH) { GH_config = { siteId:"0", algo:"1349938015", catId:"0", sin:0,pageId:2047675,selectedCatId:'267',notifCfg:{"d":1,"n":0}};GH.init();}
+        	$(".bc-w a").click(function(){		
+        		trackingUtil("Breadcrumb_Links");
+        	});
+        	if ($.browser.msie) {
+        		if ($.browser.version < 8) {
+        			$("#vi-bcrumb1").css("vertical-align","text-top");
+        			//$("#vi-bcrumb-smb").css("width","120%");
+        			if (screen.width <= 1050) {
+        				$("span.smbHead").css("padding-right","10px");
+        				$("span.smbHead a").css("padding-right","10px");
+        			}
+        		} else {
+        			$("#vi-bcrumb1").css("vertical-align","middle");
+        			$("#vi-bcrumb-pipe").css("padding-top","2px");
+        			$("#vi-bcrumb-survy").css("padding-top","2px");			
+        			
+        		}		
+        	} else {
+        		$("#vi-bcrumb1").css("vertical-align","text-bottom");
+        	}
+        $("#e0").click(function(){trackingUtil("ITEM_CONDITION");try{$("#viTabs_0").trigger('click', ['noTabTracking']);}catch(e){$("#viTabs_1").trigger('click', ['noTabTracking']);}});$("#e2").click(function(){trackingUtil("Shipping_See_all_details_ItemSummary");try{$("#viTabs_1")[0].trigger('click', ['noTabTracking']);}catch(e){$("#viTabs_1").trigger('click', ['noTabTracking']);}});$("#expedited_link").click(function(){trackingUtil("OneDayShipping_Link_in_Delivery_Expedited_Shipping");try{$("#viTabs_1")[0].trigger('click', ['noTabTracking']);}catch(e){$("#viTabs_1").trigger('click', ['noTabTracking']);}});$("#e3").click(function(){trackingUtil("Calculate_link_ItemSummary");try{$("#viTabs_1")[0].trigger('click', ['noTabTracking']);}catch(e){$("#viTabs_1").trigger('click', ['noTabTracking']);}});
+        	$("#e4").click(function(){
+        		try{
+        		$("#viTabs_1")[0].trigger('click', ['noTabTracking']);
+        		}catch(e){
+        			$("#viTabs_1").trigger('click', ['noTabTracking']);
+        		}
+        		trackingUtil("See_exclusions_itemInfo");		
+        	});
+        
+        	$("#e5").click(function(){
+        		try{
+        			$("#viTabs_1")[0].trigger('click', ['noTabTracking']);
+        		}catch(e){
+        			$("#viTabs_1").trigger('click', ['noTabTracking']);
+        		}
+        		trackingUtil("Payments_See_details_Iteminfo");		
+        	});
+        
+        var isBusinessSlr = false;
+        
+        if (!isBusinessSlr) {
+        
+        	$("#e6").click(function(){		
+        		try{
+        		$("#viTabs_1")[0].trigger('click', ['noTabTracking']);
+        		}catch(e){
+        			$("#viTabs_1").trigger('click', ['noTabTracking']);
+        		}
+        		trackingUtil("Returns_Read_details");
+        	});
+        	
+        	$("#vi-VR-return-deLnk").click(function(){		
+        		try{
+        		$("#viTabs_1")[0].trigger('click', ['noTabTracking']);
+        		}catch(e){
+        			$("#viTabs_1").trigger('click', ['noTabTracking']);
+        		}
+        		trackingUtil("Returns_Read_details");
+        	});
+        	
+        	
+        }
+        
+        	$("#").click(function(){
+        		$("#viTabs_0")[0].click();
+        	});
+        
+        	var ia = raptor.require('com.ebay.raptor.vi.ItemAttributes');
+        	<!-- TODO: remove hardcoded ID -->
+        	new ia({readMoreId : 'readFull', hiddenContentId : 'hiddenContent'});
+        
+        
+        	$("#viTabs_0").bind('click', function(event, param) {		
+        		if(param !== 'noTabTracking') {
+        			trackingUtil("Description_Tab");
+        		}
+        	});
+        
+        	$('ul.nav-tabs-m a').click(function (event) {
+        		event.stopPropagation();
+        		var id = $(this).parent().index();
+        		if ($(this).parent().attr("class") != "item active sel") {
+        			
+        			$('ul.nav-tabs-m li').each(function(index) {
+        			    $(this).toggleClass("active sel");
+        			});
+        	
+        			$('div.tab-content-m div').each(function(index) {
+        			    $(this).toggleClass("active sel");
+        			});
+        		}
+        	});
+        
+        	
+        	$("#viTabs_1").bind('click', function(event, param) {		
+        		if(param !== 'noTabTracking') {
+        			trackingUtil("Shipping_and_Payments_Tab");
+        		}
+        	});
+        
+        	$(".rpMainCont a").attr('target','_blank');	
+        
+        	$("#_rtop").click(function(){		
+        		trackingUtil("Return_to_top");
+        	});
+        raptor.require('widgets').initAll(['com.ebay.raptor.vi.isum.smartBackTo','w1-1','smbWidget',{"isBacktoSearch":false,"showIcon":true,"smtBackToAnchorId":"smtBackToAnchor"}],['ui.InlineFeedbackLink','w1-2',null],['com.ebay.raptor.vi.overlayHandler','w1-3','overlayHandelrvire'],['com.ebay.raptor.vi.topmessagepanel.TopMessagePanel','w1-4','sm',{"CHINESE_BUYER_OUTBIDDER_PC_ON":"You've been outbid. ","smId":"w1-4-_msg","dummy":"##n##","CHINESE_BUYER_HIGH_BIDDER_RESERVE_NOT_MET_PC_ON":"You're the highest bidder but the reserve price has not been met. ","CHINESE_BUYER_HIGH_BIDDER_PC_ON":"You're the highest bidder. ","panelId":"msgPanel","autoRefreshSvcId":"AUTO_REFRESH_SVC"}],['com.ebay.raptor.vi.topmessagepanel.ListPanel','w1-5','lPnl',{"isHideStatusMsgPanel":true,"listNamePH":"##1##","msgPanel":"msgPanel","listMsg":"w1-5-_lmsg","listContainer":"w1-5-_lstC","REMOVE":"Remove \u003Ci class=\"u-hdn\">list\u003C\u002Fi> ","remove":"w1-5-_rmv","REMOVE_ALL":"Remove all \u003Ci class=\"u-hdn\">lists\u003C\u002Fi> ","listPanel":"w1-5-_lstP","listCountPH":"##2##","newListCountPH":"##5##","iconCSS":"lPnlHdr","isShowingWatchMsg":false,"isRefresh":false,"ADDEDTO_ONE_LIST_ONE_OTHER":"Added to your \u003Ca href=\"##3##\">##1##\u003C\u002Fa> list and \u003Ca id=\"w1-5-_icn\" href=\"##4##\">\u003Cspan id=\"w1-5-_lstP_li_sp\" class=\"\">1 other list\u003C\u002Fspan>\u003C\u002Fa>","ONLOAD_WATCHLIST":"Saved in your \u003Ca href=\"##3##\">\u003Cspan id=\"w1-5-_lstP_li_sp\" class=\"\">Watch list\u003C\u002Fspan>\u003C\u002Fa>","ADDEDTO_WISHLIST_MULTIPLE_OTHER":"Added to your \u003Ca href=\"##3##\">Wish list\u003C\u002Fa> and \u003Ca id=\"w1-5-_icn\" href=\"##4##\">\u003Cspan id=\"w1-5-_lstP_li_sp\" class=\"\">##2## other lists \u003Cimg src=\"http:\u002F\u002Fpics.ebaystatic.com\u002Faw\u002Fpics\u002Ficons\u002FiconSortdownblue.gif\" alt=\" \" border=\"0\" height=\"5\" width=\"9\"\u002F>\u003C\u002Fspan>\u003C\u002Fa>","ADDEDTO_WATCHLIST_MULTIPLE_OTHER":"Added to your \u003Ca href=\"##3##\">Watch list\u003C\u002Fa> and \u003Ca id=\"w1-5-_icn\" href=\"##4##\">\u003Cspan id=\"w1-5-_lstP_li_sp\" class=\"\">##2## other lists \u003Cimg src=\"http:\u002F\u002Fpics.ebaystatic.com\u002Faw\u002Fpics\u002Ficons\u002FiconSortdownblue.gif\" alt=\" \" border=\"0\" height=\"5\" width=\"9\"\u002F>\u003C\u002Fspan>\u003C\u002Fa>","ADDEDTO_ONE_LIST":"Added to your \u003Ca href=\"##3##\">\u003Cspan id=\"w1-5-_lstP_li_sp\" class=\"\">##1##\u003C\u002Fspan>\u003C\u002Fa> list","removeContainer":"w1-5-_rmvC","triggerRemoveSvcId":"_TRIGGER_REMOVE_SVC_ID","ADDEDTO_WISHLIST_ONE_OTHER":"Added to your \u003Ca href=\"##3##\">Wish list\u003C\u002Fa> and \u003Ca id=\"w1-5-_icn\" href=\"##4##\">1 other list\u003C\u002Fa>","ADDEDTO_WATCHLIST_ONE_OTHER":"Added to your \u003Ca href=\"##3##\">Watch list\u003C\u002Fa> and \u003Ca id=\"w1-5-_icn\" href=\"##4##\">1 other list\u003C\u002Fa>","otherLinkPH":"##4##","ADDEDTO_MULIPLE_NEW_LIST_MULTIPLE_OTHER":"Added to ##5## lists and \u003Ca id=\"w1-5-_icn\" href=\"##4##\">\u003Cspan id=\"w1-5-_lstP_li_sp\" class=\"\">##2## other lists \u003Cimg src=\"http:\u002F\u002Fpics.ebaystatic.com\u002Faw\u002Fpics\u002Ficons\u002FiconSortdownblue.gif\" alt=\" \" border=\"0\" height=\"5\" width=\"9\"\u002F>\u003C\u002Fspan>\u003C\u002Fa>","ADDEDTO_ONE_LIST_MULTIPLE_OTHER":"Added to your \u003Ca href=\"##3##\">##1##\u003C\u002Fa> list and \u003Ca id=\"w1-5-_icn\" href=\"##4##\">\u003Cspan id=\"w1-5-_lstP_li_sp\" class=\"\">##2## other lists \u003Cimg src=\"http:\u002F\u002Fpics.ebaystatic.com\u002Faw\u002Fpics\u002Ficons\u002FiconSortdownblue.gif\" alt=\" \" border=\"0\" height=\"5\" width=\"9\"\u002F>\u003C\u002Fspan>\u003C\u002Fa>","ONLOAD_MULITPLE_LIST":"Saved to \u003Ca href=\"##3##\">\u003Cspan id=\"w1-5-_lstP_li_sp\" class=\"\">##2## lists \u003Cimg src=\"http:\u002F\u002Fpics.ebaystatic.com\u002Faw\u002Fpics\u002Ficons\u002FiconSortdownblue.gif\" alt=\" \" border=\"0\" height=\"5\" width=\"9\"\u002F>\u003C\u002Fspan>\u003C\u002Fa>","ADDEDTO_WATCHLIST":"Added to your \u003Ca href=\"##3##\">Watch list\u003C\u002Fa>","ADDEDTO_WISHLIST":"Added to your \u003Ca href=\"##3##\">Wish list\u003C\u002Fa>","myEBayURL":"javascript:;","listLinkPH":"##3##","msgPanelContentId":"w1-4-_msg","ADDEDTO_MULIPLE_NEW_LIST_ONE_OTHER":"Added to ##5## lists and \u003Ca id=\"w1-5-_icn\" href=\"##4##\">\u003Cspan id=\"w1-5-_lstP_li_sp\" class=\"\">1 other list\u003C\u002Fspan>\u003C\u002Fa>","listAddSvcId":"_LIST_ADD_SVC_ID","icon":"w1-5-_lstP_li_sp","ONLOAD_SINGLE_LIST":"Saved in your \u003Ca href=\"##3##\">\u003Cspan id=\"w1-5-_lstP_li_sp\" class=\"\">##1##\u003C\u002Fspan>\u003C\u002Fa> list","ADDEDTO_MULIPLE_NEW_LIST":"Added to ##5## lists","listMsgContainer":"w1-5-_lmsgC","ONLOAD_WISHLIST":"Saved in your \u003Ca href=\"##3##\">\u003Cspan id=\"w1-5-_lstP_li_sp\" class=\"\">Wish list\u003C\u002Fspan>\u003C\u002Fa>"}],['ebay.viewItem.PicturePanel','w1-6','vi_pic_panel',{"fsImgList":[{"thumbImgUrl":"http:\u002F\u002Fi.ebayimg.com\u002Ft\u002FFranklin-Library-3V-ESSAYS-OF-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-\u002F00\u002F$(KGrHqIOKiYE2of1(,woBN2CSp3Mm!~~_39.JPG","thumbImgSize":null,"displayImgUrl":"http:\u002F\u002Fi.ebayimg.com\u002Ft\u002FFranklin-Library-3V-ESSAYS-OF-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-\u002F00\u002F$(KGrHqIOKiYE2of1(,woBN2CSp3Mm!~~_35.JPG","displayImgSize":null,"zoomEnabled":false,"enlargeEnabled":true,"maxImageUrl":"http:\u002F\u002Fi.ebayimg.com\u002Ft\u002FFranklin-Library-3V-ESSAYS-OF-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-\u002F00\u002F$(KGrHqIOKiYE2of1(,woBN2CSp3Mm!~~_12.JPG"}],"id":"vi_pic_panel"},[['ebay.viewItem.ZoomEnlarge','w1-7','vi_pic_zoomEnlarge',{"zoomEnMsgId":"zoom_enlarge_msg","mainImgId":"icImg","id":"vi_pic_zoomEnlarge","zoomMsg":"Mouse over image to zoom","enlargeMsg":"Click to view larger image","zoomEnMsgCntId":"zoom_enlarge_msg_cnt"},[['ebay.viewItem.Enlarge','w1-8','vi_pic_enlarge',{"en_fs_ul_id":"en_fs_ul","totalThImg":"0","enlargeImgId":"en_img_id","imgSpan":"en_img_span","fsPanelId":"enlarge_img_fs","thWidth":"50.0px","mainImgElmId":"icImg","olyId":"vi_pic_enlarge_oly","enlarge_panel":"enlarge_panel","id":"vi_pic_enlarge","thHeight":"44px","imgSpanCnt":"en_img_span_cnt","imgPanelId":"enlarge_img_panel","imgArr":[{"thumbImgUrl":"http:\u002F\u002Fi.ebayimg.com\u002Ft\u002FFranklin-Library-3V-ESSAYS-OF-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-\u002F00\u002F$(KGrHqIOKiYE2of1(,woBN2CSp3Mm!~~_39.JPG","thumbImgSize":null,"displayImgUrl":"http:\u002F\u002Fi.ebayimg.com\u002Ft\u002FFranklin-Library-3V-ESSAYS-OF-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-\u002F00\u002F$(KGrHqIOKiYE2of1(,woBN2CSp3Mm!~~_35.JPG","displayImgSize":null,"zoomEnabled":false,"enlargeEnabled":true,"maxImageUrl":"http:\u002F\u002Fi.ebayimg.com\u002Ft\u002FFranklin-Library-3V-ESSAYS-OF-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-\u002F00\u002F$(KGrHqIOKiYE2of1(,woBN2CSp3Mm!~~_12.JPG"}]},[['ui.Overlay','w1-9','vi_pic_enlarge_oly',{"hasCloseButton":true,"noFixedPos":true,"id":"vi_pic_enlarge_oly","modal":true,"closeOnBodyClick":true}]]]]]]],['com.ebay.raptor.vi.share.ShareLinks','w1-10',null,{"plaModel":{"key":{"name":"PageLevelActions","id":31,"value":31,"integer":31},"printLink":"http:\u002F\u002Fcgi.ebay.com\u002Fws\u002FeBayISAPI.dll?ViewItem&rt=nc&item=190654183378&si=Fo1C1ZeJUseDU5ewGwuP%2FjeyuDw%3D&print=all&category=29223","reportLink":"http:\u002F\u002Fcgi1.ebay.com\u002Fws\u002FeBayISAPI.dll?ReportThisItemRedirect&_trksid=p2047675.l2566&rt=nc&active=1&itemid=190654183378&seller=zedsbooks","faceBookLikeButtonEnabled":true,"socialSignalsEnabled":true,"socialSignalsJsUrl":"http:\u002F\u002Fir.ebaystatic.com\u002Fz\u002Fen\u002Fy4rh13jhra1p1hxfbirnqn1ty.js","shareWidgetJsUrl":"http:\u002F\u002Fir.ebaystatic.com\u002Fz\u002Fql\u002Fe00mygfypm3epblfql5lts3tr.js","canonicalUrl":"http:\u002F\u002Fwww.ebay.com\u002Fitm\u002FFranklin-Library-3V-ESSAYS-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-\u002F190654183378"},"shareJsElmId":"ebay-scShare","canonicalurl":"http:\u002F\u002Fwww.ebay.com\u002Fitm\u002FFranklin-Library-3V-ESSAYS-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-\u002F190654183378","isProdEnv":true,"signalsJsElmId":"ebay-scjs","widgetType":"SIGNALS"}],['com.ebay.raptor.vi.share.ShareLinks','w1-11',null,{"plaModel":{"key":{"name":"PageLevelActions","id":31,"value":31,"integer":31},"printLink":"http:\u002F\u002Fcgi.ebay.com\u002Fws\u002FeBayISAPI.dll?ViewItem&rt=nc&item=190654183378&si=Fo1C1ZeJUseDU5ewGwuP%2FjeyuDw%3D&print=all&category=29223","reportLink":"http:\u002F\u002Fcgi1.ebay.com\u002Fws\u002FeBayISAPI.dll?ReportThisItemRedirect&_trksid=p2047675.l2566&rt=nc&active=1&itemid=190654183378&seller=zedsbooks","faceBookLikeButtonEnabled":true,"socialSignalsEnabled":true,"socialSignalsJsUrl":"http:\u002F\u002Fir.ebaystatic.com\u002Fz\u002Fen\u002Fy4rh13jhra1p1hxfbirnqn1ty.js","shareWidgetJsUrl":"http:\u002F\u002Fir.ebaystatic.com\u002Fz\u002Fql\u002Fe00mygfypm3epblfql5lts3tr.js","canonicalUrl":"http:\u002F\u002Fwww.ebay.com\u002Fitm\u002FFranklin-Library-3V-ESSAYS-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-\u002F190654183378"},"shareJsElmId":"ebay-scShare","canonicalurl":"http:\u002F\u002Fwww.ebay.com\u002Fitm\u002FFranklin-Library-3V-ESSAYS-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-\u002F190654183378","isProdEnv":true,"signalsJsElmId":"ebay-scjs","widgetType":"SHARE"}],['ebay.viewItem.AddToWatchLink','w1-12','watchItm',{"msku":false,"linkTopId":"linkTopAct","id":"watchLink","userSignedIn":false,"addToWatchUrl":"http:\u002F\u002Fcgi1.ebay.com\u002Fws\u002FeBayISAPI.dll?MakeTrack&_trksid=p2047675.l1359&rt=nc&item=190654183378&tagId=-99&sourcePage=4340&ssPageName=VIP:watchlink:top:en&wt=ef297dee67fe2674d8a7786e802c309b&etn=Watch list"}],['raptor.vi.ActionPanel','w1-13',null,{"binBtnId":"binBtn_btn","qtyBoxId":"qtyTextBox","isValid":"isValid","bolEnabled":"t","bestOfferURL":"http:\u002F\u002Foffer.ebay.com\u002Fws\u002FeBayISAPI.dll?MakeBestOffer&rev=5&itemId=190654183378","binURL":"http:\u002F\u002Foffer.ebay.com\u002Fws\u002FeBayISAPI.dll?BinController&_trksid=p2047675.l1356&rev=5&item=190654183378&fromPage=2047675&quantity=1&fb=1&gch=1","binEnabled":"f","isModel":{"key":{"name":"ItemSummary","id":1,"value":1,"integer":1},"nonJS":true,"signedIn":false,"binAvailable":true,"bidingAvailable":false,"buyAnother":false,"bidMore":false,"minToBidPrice":null,"showBidLayer":true,"largeButton":false,"itmCondition":"--","binPrice":"US $250.00","binURL":"http:\u002F\u002Foffer.ebay.com\u002Fws\u002FeBayISAPI.dll?BinController&_trksid=p2047675.l1356&rev=5&item=190654183378&fromPage=2047675&quantity=1&fb=1&gch=1","bidPrice":null,"bidURL":null,"bids":0,"bidCurrencySymbol":null,"lotSize":0,"remainQty":1,"maxQtyPerBuyer":0,"availableQuantityThreshold":10,"totalOffers":0,"qtyPurchased":0,"totalBids":0,"timeLeft":{"daysLeft":28,"hoursLeft":13,"minutesLeft":30,"secondsLeft":50},"siteId":0,"versionView":false,"versionQtyTxt":null,"ended":false,"supressQty":false,"sellerView":false,"newCVIPView":false,"printView":false,"previewItem":false,"scheduled":false,"sold":false,"won":false,"totalQty":1,"bidHistoryUrl":null,"gtc":true,"halfOnCore":false,"txnSaleDate":null,"startTime":1331903724000,"endTime":1352639724000,"bid":false,"bin":true,"expired":false,"locale":null,"convertedBinPrice":null,"convertedBidPrice":null,"maxBidPrice":null,"bestOffer":true,"reviewOffer":false,"bestOfferURL":"http:\u002F\u002Foffer.ebay.com\u002Fws\u002FeBayISAPI.dll?MakeBestOffer&rev=5&itemId=190654183378","reserveNotMet":false,"oneClickBid":false,"bidCounterModel":null,"shopCart":true,"shopCartURL":"http:\u002F\u002Fpayments.ebay.com\u002Fws\u002FeBayISAPI.dll?ShopCartProcessor&_trksid=p2047675.l1473&atc=true&item=190654183378&ssPageName=CART:ATC&quantity=1","originalRetailPrice":null,"amtSaved":null,"minAdvertisedPriceExposure":"NONE","pricingTreatment":"NONE","soldOnEBay":false,"soldOffEBay":false,"savingsPercent":null,"buyerView":false,"duringCheckoutUrl":"http:\u002F\u002Foffer.ebay.com\u002Fws\u002FeBayISAPI.dll?BinController&_trksid=p2047675.l2646&rev=5&item=190654183378&fromPage=2047675&quantity=1&fb=1&gch=1","signInUrlWithCartLayerReturn":null,"dsplStpHlpIcon":false,"dsplStpLblVar":false,"shopCartPageURL":"http:\u002F\u002Fpayments.ebay.com\u002Fws\u002FeBayISAPI.dll?ShopCart&ssPageName=VIFS:ATC","binLayer":false,"binLayerURL":null,"signInBinLayerURL":null,"binOnLoad":false,"itemInCart":false,"promoSaleOn":false,"originalPrice":null,"discountedPrice":null,"promoSaleTimeLeft":null,"discountedPercentage":0,"itemRevised":true,"itemRevisionDate":"Aug 22, 2012 05:37:28 PDT","itemRevisionLink":"http:\u002F\u002Fcgi.ebay.com\u002Fws\u002FeBayISAPI.dll?ViewItemRevisionDetails&_trksid=p2047675.l2569&rt=nc&item=190654183378","remnantSetValue":0,"minRemnantSetEnabled":false,"buyerGuaranteeEnabled":true,"buyerGuaranteeUnavailabilityReasonCode":"DEFAULT","ebpbannerRedesign":false,"goTogetherModel":null,"groupGiftModel":null,"classifiedAd":false,"realEstateItem":false,"bestOfferLayer":true,"bestOfferLayerURL":"http:\u002F\u002Foffer.ebay.com\u002Fws\u002FeBayISAPI.dll?MakeQuickBestOffer&rev=5&rptr=1&itemId=190654183378","signInBestOfferLayerURL":"https:\u002F\u002Fsignin.ebay.com\u002Fws\u002FeBayISAPI.dll?SignIn&ru=http%3A%2F%2Fwww.ebay.com%2Fitm%2FFranklin-Library-3V-ESSAYS-OF-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-%2F190654183378%3Fboolp%3D1","boOnLoad":false,"adminView":false,"euBasePrice":null,"origClosedViewItemUrl":null,"privateSale":false,"vatIncluded":false,"vatExcluded":false,"disableMerchOnVI":false,"currentVatPrice":null,"binVatPrice":null,"currentVatConvertedPrice":null,"binVatConvertedPrice":null,"binController":true,"duringCheckoutLayerUrl":null,"quantity":null,"binLayerEnabled":false,"currencyCode":"USD","showBidsCount":false,"showBidsCountHot":false,"showQtyPurchased":false,"showQtyPurchasedHot":true,"showQtyRemaining":false,"showQtyRemainingHot":true,"binLayerSigninRedirectVIEnabled":false,"conditionDetailEnabled":false,"conditionDetail":null},"bestOfferBtnId":"boBtn_btn"},[['com.ebay.raptor.vi.VIButton','w1-14','binBtn',{"mouseDownClass":"md","btnId":"binBtn_btn"}],['ebay.viewItem.Cart','w1-15','isCartBtn',{"cartOlayId":"isCartBtn_olay","cartBtnId":"isCartBtn_btn","id":"isCartBtn_btn","cartUrl":"http:\u002F\u002Fpayments.ebay.com\u002Fws\u002FeBayISAPI.dll?ShopCartProcessor&_trksid=p2047675.l1473&atc=true&item=190654183378&ssPageName=CART:ATC&quantity=1"},[['com.ebay.raptor.vi.VIButton','w1-16','isCartBtn',{"mouseDownClass":"md","btnId":"isCartBtn_btn"}]]],['com.ebay.raptor.vi.VIButton','w1-17','boBtn',{"mouseDownClass":"md","btnId":"boBtn_btn"}],['raptor.vi.BestOffer','w1-18',null,{"boOnLoad":false,"mkQkBoSiUrl":"https:\u002F\u002Fsignin.ebay.com\u002Fws\u002FeBayISAPI.dll?SignIn&ru=http%3A%2F%2Fwww.ebay.com%2Fitm%2FFranklin-Library-3V-ESSAYS-OF-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-%2F190654183378%3Fboolp%3D1","boTrbrId":"_BO_TRBR_ID","isRO":"f","boCntId":"_BO_CNT_ID","mkQkBoUrl":"http:\u002F\u002Foffer.ebay.com\u002Fws\u002FeBayISAPI.dll?MakeQuickBestOffer&rev=5&rptr=1&itemId=190654183378","boOlyId":"e1"},[['ui.Overlay','w1-19','e1',{"hasCloseButton":true,"noFixedPos":true,"id":"e1","modal":true}]]]]],['ebay.viewItem.AddToList','w1-20','',{"charLimit":35,"watchListId":"-99","addtoNewBtmErrId":"atl_atn_btm_err_Id","addtoNewInputTxt":"Type a new list name here","drpdwnMinWidth":"150","itemId":"190654183378","msku":false,"drpdwnListId":"atl_drpdwnListId","addtoNewDivErrId":"atl_atn_div_err_Id","watchListFullTxt":"Watch list is full","atnId":"atl_atnId","isUserSignedIn":false,"addtoReplaceTxt":"Add to $","id":"add_to_list_dropdown","addtoNewDefErrId":"atl_atn_def_err_Id","userListModel":{"key":{"name":"UserList","id":33,"value":33,"integer":33},"listMenus":[{"listId":"-99","listName":"Watch list","listURL":"javascript:;","disabled":false,"full":false,"watchList":true},{"listId":"-97","listName":"Wish list","listURL":"javascript:;","disabled":false,"full":false,"watchList":false}],"addToNewDisabled":false,"maxListsAllowed":50,"variationMap":null,"removeFromListBaseURL":"http:\u002F\u002Fmy.ebay.com\u002Fws\u002FeBayISAPI.dll?MyEbayBeta&vi=true&SubmitAction.DeleteListEntries=x","listNameMaxChars":35,"myEbayListBaseUrl":"http:\u002F\u002Fmy.ebay.com\u002Fws\u002FeBayISAPI.dll?MyEbayBeta&CurrentPage=MyeBayNextListIndex"},"addToNewDisabled":false,"myEbayWatchListUrl":"http:\u002F\u002Fmy.ebay.com\u002Fws\u002FeBayISAPI.dll?MyEbayBeta&CurrentPage=MyeBayNextWatching&ssPageName=STRK:ME:LNLK:MEWAX","statusMsgId":"atl_status_msg","addtoNewRespErrId":"atl_atn_resp_err_Id","addedToWishListTxt":"Added to your Wish list","myEbayOtherListBaseUrl":"http:\u002F\u002Fmy.ebay.com\u002Fws\u002FeBayISAPI.dll?MyEbayBeta&CurrentPage=MyeBayNextListIndex","wishListTrackingParam":"p2047675.l2876","drpdwnLayerId":"atl_drpdwnLayerId","otherListFullTxt":"$ is full","drpdwnMaxWidth":"300","addToWatchUrl":"http:\u002F\u002Fcgi1.ebay.com\u002Fws\u002FeBayISAPI.dll?MakeTrack&_trksid=p2047675.l1360&rt=nc&item=190654183378&sourcePage=4340&ssPageName=VIP:watchlink:top:en&SubmitAction.AddToListVI=x&wt=ef297dee67fe2674d8a7786e802c309b","wishListFullTxt":"Wish list is full","cancelBtnId":"atl_atn_cancel_btn_Id","myEbayBaseUrl":"http:\u002F\u002Fmy.ebay.com\u002Fws\u002FeBayISAPI.dll?MyEbayBeta&entityInfo=190654183378^ITEM&ru=http%3A%2F%2Fwww.ebay.com%2Fitm%2FFranklin-Library-3V-ESSAYS-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-%2F190654183378&vi=true&SubmitAction.AddToListVI=x&pItemId=190654183378","atwDisabled":false,"statusMsgTxt":"Added to your $ list","atwAltCaption":"Add to list","addtoNewInputId":"atl_atn_input_Id","atlArrId":"atl_arr","removeListUrl":"http:\u002F\u002Fmy.ebay.com\u002Fws\u002FeBayISAPI.dll?MyEbayBeta&vi=true&SubmitAction.DeleteListEntries=x","addtoNewBtnId":"atl_atn_btn_Id","ellipses":"...","maxListsAllowed":50,"isItemEnded":false,"addedToWatchListTxt":"Added to your Watch list","wishListId":"-97","otherListTrackingParam":"p2047675.l2877","addnewOverlayId":"atl_addnewOlyId","btnDefDispName":"Add to Watch list","statusMsgTxtMulti":"Added to $ lists","watchName":"Watch","statusMsgContId":"atl_status_msg_content","atlBtnId":"atl_btn"}],['ebay.viewItem.Incentives','w1-21','incentives',{"bmlDiv":"bmlDiv","isRewardsJSON":false,"isShowNectarPoints":false,"incentiveDiv":"incentiveDiv","isRewardsCall":false,"couponDiv":"couponDiv","id":"incentives","rewardsDiv":"rewardsDiv","itemId":190654183378}],['ui.Overlay','w1-22','imprtoly',{"hasCloseButton":true,"pointerType":"horizontal","trigger":"imprthlp","position":"pointer","id":"imprtoly","closeOnBodyClick":true}],['ui.Overlay','w1-23','',{"hasCloseButton":true,"pointerType":"horizontal","trigger":"hldhlp","position":"pointer","id":"w1-23-overlay","closeOnBodyClick":true}],['com.ebay.raptor.vi.isum.buyerProtection','w1-24','',{"siteId":0,"siteUrl":"http%3A%2F%2Fpages.ebay.com%2Febaybuyerprotection%2Findex.html","ebpVarWidthId":"ebpVarWidth","isTwoCol":false,"ebpHdrId":"ebpHdr"}],['ui.Tab','w1-25','viTabs',{"id":"viTabs"},[['com.ebay.raptor.vi.shipping.CalculateShipping','w1-26','sh_calc',{"countryZipMap":{"1":true,"2":true},"getRatesUrl":"http:\u002F\u002Fwww.ebay.com\u002Fitm\u002Fgetrates?_trksid=p2047675.l2682&item=190654183378","countryDd":"shCountry","zipBx":"shZipCode","id":"sh_calc","remQty":1,"qtyBx":"shQuantity","getRatesBtn":"shGetRates"}]]],['com.ebay.raptor.vi.bid.BidLayer','w1-27','pb_layer',{"invokeClkId":"_OPN_ONLOAD_PB_LAYER","overlayId":"w1-27-_olp","svcId":"_OPN_PB_LAYER","openOnLoad":false},[['ui.Overlay','w1-28','w1-27-_olp',{"hasCloseButton":true,"width":"470","id":"w1-27-_olp","modal":true},[['com.ebay.raptor.vi.bid.placebid.PlaceBid','w1-29','w1-27-_cnt',{"reviewBidId":"w1-29-_review","enterBidId":"w1-29-_enter","bidInitURL":"https:\u002F\u002Fsignin.ebay.com\u002Fws\u002FeBayISAPI.dll?SignIn&ru=http%3A%2F%2Fwww.ebay.com%2Fitm%2FFranklin-Library-3V-ESSAYS-OF-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-%2F190654183378%3Fbolp%3D1","minuteCharTxt":"w1-29-_m","overlayId":"w1-27-_olp","bidAgainURL":"http:\u002F\u002Foffer.ebay.com\u002Fws\u002FeBayISAPI.dll?MakeQuickBid&bidagain=true&mode=0&item=190654183378&f=json&isnullzero=true&fromPage=2047675&flow=bm","currencyId":"w1-29-_currency","INVALID_BIDAMOUNT":"w1-29-_invalidBid","grayArea":"w1-29-_grey","defaultImpChargeTxt":"w1-29-_impChargeDefault","confirmBidURL":"http:\u002F\u002Foffer.ebay.com\u002Fws\u002FeBayISAPI.dll?MakeQuickBid&mode=1&item=190654183378&f=json&fromPage=2047675&stok=-586352477&flow=bm&uiid=1187735474","wrapper":"_wrp","confirmBidTxt":"w1-29-_bidConfirmation","refreshUrl":"http:\u002F\u002Fwww.ebay.com\u002Fitm\u002FFranklin-Library-3V-ESSAYS-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-\u002F190654183378?&autorefresh=true","HIGHBIDDER":"w1-29-_highBid","cancelTxt":"w1-29-_cancel","disclaimerId":"w1-29-_disc","curBidId":"w1-29-_cur","placeBidURL":"https:\u002F\u002Fsignin.ebay.com\u002Fws\u002FeBayISAPI.dll?SignIn&ru=http%3A%2F%2Fwww.ebay.com%2Fitm%2FFranklin-Library-3V-ESSAYS-OF-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-%2F190654183378%3Fbolp%3D1","approx":"_approx","bidBtnId":"w1-29-_place","placeBidTxt":"w1-29-_placeBid","svcId":"_OPN_PB_LAYER","DECSEP":"w1-29-_decsep","lessTimeCss":"redTime","counterStopSvcId":"COUNTER_STOP_SVC_ID","impChBidTxtId":"w1-29-_impChBid","changeTxt":"w1-29-_change","OUTBIDDER":"w1-29-_outBid","minBidTxt":"w1-29-_minToBid","secondCharTxt":"w1-29-_s","HIGHBIDDER_FIRST":"w1-29-_highBidFrst","dummy":"##1##","LOW_BIDAMOUNT":"w1-29-_lowBid","statusMsgId":"w1-29-_statusMsg","minBidHBTxt":"w1-29-_minToBidHighBidder","reviewBidTxt":"w1-29-_reviewYourBid","exclVAT":"_exvat","detailLevelId":0,"timeLeftId":"w1-29-_timeLeft","BID_GREATER_THAN_BIN":"w1-29-_moreThanBin","HIGHBIDDER_60_MIN_LEFT":"w1-29-_highBid60MinsLeft","dayTxt":"w1-29-_day","hourCharTxt":"w1-29-_h","INVALID_BIDAMOUNT_OF_HIGH_BIDDER":"w1-29-_invalidHighBid","maxBidParamName":"maxbid","freeShpTxt":"w1-29-_freeShipping","HIGHBIDDER_1_MAX_BID_AWAY":"w1-29-_highBid1MaxBidAway","yourMaxBidTxt":"w1-29-_yourMaximumBid","lable":"_lbl","isRefreshOnClose":true,"resumeBidId":"w1-29-_resume","impChId":"w1-29-_impCh","autoRefreshSvcId":"AUTO_REFRESH_SVC","min":"_min","confirmBtnTxt":"w1-29-_confirmBtnTxt","increaseBtnTxt":"w1-29-_increaseBtnTxt","defaultShpTxt":"w1-29-_shippingDefault","bidTitleId":"w1-29-_title","closeTxt":"w1-29-_close","placeBtnTxt":"w1-29-_placeBtnTxt","btn":"_btn","hoursTxt":"w1-29-_hours","calcImportChargeUrl":"http:\u002F\u002Fwww.ebay.com\u002Fitm\u002Fgetrates?_trksid=p2047675.l2681&item=190654183378&quantity=1","HIGHBIDDER_RESERVE_NOT_MET":"w1-29-_highBidReserveNotMet","disclaimerGspId":"w1-29-_disc_gsp","BUYER_BLOCKED_NO_LINKED_PAYPAL_ACCOUNT":"w1-29-_noPaypal","shippingId":"w1-29-_shp","hourTxt":"w1-29-_hour","value":"_val","counterStartSvcId":"COUNTER_START_SVC_ID","approxTxt":"w1-29-_approximately","loadingId":"w1-29-_loading","incMaxBidTxt":"w1-29-_increaseMaxBid","link":"_lnk","inclVAT":"_invat","dayCharTxt":"w1-29-_d","counterSvcId":"COUNTER_SVC_ID"},[['com.ebay.raptor.vi.StatusMsg','w1-30','w1-29-_statusMsg',{"sizeClz":"smm-o ","isRefresh":false,"smClz":"sm-o","message":"w1-30-_m","outer":"w1-30-_o"}],['com.ebay.raptor.vi.VIButton','w1-31','w1-29-_place',{"mouseDownClass":"md","btnId":"w1-29-_place_btn"}]]]]]]],['com.ebay.raptor.vi.bid.BidLayer','w1-32','ocb',{"invokeClkId":"_OPN_ONLOAD_OCB_LAYER","overlayId":"w1-32-_olp","svcId":"w1-32-_oly","openOnLoad":false},[['ui.Overlay','w1-33','w1-32-_olp',{"hasCloseButton":true,"width":"500","id":"w1-32-_olp","modal":true,"draggable":true},[['com.ebay.raptor.vi.bid.oneclick.OneClickBid','w1-34','w1-32-_cnt',{"reviewBidId":"w1-34-_review","enterBidId":"w1-34-_enter","bidInitURL":"http:\u002F\u002Foffer.ebay.com\u002Fws\u002FeBayISAPI.dll?MakeQuickBid&mode=0&item=190654183378&f=json&fromPage=2047675&flow=ocb","errorClz":"err","overlayId":"w1-32-_olp","currencyId":"w1-34-_currency","minutesTxt":"w1-34-_mins","wrapper":"_wrp","startingBidTxt":"w1-34-_start","refreshUrl":"http:\u002F\u002Fwww.ebay.com\u002Fitm\u002FFranklin-Library-3V-ESSAYS-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-\u002F190654183378?&autorefresh=true","disclaimerId":"w1-34-_disc","curBidId":"w1-34-_cur","daysTxt":"w1-34-_day","approx":"_approx","bidBtnId":"w1-34-_ocb","svcId":"_OPN_OCB_LAYER","counterStopSvcId":"COUNTER_STOP_SVC_ID","AUCTION_ENDED_WINNER":"w1-34-_aewin","dummy":"##1##","statusMsgId":"w1-34-_statusMsg","HIGHBIDDER_RESERVE_NOT_MET_STATUS":"w1-34-_highnr","successClz":"sccs","OUTBIDDER_STATUS":"w1-34-_out","timeLeftId":"w1-34-_timeLeft","bidURL":"http:\u002F\u002Foffer.ebay.com\u002Fws\u002FeBayISAPI.dll?MakeQuickBid&mode=1&item=190654183378&f=json&fromPage=2047675&stok=-586352477&flow=ocb&uiid=1187735474","closeId":"w1-34-_cls","detailLevel":6,"learnMoreId":"w1-34-_lrn","dayTxt":"w1-34-_day","MIN_BID_ERROR_STATUS":"w1-34-_errmin","HIGHBIDDER_STATUS":"w1-34-_high","minuteTxt":"w1-34-_min","olySvcId":"w1-32-_oly","maxBidParamName":"maxbid","updateId":"w1-34-_updt","invokeClkId":"_OPN_ONLOAD_OCB_LAYER","lable":"_lbl","HIGH_BID_ERROR_STATUS":"w1-34-_errhigh","isRefreshOnClose":true,"AUCTION_ENDED_RESERVE_NOT_MET":"w1-34-_aenrwin","autoRefreshSvcId":"AUTO_REFRESH_SVC","openOnLoad":false,"AUCTION_ENDED_OUTBID":"w1-34-_aeout","closeTxt":"w1-34-_close","btn":"_btn","secondTxt":"w1-34-_sec","hoursTxt":"w1-34-_hours","winningBidTxt":"w1-34-_win","updateURL":"http:\u002F\u002Fwww.ebay.com\u002Fitm\u002Fws\u002FeBayISAPI.dll?ViewItemLite&item=190654183378&si=Fo1C1ZeJUseDU5ewGwuP%2FjeyuDw%3D","hourTxt":"w1-34-_hour","value":"_val","secondsTxt":"w1-34-_secs","warningClz":"wrng","counterStartSvcId":"COUNTER_START_SVC_ID","approxTxt":"w1-34-_approximately","MAKE_BID_ERROR_STATUS":"w1-34-_errmake","counterSvcId":"COUNTER_SVC_ID"},[['com.ebay.raptor.vi.StatusMsg','w1-35','w1-34-_statusMsg',{"sizeClz":"smi-o ","isRefresh":false,"smClz":"sm-o","message":"w1-35-_m","outer":"w1-35-_o"}],['com.ebay.raptor.vi.VIButton','w1-36','w1-34-_ocb',{"mouseDownClass":"md","btnId":"w1-34-_ocb_btn"}]]]]]]],['com.ebay.raptor.vi.isum.smartBackTo','w1-37','smbWidget',{"isBacktoSearch":false,"showIcon":false,"smtBackToAnchorId":"smtBackToAnchor"}],['com.ebay.raptor.vi.cookie.ScreenDetail','w1-38',null,{"currentViewportValue":{"maxWidth":-1,"minWidth":-1,"name":"DEFAULT","id":0,"value":0,"integer":0},"cookieletName":"pbf","resBits":[85,86,87],"viewportRange":[{"maxWidth":-1,"minWidth":-1,"name":"DEFAULT","id":0,"value":0,"integer":0},{"maxWidth":1020,"minWidth":0,"name":"VIEWPORT_1","id":1,"value":1,"integer":1},{"maxWidth":1024,"minWidth":1021,"name":"VIEWPORT_2","id":2,"value":2,"integer":2},{"maxWidth":1148,"minWidth":1025,"name":"VIEWPORT_3","id":3,"value":3,"integer":3},{"maxWidth":1152,"minWidth":1149,"name":"VIEWPORT_4","id":4,"value":4,"integer":4},{"maxWidth":1276,"minWidth":1153,"name":"VIEWPORT_5","id":5,"value":5,"integer":5},{"maxWidth":1280,"minWidth":1277,"name":"VIEWPORT_6","id":6,"value":6,"integer":6},{"maxWidth":2147483647,"minWidth":1281,"name":"VIEWPORT_7","id":7,"value":7,"integer":7}],"currentResValue":{"maxWidth":-1,"minWidth":-1,"name":"DEFAULT","id":0,"value":0,"integer":0},"viewportBits":[69,70,71],"resRange":[{"maxWidth":-1,"minWidth":-1,"name":"DEFAULT","id":0,"value":0,"integer":0},{"maxWidth":1024,"minWidth":0,"name":"RES_1024","id":1,"value":1,"integer":1},{"maxWidth":1152,"minWidth":1025,"name":"RES_1152","id":2,"value":2,"integer":2},{"maxWidth":1280,"minWidth":1153,"name":"RES_1280","id":3,"value":3,"integer":3},{"maxWidth":1366,"minWidth":1281,"name":"RES_1366","id":4,"value":4,"integer":4},{"maxWidth":1440,"minWidth":1367,"name":"RES_1440","id":5,"value":5,"integer":5},{"maxWidth":1680,"minWidth":1441,"name":"RES_1680","id":6,"value":6,"integer":6},{"maxWidth":2147483647,"minWidth":1681,"name":"RES_MAX","id":7,"value":7,"integer":7}],"cookieName":"dp1"}],['raptor.merch.MerchManager','w1-39','merch',{"customCallbackHandler":false,"th":1000,"pids":["100009","100010","100047"],"enableOnScroll":true,"url":"http:\u002F\u002Fmerch.ebay.com\u002Fws\u002FeBayISAPI.dll?V4Ajax&svcid=NuMEService&reqttype=NVPAIR&resptype=JSCALLBACK&request=%26itm%3D190654183378%26plmt%3D100009%2C100010%2C100047%26usrSt%3D4%26si%3D0%26ctg%3D29223%26guid%3D5c83d31313a0a56a0f277a17fffed8fa%26slr%3D13154134%26usrSi%3DUK%26locale%3Den_US%26fmt%3Dhtml%26_qi%3Dt6ulcpjqcj9%253Fvo%257B2d71f%252B%253E20g&CurrentPage=NuME-100009-100010-100047-0"}]);new (raptor.require('raptor.tracking.core.Tracker'))({"psi":"Ag9MUAAE*","rover":{"clk":"/roverclk/0/0/9","imp":"/roverimp/0/0/9","uri":"http://rover.ebay.com"},"pid":"p2047675"});raptor.require('raptor.tracking.idmap.IdMap').roverService("http://rover.ebay.com/idmap/0?footer");})();
+        		<!-- Adding merch content js -->
+        		</script><script>if (typeof oGaugeInfo != "undefined"){oGaugeInfo.iLoadST=(new Date()).getTime();oGaugeInfo.st1a=183;}</script>
+        <script type="text/javascript"><!--
+        var eBayTRPageName="TR_ViewItem";var eBayTRDisplayName="Fixed Price - Item #190654183378:Franklin Library 3V ESSAYS OF MONTAIGNE Leather Great Books 1979 Donald Frame ";var eBayTREiasId="nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wJkYGgDZSDogidj6x9nY+seQ==";var eBayTRItemId="190654183378";var eBayTRItemTitle="Franklin Library 3V ESSAYS OF MONTAIGNE Leather Great Books 1979 Donald Frame ";var eBayTRListingFormat="Fixed Price";var eBayTRStoreSearchTerm="";var eBayTRHomePage="";var eBayTREvent="";var eBayTRInactive=false;
+        //--></script>				
+        	
+        	<script src="http://ir.ebaystatic.com/z/me/nhsju1ggrq1h3mgtvypuou5eq.js" type="text/javascript"></script>
+        		<script src="http://ir.ebaystatic.com/z/i0/cgtlkqlmjyzknhh23whrczg0d.js" type="text/javascript"></script>
+        	</div><!-- RcmdId _vi_index-jsp,RlogId t6ulcpjqcj9%3Fvo%7B2d71f%2B%3E20g-13a5c83d31c-0x10f -->
+        </body>
+        </html>
+        <img src='http://rover.ebay.com/roversync/?site=0&stg=1&mpt=1350171874068'></img>
+    http_version: "1.1"
+  recorded_at: Sat, 13 Oct 2012 23:44:37 GMT

@@ -1,7 +1,7 @@
 require 'spec_helper'
 
-describe Fletcher::Model::Etsy do
-  describe "parse" do     
+describe Fletcher::Model::Etsy, :vcr do
+  describe "parse" do
     context "with valid data" do
       it "should return correct model info" do 
         model = described_class.new
