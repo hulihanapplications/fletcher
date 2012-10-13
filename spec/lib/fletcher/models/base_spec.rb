@@ -9,7 +9,7 @@ describe Fletcher::Model::Base do
     end     
   end
 
-  describe "parse_price" do 
+  describe "parse_price", :vcr do 
     it "should return a price float and currency" do
       model = Factory.build(:sample)
       model.parse_price(model.raw_price)

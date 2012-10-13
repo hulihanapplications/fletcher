@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Fletcher::Model::Playcom do
+describe Fletcher::Model::Playcom, :vcr do
   describe "parse" do     
     context "with valid data" do
       it "should return correct model info" do 

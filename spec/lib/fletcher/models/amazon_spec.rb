@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Fletcher::Model::Amazon do
-  describe "parse" do     
+  describe "parse", :vcr do
     context "with valid data" do
       it "should return correct model info" do 
         model = described_class.new
