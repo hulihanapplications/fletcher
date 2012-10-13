@@ -1,6 +1,7 @@
 # Fletcher
-[![Build Status](http://travis-ci.org/hulihanapplications/fletcher.png)](http://travis-ci.org/hulihanapplications/fletcher)
+[![Build Status](https://travis-ci.org/hulihanapplications/fletcher.png)](http://travis-ci.org/hulihanapplications/fletcher)
  
+
 
 Fletcher is a cross-website product/model information fetcher. Give fletcher a product url and you'll get back a nice, simple object that's easy to work with.
 
