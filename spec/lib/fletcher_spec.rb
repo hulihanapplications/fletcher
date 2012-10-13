@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe Fletcher do
+describe Fletcher, :vcr do
   context :models do 
-    describe :identify_model do
+    describe :identify_model, :vcr do
       it "should raise an error when using an unsupported domain" do 
         lambda{described_class.identify_model(Factory(:invalid).url)}.should raise_error 
       end
@@ -14,7 +14,7 @@ describe Fletcher do
       end   
     end 
 
-    describe :fetch do
+    describe :fetch, :vcr do
       # for model in Fletcher.models
       #   it "should return valid data for #{model} model" do
       #     item = described_class.fetch(Factory(model).url)
@@ -71,7 +71,7 @@ describe Fletcher do
         item.should_not be_nil
         item.name.should_not be_nil       
         item.description.should_not be_nil 
-      end       
+      end
     end    
   end
   

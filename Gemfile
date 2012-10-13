@@ -12,4 +12,6 @@ group :development do
   gem "rspec"
   gem "factory_girl"
   gem "i18n"
+	gem "vcr"
+  gem "fakeweb"
 end

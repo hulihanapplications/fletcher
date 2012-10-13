@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Fletcher::Model::Thinkgeek do
+describe Fletcher::Model::Thinkgeek, :vcr do
   describe "parse" do     
     context "with valid data" do
       it "should return correct model info" do 

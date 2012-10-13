@@ -8,7 +8,7 @@ describe Fletcher::Data do
   end
   
   describe "read" do 
-    it "should return a valid document" do 
+    it "should return a valid document", :vcr do 
       doc = Fletcher::Data.read(Factory(:valid).url)
     end
     
