@@ -23,7 +23,7 @@ FactoryGirl.define do
   end
 
   factory :amazon, :parent => :base do
-    url "http://www.amazon.com/Kindle-Fire-Amazon-Tablet/dp/B0051VVOB2"
+    url "http://www.amazon.com/gp/product/B004HZYA6E/"
   end
 
   # This may need to be updated if the item is expired/deleted
