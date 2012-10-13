@@ -32,7 +32,7 @@ describe Fletcher, :vcr do
       end
 
       # Disable ebay fetch test, since auctions always end
-      it "should fetch ebay product" do
+      it "should fetch ebay product", :vcr => { :cassette_name => "ebay_fetch" } do
         item = described_class.fetch(Factory(:ebay).url)
         item.should_not be_nil
         item.name.should_not be_nil       

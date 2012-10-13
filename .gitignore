@@ -54,4 +54,5 @@ pkg
 last_response
 
 #vcr cassets
-spec/vcr
+spec/vcr/*
+!spec/vcr/*ebay*

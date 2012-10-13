@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Fletcher::Model::Ebay, :vcr do
+describe Fletcher::Model::Ebay, :vcr => { :cassette_name => "ebay_model" }  do
   describe "parse" do     
     context "with valid data" do
       # Diable Realtime Test, too inconsistent
