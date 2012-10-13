@@ -52,3 +52,6 @@ pkg
 
 # Debugging 
 last_response
+
+#vcr cassets
+spec/vcr
