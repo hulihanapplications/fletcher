@@ -1,6 +1,6 @@
 module Fletcher
   module Model
-    class Steampowered < Fletcher::Model::Base
+    class Steam < Fletcher::Model::Base
       # A regular expression for determining if a url comes from a specific service/website
       def self.regexp
         /store\.steampowered\.com/

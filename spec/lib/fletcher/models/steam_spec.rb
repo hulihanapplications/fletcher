@@ -1,11 +1,11 @@
 require 'spec_helper'
 
-describe Fletcher::Model::Steampowered do
+describe Fletcher::Model::Steam do
   describe "parse" do
     context "with valid data" do
       it "should return correct model info" do
         model = described_class.new
-        model.parse Fletcher::Data.read(Factory(:steampowered).url)
+        model.parse Fletcher::Data.read(Factory(:steam).url)
         model.doc = nil
         model.description = ''
         model.name.should_not be_nil

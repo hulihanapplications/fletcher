@@ -20,8 +20,8 @@ module Fletcher
           model = Fletcher::Model::Googleshopping.new
         when :gamecouk
           model = Fletcher::Model::Gamecouk.new
-        when :steampowered
-          model = Fletcher::Model::Steampowered.new
+        when :steam
+          model = Fletcher::Model::Steam.new
         when :playcom
           model = Fletcher::Model::Playcom.new          
         end
