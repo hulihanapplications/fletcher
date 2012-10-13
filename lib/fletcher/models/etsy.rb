@@ -16,7 +16,7 @@ module Fletcher
           self.name = doc.xpath("//div[@id='item-title']/h1").first_string
 
           # Get Description
-          self.description = doc.xpath("//div[@id='item-description']/div[@class='section-content']").first_string   
+          self.description = doc.xpath("//div[@id='item-description']/div[contains(@class,'section-content')]").first_string
 
           # Get Price
           parse_price(doc.xpath("//div[@class='item-amount']").first_string)
