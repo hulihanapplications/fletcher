@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "fletcher"
-  s.version = "0.4.2"
+  s.version = "0.5.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dave Hulihan", "Hulihan Applications"]
-  s.date = "2012-08-17"
+  s.date = "2012-10-14"
   s.description = "Easily fetch product/model information from third party websites such as Amazon, eBay, etc."
   s.email = "dave@hulihanapplications.com"
   s.extra_rdoc_files = [
@@ -35,6 +35,7 @@ Gem::Specification.new do |s|
     "lib/fletcher/models/gamecouk.rb",
     "lib/fletcher/models/googleshopping.rb",
     "lib/fletcher/models/playcom.rb",
+    "lib/fletcher/models/steam.rb",
     "lib/fletcher/models/thinkgeek.rb",
     "lib/fletcher/nokogiri.rb",
     "lib/fletcher/string.rb",
@@ -47,11 +48,15 @@ Gem::Specification.new do |s|
     "spec/lib/fletcher/models/gamecouk_spec.rb",
     "spec/lib/fletcher/models/googleshopping_spec.rb",
     "spec/lib/fletcher/models/playcom_spec.rb",
+    "spec/lib/fletcher/models/steam_spec.rb",
     "spec/lib/fletcher/models/thinkgeek_spec.rb",
     "spec/lib/fletcher/nokogiri_spec.rb",
     "spec/lib/fletcher_spec.rb",
     "spec/spec_helper.rb",
     "spec/support/benchmark.rb",
+    "spec/support/vcr.rb",
+    "spec/vcr/ebay_fetch.yml",
+    "spec/vcr/ebay_model.yml",
     "test/helper.rb",
     "test/test_fletcher.rb"
   ]
@@ -75,6 +80,8 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<rspec>, [">= 0"])
       s.add_development_dependency(%q<factory_girl>, [">= 0"])
       s.add_development_dependency(%q<i18n>, [">= 0"])
+      s.add_development_dependency(%q<vcr>, [">= 0"])
+      s.add_development_dependency(%q<fakeweb>, [">= 0"])
     else
       s.add_dependency(%q<hashie>, [">= 0"])
       s.add_dependency(%q<nokogiri>, [">= 0"])
@@ -86,6 +93,8 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<rspec>, [">= 0"])
       s.add_dependency(%q<factory_girl>, [">= 0"])
       s.add_dependency(%q<i18n>, [">= 0"])
+      s.add_dependency(%q<vcr>, [">= 0"])
+      s.add_dependency(%q<fakeweb>, [">= 0"])
     end
   else
     s.add_dependency(%q<hashie>, [">= 0"])
@@ -98,6 +107,8 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rspec>, [">= 0"])
     s.add_dependency(%q<factory_girl>, [">= 0"])
     s.add_dependency(%q<i18n>, [">= 0"])
+    s.add_dependency(%q<vcr>, [">= 0"])
+    s.add_dependency(%q<fakeweb>, [">= 0"])
   end
 end
 
