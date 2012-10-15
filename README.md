@@ -19,6 +19,7 @@ Fletcher is a cross-website product/model information fetcher. Give fletcher a p
 * [Google Shopping](http://www.google.com/products/)
 * [play.com](http://www.play.com)
 * [ThinkGeek](http://www.thinkgeek.com)
+* [Steam](http://store.steampowered.com)
 
 ## Installation
 
