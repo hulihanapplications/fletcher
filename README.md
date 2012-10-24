@@ -38,8 +38,8 @@ model.name # => "Avenir Deluxe Unicycle (20-Inch Wheel)"
 
 model.description # => "A wonderful unicycle"
 
+model.images.count # => 1
 model.image # => {:url => "http://ecx.images-amazon.com/images/I/41b3TNb3uCL._SL500_AA300_.jpg", :alt => "Picture of Unicycle"}
-
 model.image.url # => "http://ecx.images-amazon.com/images/I/41b3TNb3uCL._SL500_AA300_.jpg"
 
 model.price # => #<Money cents:500 currency:USD>
@@ -51,7 +51,7 @@ model.price.currency.symbol # => "$"
 model.doc.class.name # => Nokogiri::HTML::Document
 
 # Get list of supported websites/services
-Fletcher.models # => [:amazon, :ebay, :etsy, :thinkgeek]
+Fletcher.models # => [:amazon, :ebay, :etsy, :thinkgeek, ...]
 ```
 
 ## Attributes
