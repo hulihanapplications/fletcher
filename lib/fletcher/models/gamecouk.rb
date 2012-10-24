@@ -31,7 +31,7 @@ module Fletcher
           parse_price(raw_price.gsub(/Only /, "")) if raw_price
           
           # Get Image
-          self.images = [{:url => doc.xpath("//meta[@property='og:image']/@content").first_string}]
+          self.images = [{:src => doc.xpath("//meta[@property='og:image']/@content").first_string}]
           self.image = images.first
         end            
       end

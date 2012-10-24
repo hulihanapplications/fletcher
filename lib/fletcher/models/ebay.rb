@@ -23,7 +23,7 @@ module Fletcher
           parse_price(raw_price.gsub(/US/, "")) if raw_price
           
           # Get Image
-          self.images = [{:url => doc.xpath("//span[@itemprop='image']/img").first_string}]
+          self.images = [{:src => doc.xpath("//span[@itemprop='image']/img").first_string}]
           self.image = images.first
         end            
       end

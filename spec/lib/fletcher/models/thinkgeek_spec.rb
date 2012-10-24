@@ -11,6 +11,7 @@ describe Fletcher, :vcr do
     it "should fetch a thinkgeek product's information" do
       item = Fletcher.fetch(Factory(:thinkgeek).url)
       item.should_not be_nil
+      item.image.should_not be_nil
       item.name.should_not be_nil       
       item.description.should_not be_nil 
     end   
@@ -18,6 +19,7 @@ describe Fletcher, :vcr do
     it "should fetch a thinkgeek product with price range" do
       item = Fletcher.fetch(Factory(:thinkgeek_with_price_range).url)
       item.should_not be_nil
+      item.image.should_not be_nil
       item.name.should_not be_nil       
       item.description.should_not be_nil 
     end      
