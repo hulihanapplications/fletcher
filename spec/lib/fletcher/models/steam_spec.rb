@@ -1,5 +1,11 @@
 require 'spec_helper'
 
+describe Fletcher, :vcr do
+  describe :fetch, :vcr do
+   
+  end 
+end 
+
 describe Fletcher::Model::Steam, :vcr do
   describe "parse" do
     context "with valid data" do

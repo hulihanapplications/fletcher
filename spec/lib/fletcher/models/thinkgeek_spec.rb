@@ -2,6 +2,12 @@ require 'spec_helper'
 
 describe Fletcher, :vcr do
   describe :fetch, :vcr do
+   
+  end 
+end 
+
+describe Fletcher, :vcr do
+  describe :fetch, :vcr do
     it "should fetch a thinkgeek product's information" do
       item = Fletcher.fetch(Factory(:thinkgeek).url)
       item.should_not be_nil

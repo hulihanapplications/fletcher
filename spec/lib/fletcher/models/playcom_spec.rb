@@ -1,5 +1,16 @@
 require 'spec_helper'
 
+describe Fletcher, :vcr do
+  describe :fetch, :vcr do
+    it "should fetch playcom product" do
+      item = described_class.fetch(Factory(:playcom).url)
+      item.should_not be_nil
+      item.name.should_not be_nil       
+      item.description.should_not be_nil 
+    end     
+  end 
+end 
+
 describe Fletcher::Model::Playcom, :vcr do
   describe "parse" do     
     context "with valid data" do
