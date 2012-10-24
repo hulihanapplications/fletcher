@@ -40,7 +40,7 @@ product.name # => "Avenir Deluxe Unicycle (20-Inch Wheel)"
 product.description # => "A wonderful unicycle"
 
 product.images.count # => 1
-product.image # => {:url => "http://ecx.images-amazon.com/images/I/41b3TNb3uCL._SL500_AA300_.jpg", :alt => "Picture of Unicycle"}
+product.image # => {:src => "http://ecx.images-amazon.com/images/I/41b3TNb3uCL._SL500_AA300_.jpg", :alt => "Picture of Unicycle"}
 product.image.src # => "http://ecx.images-amazon.com/images/I/41b3TNb3uCL._SL500_AA300_.jpg"
 
 product.price # => #<Money cents:500 currency:USD>
