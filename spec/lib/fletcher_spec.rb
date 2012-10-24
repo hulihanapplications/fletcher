@@ -65,13 +65,6 @@ describe Fletcher, :vcr do
         item.name.should_not be_nil       
         item.description.should_not be_nil 
       end  
-
-      it "should fetch thinkgeek product" do
-        item = described_class.fetch(Factory(:thinkgeek).url)
-        item.should_not be_nil
-        item.name.should_not be_nil       
-        item.description.should_not be_nil 
-      end
     end    
   end
   

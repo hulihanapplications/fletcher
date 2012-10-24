@@ -19,7 +19,7 @@ module Fletcher
           self.description = doc.xpath("//meta[@property='og:description']/@content").first_string
   
           # Get Price
-          parse_price(doc.xpath("//form[@id='buy']/h3").first_string)
+          parse_price(doc.xpath("//form[@id='buy']/h3").first_string) rescue nil
           
           # Get Images
           self.images = [{:url => doc.xpath("//meta[@property='og:image']/@content").first_string}] 

@@ -35,6 +35,11 @@ FactoryGirl.define do
     url "http://www.thinkgeek.com/geektoys/plush/e7f8/"
   end
 
+  # ThinkGeek Product with hyphenated price range
+  factory :thinkgeek_with_price_range, :parent => :base do
+    url "http://www.thinkgeek.com/product/f131/?pfm=tshirts-apparel_newest_f131_1"
+  end 
+
   factory :etsy, :parent => :base do
     url "http://www.etsy.com/listing/78608690/farm-fresh-125-x-19-in-pick-your-color"
   end
