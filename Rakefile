@@ -21,6 +21,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{Easily fetch product/model information from third party websites such as Amazon, eBay, etc.}
   gem.email = "dave@hulihanapplications.com"
   gem.authors = ["Dave Hulihan", "Hulihan Applications"]
+  gem.executables = ["fletcher"] 
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
