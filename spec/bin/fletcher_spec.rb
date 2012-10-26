@@ -38,5 +38,5 @@ describe "Fletcher CLI" do
   #   it "should work without any errors" do
   #     lambda{@command.run}.should_not raise_error 
   #   end 
-  end
+  # end
 end 
