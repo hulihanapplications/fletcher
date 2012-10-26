@@ -13,30 +13,30 @@ describe "Fletcher CLI" do
     mock_terminal
   end 
 
-  describe "fetch command", :vcr do
-    before :each do
-      @command = command :fetch
-    end 
+  # describe "fetch command", :vcr do
+  #   before :each do
+  #     @command = command :fetch
+  #   end 
 
-    it "should return prompt without url" do 
-      @command.run Factory(:amazon).url
-      # @output.to_s.should == @command.syntax
-    end 
+  #   it "should return prompt without url" do 
+  #     @command.run Factory(:amazon).url
+  #     # @output.to_s.should == @command.syntax
+  #   end 
 
-    it "works with valid product url" do 
-      lambda{ 
-        @command.run Factory(:amazon).url
-      }.should_not raise_error 
-    end 
-  end 
+  #   it "works with valid product url" do 
+  #     lambda{ 
+  #       @command.run Factory(:amazon).url
+  #     }.should_not raise_error 
+  #   end 
+  # end 
 
-  describe "websites command" do
-    before :each do
-      @command = command :websites
-    end 
+  # describe "websites command" do
+  #   before :each do
+  #     @command = command :websites
+  #   end 
 
-    it "should work without any errors" do
-      lambda{@command.run}.should_not raise_error 
-    end 
+  #   it "should work without any errors" do
+  #     lambda{@command.run}.should_not raise_error 
+  #   end 
   end
 end 
