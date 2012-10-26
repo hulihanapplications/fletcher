@@ -55,6 +55,42 @@ product.doc.class.name # => Nokogiri::HTML::Document
 Fletcher.models # => [:amazon, :ebay, :etsy, :thinkgeek, ...]
 ```
 
+### CLI
+
+Get Product Details (defaults to yaml output):
+
+```sh
+$ fletcher fetch "http://www.amazon.com/Avenir-Deluxe-Unicycle-20-Inch-Wheel/dp/B00165Q9F8"
+
+---
+name: Avenir Deluxe Unicycle (20-Inch Wheel)
+description: 'Amazon.com: Avenir Deluxe Unicycle (20-Inch Wheel): Sports & Outdoors'
+price: $99.99
+image:
+  src: http://ecx.images-amazon.com/images/I/41b3TNb3uCL._SL500_AA280_.jpg
+url: http://www.amazon.com/Avenir-Deluxe-Unicycle-20-Inch-Wheel/dp/B00165Q9F8
+```
+
+Get a single attribute of a product:
+
+```sh
+$ fletcher fetch --only name "http://www.amazon.com/Avenir-Deluxe-Unicycle-20-Inch-Wheel/dp/B00165Q9F8"
+Avenir Deluxe Unicycle (20-Inch Wheel)
+```
+
+Get list of supported websites:
+
+```sh
+$ fletcher websites
+Amazon
+ThinkGeek
+...
+```
+
+
+
+
+
 ## Attributes
 
 The following attributes/method are available for a product:

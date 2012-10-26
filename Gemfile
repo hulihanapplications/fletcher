@@ -3,6 +3,7 @@ source "http://rubygems.org"
 gem "hashie"
 gem "nokogiri"
 gem "money"
+gem "commander"
 
 group :development do
   gem "shoulda", ">= 0"

@@ -1,0 +1,27 @@
+en:
+  fletcher:
+    models: 
+      amazon: 
+        name: Amazon
+        url: http://www.amazon.com
+      ebay:
+        name: eBay
+        url: http://www.ebay.com    
+      etsy:
+        name: Etsy
+        url: http://www.etsy.com
+      gamecouk:
+        name: Game.co.uk
+        url: http://www.game.co.uk
+      googleshopping:
+        name: Google Shopping
+        url: http://www.google.com/shopping
+      playcom:
+        name: Play.com
+        url: http://www.play.com
+      steam: 
+        name: Steam
+        url: http://store.steampowered.com
+      thinkgeek:
+        name: ThinkGeek
+        url: http://www.thinkgeek.com
