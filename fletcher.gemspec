@@ -5,13 +5,14 @@
 
 Gem::Specification.new do |s|
   s.name = "fletcher"
-  s.version = "0.5.2"
+  s.version = "0.6.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dave Hulihan", "Hulihan Applications"]
-  s.date = "2012-10-24"
+  s.date = "2012-10-26"
   s.description = "Easily fetch product/model information from third party websites such as Amazon, eBay, etc."
   s.email = "dave@hulihanapplications.com"
+  s.executables = ["fletcher"]
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md"
@@ -25,6 +26,8 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
+    "bin/fletcher",
+    "config/locales/fletcher.en.yml",
     "fletcher.gemspec",
     "lib/fletcher.rb",
     "lib/fletcher/data.rb",
@@ -39,6 +42,7 @@ Gem::Specification.new do |s|
     "lib/fletcher/models/thinkgeek.rb",
     "lib/fletcher/nokogiri.rb",
     "lib/fletcher/string.rb",
+    "spec/bin/fletcher_spec.rb",
     "spec/factories/models.rb",
     "spec/lib/fletcher/data_spec.rb",
     "spec/lib/fletcher/models/amazon_spec.rb",
@@ -73,6 +77,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<hashie>, [">= 0"])
       s.add_runtime_dependency(%q<nokogiri>, [">= 0"])
       s.add_runtime_dependency(%q<money>, [">= 0"])
+      s.add_runtime_dependency(%q<commander>, [">= 0"])
       s.add_development_dependency(%q<shoulda>, [">= 0"])
       s.add_development_dependency(%q<bundler>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.6.4"])
@@ -86,6 +91,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<hashie>, [">= 0"])
       s.add_dependency(%q<nokogiri>, [">= 0"])
       s.add_dependency(%q<money>, [">= 0"])
+      s.add_dependency(%q<commander>, [">= 0"])
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<bundler>, [">= 0"])
       s.add_dependency(%q<jeweler>, ["~> 1.6.4"])
@@ -100,6 +106,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<hashie>, [">= 0"])
     s.add_dependency(%q<nokogiri>, [">= 0"])
     s.add_dependency(%q<money>, [">= 0"])
+    s.add_dependency(%q<commander>, [">= 0"])
     s.add_dependency(%q<shoulda>, [">= 0"])
     s.add_dependency(%q<bundler>, [">= 0"])
     s.add_dependency(%q<jeweler>, ["~> 1.6.4"])
