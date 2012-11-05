@@ -33,9 +33,8 @@ command :fetch do |c|
       output_hash["description"] = product.description if product.description
       output_hash["price"] = product.price.format if product.price
       if product.image
-        output_hash["image"] = {
-          "src" => product.image.src
-        }
+        output_hash["image"] = Hash.new 
+        output_hash["image"]["src"] = product.image.src if defined?(product.image.src)
       end 
       output_hash["url"] = product.url
 

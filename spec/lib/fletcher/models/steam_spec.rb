@@ -18,8 +18,9 @@ describe Fletcher::Model::Steam, :vcr do
         model.description.should_not be_nil
         model.description.class.should == String
         model.price.should_not be_nil
-        model.image.should_not be_nil
         model.images.should_not be_empty
+        model.image.should_not be_nil
+        model.image.src.should_not be_nil
       end       
     end
   end

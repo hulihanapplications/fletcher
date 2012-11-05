@@ -21,7 +21,10 @@ module Fletcher
           parse_price( doc.css('div.leftcol.game_description_column div.game_purchase_price.price').first_string )
                           
           # Get Images
-          self.images = doc.css('div.screenshot_holder a[@href]').attribute_array.collect{|img| img[:href] }
+          self.images = doc.css('div.screenshot_holder > a').collect do |node| 
+            {:src => node.attribute("href").value}
+          end 
+
           self.image = images.first
         end
       end
