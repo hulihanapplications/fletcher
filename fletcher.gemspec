@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "fletcher"
-  s.version = "0.6.0"
+  s.version = "0.6.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dave Hulihan", "Hulihan Applications"]
-  s.date = "2012-10-26"
+  s.date = "2012-11-06"
   s.description = "Easily fetch product/model information from third party websites such as Amazon, eBay, etc."
   s.email = "dave@hulihanapplications.com"
   s.executables = ["fletcher"]
@@ -30,6 +30,7 @@ Gem::Specification.new do |s|
     "config/locales/fletcher.en.yml",
     "fletcher.gemspec",
     "lib/fletcher.rb",
+    "lib/fletcher/cli/utility.rb",
     "lib/fletcher/data.rb",
     "lib/fletcher/models/amazon.rb",
     "lib/fletcher/models/base.rb",
@@ -77,7 +78,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<hashie>, [">= 0"])
       s.add_runtime_dependency(%q<nokogiri>, [">= 0"])
       s.add_runtime_dependency(%q<money>, [">= 0"])
-      s.add_runtime_dependency(%q<commander>, [">= 0"])
+      s.add_runtime_dependency(%q<thor>, [">= 0"])
       s.add_development_dependency(%q<shoulda>, [">= 0"])
       s.add_development_dependency(%q<bundler>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.6.4"])
@@ -91,7 +92,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<hashie>, [">= 0"])
       s.add_dependency(%q<nokogiri>, [">= 0"])
       s.add_dependency(%q<money>, [">= 0"])
-      s.add_dependency(%q<commander>, [">= 0"])
+      s.add_dependency(%q<thor>, [">= 0"])
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<bundler>, [">= 0"])
       s.add_dependency(%q<jeweler>, ["~> 1.6.4"])
@@ -106,7 +107,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<hashie>, [">= 0"])
     s.add_dependency(%q<nokogiri>, [">= 0"])
     s.add_dependency(%q<money>, [">= 0"])
-    s.add_dependency(%q<commander>, [">= 0"])
+    s.add_dependency(%q<thor>, [">= 0"])
     s.add_dependency(%q<shoulda>, [">= 0"])
     s.add_dependency(%q<bundler>, [">= 0"])
     s.add_dependency(%q<jeweler>, ["~> 1.6.4"])
