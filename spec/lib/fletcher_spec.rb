@@ -1,6 +1,13 @@
 require 'spec_helper'
 
 describe Fletcher, :vcr do
+  describe :models do 
+    it "should return an array of symbols" do
+     models = described_class.models
+     models.is_a?(Array).should == true
+    end
+  end
+
   context :models do 
     describe :identify_model, :vcr do
       it "should raise an error when using an unsupported domain" do 
@@ -30,14 +37,5 @@ describe Fletcher, :vcr do
     it "should return a string" do
       described_class.version.should_not be_nil
     end
-  end
-
-  describe :models do
-    it "should return an array of models" do
-      described_class.models.should_not be_nil
-      # Test append
-      described_class.models << :somemodel
-      described_class.models.include?(:somemodel).should == true
-    end 
   end
 end  

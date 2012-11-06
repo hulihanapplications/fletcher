@@ -2,7 +2,10 @@ require 'spec_helper'
 
 describe Fletcher, :vcr do
   describe :fetch, :vcr do
-   
+    it "should return correct model info" do
+      product = Fletcher.fetch Factory(:steam).url
+      puts product.image.inspect
+    end
   end 
 end 
 

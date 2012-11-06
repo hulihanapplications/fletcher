@@ -1,11 +1,13 @@
 # = Fletcher
 # Author:: Dave Hulihan - 2012
 require "uri"
-require "fletcher/data"
-require "fletcher/string"
-require "fletcher/nokogiri"
+
+require File.expand_path("fletcher/data", File.dirname(__FILE__))
+require File.expand_path("fletcher/string", File.dirname(__FILE__))
+require File.expand_path("fletcher/nokogiri", File.dirname(__FILE__))
 
 module Fletcher  
+  # Module Methods
   class << self
     # Detect model by url
     #   Fletcher.identify_model("http://www.amazon.com/whatever") # => :amazon
@@ -60,25 +62,30 @@ module Fletcher
       File.expand_path("../..", __FILE__)
     end
 
-    # Create mattrs
-    attr_accessor :models
+    def models
+      models = Array.new
+      Dir[File.join(File.dirname(__FILE__), "fletcher", "models", "*.rb")].each do |f|
+        model = File.basename(f, ".rb").to_sym
+        models << model unless model == :base
+      end 
+      return models
+    end 
   end
-  
-  # Initialize models mattr & Load models array from dir
-  @models = Array.new 
-  Dir[File.join(File.dirname(__FILE__), "fletcher", "models", "*.rb")].each do |f|
-    model = File.basename(f, ".rb").to_sym
-    @models << model unless model == :base
-  end 
 
-  # Load Models/Models
+  LIBRARY_PATH       = File.join(File.dirname(__FILE__), 'fletcher')
+  CLI_PATH           = File.join(LIBRARY_PATH, 'cli')
+  MODEL_PATH         = File.join(LIBRARY_PATH, 'models')
+
+  # Autoload CLI
+  module CLI
+    autoload :Utility, File.join(CLI_PATH, 'utility')
+  end
+
+  # Autoload Models
   module Model
-    # Dir[File.join(dir, "*.rb")].each do |f|
-    #   autoload f      
-    # end 
-    autoload :Base, 'fletcher/models/base'
+    autoload :Base, File.join(MODEL_PATH, "base")
     for model in Fletcher.models
-      autoload model.to_s.capitalize.to_sym, "fletcher/models/#{model}"
+      autoload model.to_s.capitalize.to_sym, File.join(MODEL_PATH, model.to_s)
     end
-  end 
+  end     
 end

@@ -1,68 +1,14 @@
 #!/usr/bin/env ruby
+# encoding: utf-8
 
-require 'rubygems'
-require 'commander/import'
-require 'yaml'
+require "yaml"
+require "thor"
+
+# Load the Fletcher core library
 require File.expand_path("../../lib/fletcher", __FILE__)
-#require 'commander-foo'
 
-program :version, Fletcher.version #Commander-foo::VERSION
-program :description, 'A cross-website product information fetcher'
-program :help, 'Author', 'Dave Hulihan <dhulihan@gmail.com>'
-#default_command :fetch
- 
-command :fetch do |c|
-  c.syntax = 'fletcher fetch [URL]'
-  c.summary = 'Fetch product information'
-  c.description = ''
-  c.example 'Fetch an amazon product', 'fletcher "http://www.example.com/product-id"'
-  #c.option '--format [yaml|json]', String, 'The format of the product details'
-  #c.option '--timeout SECONDS', Integer, 'Timeout in seconds'
-  c.option '--only [name|description|price|image]', String, 'Fetch a single attribute from the product.'
-  c.action do |args, options|
-    # Do something or c.when_called Commander-foo::Commands::Hello
-    options.default :format => :yaml
+# Load the Fletcher command line interface utility
+require File.expand_path("../../lib/fletcher/cli/utility", __FILE__)
 
-    url = args.first
-    if url
-      product = Fletcher.fetch url
-
-      # Prep output
-      output_hash = Hash.new
-      output_hash["name"] = product.name
-      output_hash["description"] = product.description if product.description
-      output_hash["price"] = product.price.format if product.price
-      if product.image
-        output_hash["image"] = Hash.new 
-        output_hash["image"]["src"] = product.image.src if defined?(product.image.src)
-      end 
-      output_hash["url"] = product.url
-
-      # Get single attribute
-      if options.only
-        case options.only
-        when "image"
-          value = output_hash["image"]["src"]
-        else
-          value = output_hash[options.only]
-        end 
-        value ? say(value.to_s) : say("Unknown attribute: #{options.only}")
-      else 
-        say output_hash.to_yaml
-      end
-    else 
-      puts c.syntax
-    end 
-  end
-end
-
-command :websites do |c|
-  c.syntax = 'fletcher websites'
-  c.summary = 'Get a list of supported websites'
-  c.action do |args, options|
-    say "Supported Websites:"
-    for model in Fletcher.models.sort
-      say "\t#{model.to_s.capitalize}"
-    end 
-  end
-end 
+# Initialize the Fletcher command line utility
+Fletcher::CLI::Utility.start

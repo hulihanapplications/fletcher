@@ -89,8 +89,6 @@ ThinkGeek
 
 
 
-
-
 ## Attributes
 
 The following attributes/method are available for a product:
