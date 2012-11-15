@@ -9,7 +9,7 @@ describe Fletcher::Data do
   
   describe "read" do 
     it "should return a valid document", :vcr do 
-      doc = Fletcher::Data.read(Factory(:valid).url)
+      doc = Fletcher::Data.read(FactoryGirl.build(:valid).url)
     end
     
     # This is just a rough indicator of how long a data should take to download

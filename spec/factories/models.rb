@@ -23,7 +23,7 @@ FactoryGirl.define do
   end
 
   factory :unsupported, :parent => :base do 
-    url "https://github.com/hulihanapplications/fletcher"
+    url "http://www.tigerdirect.com"
   end
 
   factory :amazon, :parent => :base do
