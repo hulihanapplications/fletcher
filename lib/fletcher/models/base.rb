@@ -4,32 +4,6 @@ require "money"
 module Fletcher
   module Model
     class Base < ::Hashie::Mash         
-      # Create a product object based on service
-      #   Fletcher::Model::Base.generate(:amazon, "<html>...") # => #<Fletcher::Model::Amazon:0x...> 
-      def self.generate(service = nil, data = nil)
-        case service
-        when :amazon
-          model = Fletcher::Model::Amazon.new
-        when :ebay
-          model = Fletcher::Model::Ebay.new
-        when :thinkgeek
-          model = Fletcher::Model::Thinkgeek.new
-        when :etsy
-          model = Fletcher::Model::Etsy.new
-        when :googleshopping
-          model = Fletcher::Model::Googleshopping.new
-        when :gamecouk
-          model = Fletcher::Model::Gamecouk.new
-        when :steam
-          model = Fletcher::Model::Steam.new
-        when :playcom
-          model = Fletcher::Model::Playcom.new          
-        end
-        
-        model.parse(data)
-        return model 
-      end
-
       # Parse data and set object attributes    
       def parse(data)
         self.doc = data # save data for if user wants to access it later      

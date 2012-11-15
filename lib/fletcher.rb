@@ -3,53 +3,28 @@
 require "uri"
 
 require File.expand_path("fletcher/data", File.dirname(__FILE__))
+require File.expand_path("fletcher/model", File.dirname(__FILE__))
 require File.expand_path("fletcher/string", File.dirname(__FILE__))
 require File.expand_path("fletcher/nokogiri", File.dirname(__FILE__))
 
 module Fletcher  
   # Module Methods
-  class << self
-    # Detect model by url
-    #   Fletcher.identify_model("http://www.amazon.com/whatever") # => :amazon
-    def identify_model(url)
-      if url =~ ::URI::regexp
-        uri = ::URI::parse(url)
-        host = uri.host
-        if host =~ Fletcher::Model::Amazon.regexp
-          model = :amazon
-        elsif host =~ Fletcher::Model::Ebay.regexp
-          model = :ebay        
-        elsif host =~ Fletcher::Model::Etsy.regexp
-          model = :etsy          
-        elsif host =~ Fletcher::Model::Gamecouk.regexp
-          model = :gamecouk
-        elsif host =~ Fletcher::Model::Googleshopping.regexp
-          model = :googleshopping          
-        elsif host =~ Fletcher::Model::Playcom.regexp
-          model = :playcom
-        elsif host =~ Fletcher::Model::Thinkgeek.regexp          
-          model = :thinkgeek
-        elsif host =~ Fletcher::Model::Steam.regexp          
-          model = :steam
-        else 
-          model = :unknown 
-          raise ArgumentError, "Fletcher doesn't support #{host} yet."
-        end
-      else 
-        raise ArgumentError, "not a url"
-      end
-    end
-    
+  class << self    
     # Fetch information based on url
     def fetch(url) 
-      model = identify_model(url)
-      data = Fletcher::Data.read(url)
-      model = Fletcher::Model::Base.generate(model, data)
-      # Store url
-      model.url = url
+      model_class = Fletcher::Model.identify(url)
+
+      # Use Base class for fallback
+      model_class = Fletcher::Model::Base unless model_class
       
-      model.parse(data)
-      return model   
+      data = Fletcher::Data.read(url)
+
+      product = model_class.new.parse(data)
+
+      # Save url
+      product.url = url
+      
+      return product
     end  
     
     # Get gem version
@@ -62,6 +37,7 @@ module Fletcher
       File.expand_path("../..", __FILE__)
     end
 
+    # get array of models syms
     def models
       models = Array.new
       Dir[File.join(File.dirname(__FILE__), "fletcher", "models", "*.rb")].each do |f|
@@ -70,6 +46,19 @@ module Fletcher
       end 
       return models
     end 
+
+
+    # get array of model classes
+    #   Fletcher.model_classes = [Amazon, Ebay, ThinkGeek]
+    def model_classes
+      models = Array.new
+      Dir[File.join(File.dirname(__FILE__), "fletcher", "models", "*.rb")].each do |f|
+        filename = File.basename(f, ".rb")
+        models << ["Fletcher", "Model", filename.camelize].join("::").constantize unless filename == "base"
+      end 
+      return models
+    end 
+
   end
 
   LIBRARY_PATH       = File.join(File.dirname(__FILE__), 'fletcher')
@@ -85,7 +74,7 @@ module Fletcher
   module Model
     autoload :Base, File.join(MODEL_PATH, "base")
     for model in Fletcher.models
-      autoload model.to_s.capitalize.to_sym, File.join(MODEL_PATH, model.to_s)
+      autoload model.to_s.camelize.to_sym, File.join(MODEL_PATH, model.to_s)
     end
   end     
 end
