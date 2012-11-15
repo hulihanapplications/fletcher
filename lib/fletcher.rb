@@ -12,6 +12,7 @@ module Fletcher
   class << self    
     # Fetch information based on url
     def fetch(url) 
+      # Look for model based on url
       model_class = Fletcher::Model.identify(url)
 
       # Use Base class for fallback
@@ -19,7 +20,8 @@ module Fletcher
       
       data = Fletcher::Data.read(url)
 
-      product = model_class.new.parse(data)
+      product = model_class.new
+      product.parse(data)
 
       # Save url
       product.url = url

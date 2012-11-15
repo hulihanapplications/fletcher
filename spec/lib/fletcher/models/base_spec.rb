@@ -11,7 +11,7 @@ describe Fletcher::Model::Base do
 
   describe "parse_price", :vcr do 
     it "should return a price float and currency" do
-      model = Factory.build(:sample)
+      model = FactoryGirl.build(:sample)
       model.parse_price(model.raw_price)
       model.price.is_a?(Money).should == true
       model.price.currency.should_not be_nil

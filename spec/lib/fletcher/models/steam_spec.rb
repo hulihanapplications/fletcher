@@ -3,8 +3,7 @@ require 'spec_helper'
 describe Fletcher, :vcr do
   describe :fetch, :vcr do
     it "should return correct model info" do
-      product = Fletcher.fetch Factory(:steam).url
-      puts product.image.inspect
+      product = Fletcher.fetch FactoryGirl.build(:steam).url
     end
   end 
 end 
@@ -14,7 +13,7 @@ describe Fletcher::Model::Steam, :vcr do
     context "with valid data" do
       it "should return correct model info" do
         model = described_class.new
-        model.parse Fletcher::Data.read(Factory(:steam).url)
+        model.parse Fletcher::Data.read(FactoryGirl.build(:steam).url)
         model.doc = nil
         model.description = ''
         model.name.should_not be_nil

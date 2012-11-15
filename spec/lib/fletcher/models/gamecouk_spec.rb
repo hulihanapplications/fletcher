@@ -3,7 +3,7 @@ require 'spec_helper'
 describe Fletcher, :vcr do
   describe :fetch, :vcr do
     it "should fetch gamecouk product" do
-      item = described_class.fetch(Factory(:gamecouk).url)
+      item = described_class.fetch(FactoryGirl.build(:gamecouk).url)
       item.should_not be_nil
       item.name.should_not be_nil       
       item.description.should_not be_nil 
@@ -16,7 +16,7 @@ describe Fletcher::Model::Gamecouk, :vcr do
     context "with valid data" do
       it "should return correct model info" do 
         model = described_class.new
-        model.parse Fletcher::Data.read(Factory(:gamecouk).url)    
+        model.parse Fletcher::Data.read(FactoryGirl.build(:gamecouk).url)    
         model.name.should_not be_nil
         model.description.should_not be_nil
         model.price.should_not be_nil        

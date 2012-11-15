@@ -7,13 +7,13 @@ module Fletcher
         if url =~ ::URI::regexp
           uri = ::URI::parse(url)
           host = uri.host
-          matched_model_class = nil
-          for model in Fletcher.models
+          matched_model = nil
+          for model in Fletcher.model_classes
             #model_class =            
-            matched_model_class = model_class if host =~ model_class.regexp 
+            matched_model = model if host =~ model.regexp 
           end 
           # raise ArgumentError, "Fletcher doesn't support #{host} yet." unless matched_model_class
-          return matched_model_class          
+          return matched_model
         else 
           raise ArgumentError, "not a url"
         end

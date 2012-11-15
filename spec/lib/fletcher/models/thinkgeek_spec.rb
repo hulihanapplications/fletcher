@@ -9,7 +9,7 @@ end
 describe Fletcher, :vcr do
   describe :fetch, :vcr do
     it "should fetch a thinkgeek product's information" do
-      item = Fletcher.fetch(Factory(:thinkgeek).url)
+      item = Fletcher.fetch(FactoryGirl.build(:thinkgeek).url)
       item.should_not be_nil
       item.image.should_not be_nil
       item.name.should_not be_nil       
@@ -17,7 +17,7 @@ describe Fletcher, :vcr do
     end   
 
     it "should fetch a thinkgeek product with price range" do
-      item = Fletcher.fetch(Factory(:thinkgeek_with_price_range).url)
+      item = Fletcher.fetch(FactoryGirl.build(:thinkgeek_with_price_range).url)
       item.should_not be_nil
       item.image.should_not be_nil
       item.name.should_not be_nil       
@@ -31,7 +31,7 @@ describe Fletcher::Model::Thinkgeek, :vcr do
     context "with valid data" do
       it "should return correct model info" do 
         model = described_class.new
-        model.parse Fletcher::Data.read(Factory(:thinkgeek).url)  
+        model.parse Fletcher::Data.read(FactoryGirl.build(:thinkgeek).url)  
         model.name.should_not be_nil
         model.price.should_not be_nil                
         model.image.should_not be_nil        
