@@ -49,7 +49,6 @@ module Fletcher
       return models
     end 
 
-
     # get array of model classes
     #   Fletcher.model_classes = [Amazon, Ebay, ThinkGeek]
     def model_classes
@@ -60,7 +59,6 @@ module Fletcher
       end 
       return models
     end 
-
   end
 
   LIBRARY_PATH       = File.join(File.dirname(__FILE__), 'fletcher')

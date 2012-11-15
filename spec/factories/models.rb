@@ -22,6 +22,10 @@ FactoryGirl.define do
     images_xpath "//table[@class='productImageGrid']//img"
   end
 
+  factory :unsupported, :parent => :base do 
+    url "https://github.com/hulihanapplications/fletcher"
+  end
+
   factory :amazon, :parent => :base do
     url "http://www.amazon.com/gp/product/B004HZYA6E/"
   end
