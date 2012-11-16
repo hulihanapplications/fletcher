@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "fletcher"
-  s.version = "0.6.1"
+  s.version = "0.6.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dave Hulihan", "Hulihan Applications"]
-  s.date = "2012-11-06"
+  s.date = "2012-11-16"
   s.description = "Easily fetch product/model information from third party websites such as Amazon, eBay, etc."
   s.email = "dave@hulihanapplications.com"
   s.executables = ["fletcher"]
@@ -32,12 +32,14 @@ Gem::Specification.new do |s|
     "lib/fletcher.rb",
     "lib/fletcher/cli/utility.rb",
     "lib/fletcher/data.rb",
+    "lib/fletcher/model.rb",
     "lib/fletcher/models/amazon.rb",
     "lib/fletcher/models/base.rb",
     "lib/fletcher/models/ebay.rb",
     "lib/fletcher/models/etsy.rb",
     "lib/fletcher/models/gamecouk.rb",
     "lib/fletcher/models/googleshopping.rb",
+    "lib/fletcher/models/newegg.rb",
     "lib/fletcher/models/playcom.rb",
     "lib/fletcher/models/steam.rb",
     "lib/fletcher/models/thinkgeek.rb",
@@ -46,16 +48,19 @@ Gem::Specification.new do |s|
     "spec/bin/fletcher_spec.rb",
     "spec/factories/models.rb",
     "spec/lib/fletcher/data_spec.rb",
+    "spec/lib/fletcher/model_spec.rb",
     "spec/lib/fletcher/models/amazon_spec.rb",
     "spec/lib/fletcher/models/base_spec.rb",
     "spec/lib/fletcher/models/ebay_spec.rb",
     "spec/lib/fletcher/models/etsy_spec.rb",
     "spec/lib/fletcher/models/gamecouk_spec.rb",
     "spec/lib/fletcher/models/googleshopping_spec.rb",
+    "spec/lib/fletcher/models/newegg_spec.rb",
     "spec/lib/fletcher/models/playcom_spec.rb",
     "spec/lib/fletcher/models/steam_spec.rb",
     "spec/lib/fletcher/models/thinkgeek_spec.rb",
     "spec/lib/fletcher/nokogiri_spec.rb",
+    "spec/lib/fletcher/string_spec.rb",
     "spec/lib/fletcher_spec.rb",
     "spec/spec_helper.rb",
     "spec/support/benchmark.rb",
@@ -82,7 +87,6 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<shoulda>, [">= 0"])
       s.add_development_dependency(%q<bundler>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.6.4"])
-      s.add_development_dependency(%q<rcov>, [">= 0"])
       s.add_development_dependency(%q<rspec>, [">= 0"])
       s.add_development_dependency(%q<factory_girl>, [">= 0"])
       s.add_development_dependency(%q<i18n>, [">= 0"])
@@ -96,7 +100,6 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<bundler>, [">= 0"])
       s.add_dependency(%q<jeweler>, ["~> 1.6.4"])
-      s.add_dependency(%q<rcov>, [">= 0"])
       s.add_dependency(%q<rspec>, [">= 0"])
       s.add_dependency(%q<factory_girl>, [">= 0"])
       s.add_dependency(%q<i18n>, [">= 0"])
@@ -111,7 +114,6 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<shoulda>, [">= 0"])
     s.add_dependency(%q<bundler>, [">= 0"])
     s.add_dependency(%q<jeweler>, ["~> 1.6.4"])
-    s.add_dependency(%q<rcov>, [">= 0"])
     s.add_dependency(%q<rspec>, [">= 0"])
     s.add_dependency(%q<factory_girl>, [">= 0"])
     s.add_dependency(%q<i18n>, [">= 0"])
