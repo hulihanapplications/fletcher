@@ -14,7 +14,7 @@ module Fletcher
         when Nokogiri::HTML::Document
           # Get Name
           self.name = doc.xpath("//meta[@property='og:title']/@content").first_string
-          
+
           # Get Description
           self.description = doc.xpath("//meta[@property='og:description']/@content").first_string
   

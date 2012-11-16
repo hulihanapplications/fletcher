@@ -12,7 +12,8 @@ module Fletcher
         case doc
         when Nokogiri::HTML::Document
           # Get Name
-          self.name = doc.css('h1#product-name span.main-title').first_string
+          name = doc.css('h1#product-name span.main-title').first_string
+          self.name = name if name
 
           # Get Description
           self.description = doc.css("div.product-desc-cont div.product-desc").first_string   

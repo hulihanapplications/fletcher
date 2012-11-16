@@ -35,6 +35,10 @@ FactoryGirl.define do
     url "http://www.ebay.com/itm/Franklin-Library-3V-ESSAYS-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-/190654183378"
   end
 
+  factory :newegg, :parent => :base do
+    url "http://www.newegg.com/Product/Product.aspx?Item=9SIA03E0004DP7"
+  end
+
   factory :thinkgeek, :parent => :base do
     url "http://www.thinkgeek.com/geektoys/plush/e7f8/"
   end

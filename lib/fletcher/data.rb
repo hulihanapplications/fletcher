@@ -13,9 +13,9 @@ module Fletcher
       doc = ::Nokogiri::HTML(response.read)
       
       # Save contents of URL/Remote File for debugging
-      # response.rewind
-      # last_response_file = File.expand_path(File.join("..", "..", "last_response"), File.dirname(__FILE__))        
-      # File.new(last_response_file, "w+").write(response.read)
+      response.rewind
+      last_response_file = File.expand_path(File.join("..", "..", "last_response"), File.dirname(__FILE__))        
+      File.new(last_response_file, "w+").write(response.read)
 
       return doc
     end 
