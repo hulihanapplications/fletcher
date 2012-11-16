@@ -14,6 +14,10 @@ module Fletcher
       end
     end
 
+    def constantize
+      self.split("::").inject(Module) {|acc, val| acc.const_get(val)}
+    end
+
     def underscore
       word = self.dup
       word.gsub!(/::/, '/')
