@@ -16,6 +16,7 @@ Fletcher is a cross-website product information fetcher. Just give fletcher a pr
 * [Etsy](http://www.etsy.com) 
 * [game.co.uk](http://www.game.co.uk)
 * [Google Shopping](http://www.google.com/products/)
+* [Newegg](http://www.newegg.com)
 * [play.com](http://www.play.com)
 * [Steam](http://store.steampowered.com)
 * [ThinkGeek](http://www.thinkgeek.com)
