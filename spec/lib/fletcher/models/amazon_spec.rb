@@ -11,17 +11,22 @@ describe Fletcher, :vcr do
   end 
 end 
 
+def amazon_check(url)
+  model = described_class.new
+  model.parse Fletcher::Data.read(url)    
+  model.name.empty?.should_not == true
+  model.description.should_not be_nil
+  model.price.should_not be_nil        
+  model.image.should_not be_nil       
+end
+
 describe Fletcher::Model::Amazon do
   describe "parse", :vcr do
     context "with valid data" do
       it "should return correct model info" do 
-        model = described_class.new
-        model.parse Fletcher::Data.read(FactoryGirl.build(:amazon).url)    
-        model.name.should_not be_nil
-        model.description.should_not be_nil
-        model.price.should_not be_nil        
-        model.image.should_not be_nil        
-      end       
+        amazon_check(FactoryGirl.build(:amazon).url)
+        # amazon_check(FactoryGirl.build(:amazon2).url)
+      end
     end
   end
 end  

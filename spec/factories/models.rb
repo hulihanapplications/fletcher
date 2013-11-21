@@ -30,6 +30,10 @@ FactoryGirl.define do
     url "http://www.amazon.com/gp/product/B004HZYA6E/"
   end
 
+  factory :amazon2, :parent => :base do
+    url "http://www.amazon.com/gp/product/B0093162RM/"
+  end
+
   # This may need to be updated if the item is expired/deleted
   factory :ebay, :parent => :base do
     url "http://www.ebay.com/itm/Franklin-Library-3V-ESSAYS-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-/190654183378"
