@@ -6,7 +6,7 @@ module Fletcher
   class Data
     # Get read url and get data object
     def self.read(url, options = {})
-      # Set Defaults
+      # Set User Agent
       options[:user_agent] ||= "Ruby/#{RUBY_VERSION}"
 
       response = open(url, "User-Agent" => options[:user_agent])

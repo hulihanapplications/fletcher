@@ -23,9 +23,12 @@ end
 describe Fletcher::Model::Amazon do
   describe "parse", :vcr do
     context "with valid data" do
-      it "should return correct model info" do 
+      it "should return correct model info for an in-house product (kindle)" do 
         amazon_check(FactoryGirl.build(:amazon).url)
-        # amazon_check(FactoryGirl.build(:amazon2).url)
+      end 
+      
+      it "should return correct model info for a random product" do
+        amazon_check(FactoryGirl.build(:amazon2).url)
       end
     end
   end

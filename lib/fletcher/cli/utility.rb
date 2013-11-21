@@ -4,13 +4,17 @@ module Fletcher
     class Utility < Thor
       include Thor::Actions
 
-      method_option :format, :type => :string, :default => :yaml, :aliases => "-f"
-      method_option :only, :type => :string, :aliases => "-o", :desc => "Fetch a single attribute [name|description|image|price]", :banner => "ATTRIBUTE"
+      method_option :format, :aliases => "-f", :type => :string, :default => :yaml
+      method_option :only, :aliases => "-o", :type => :string, :desc => "Fetch a single attribute [name|description|image|price]", :banner => "ATTRIBUTE"
+      method_option :debug, :aliases => "-d", :type => :bool, :desc => "Print debug information: http response, etc."
 
       desc 'fetch [URL]', "Fetch Product information\n\n" + 
                           "Example:\n\s\sfletcher fetch 'http://www.amazon.com/gp/product/B004HZYA6E/'"
       def fetch(url)
         product = Fletcher.fetch url
+
+        if options[:debug]
+        end
 
         # Prep output
         output_hash = Hash.new

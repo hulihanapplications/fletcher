@@ -35,7 +35,7 @@ GEM
     shoulda-matchers (1.4.1)
       activesupport (>= 3.0.0)
     thor (0.16.0)
-    vcr (2.3.0)
+    vcr (2.7.0)
 
 PLATFORMS
   ruby
