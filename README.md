@@ -88,8 +88,6 @@ ThinkGeek
 ...
 ```
 
-
-
 ## Attributes
 
 The following attributes/method are available for a product:
@@ -100,3 +98,15 @@ The following attributes/method are available for a product:
 * `image` - (Hash) The main image of the product, if available. This is a hash containing standard HTML attributes: `src`, `alt`, `width`, `height`, etc.
 * `images` - (Array) An array of product images.
 * `doc` - The raw `Nokogiri::HTML::Document` object for the product. You can use this to pull other stuff from the product's page.
+
+
+## Contributing
+
+If you make any changes to fletcher, be sure to run the test suite before creating any pull requests.
+
+	bundle install
+	bundle exec rspec spec/
+
+* Troubleshooting
+
+	* fletcher uses [vcr](https://github.com/vcr/vcr) to save http requests for faster testing. To pull real-time http data, clear the vcr cache with `rm -rf spec/vcr`.
