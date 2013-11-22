@@ -26,10 +26,6 @@ describe Fletcher::Model::Amazon do
       it "should return correct model info for an in-house product (kindle)" do 
         amazon_check(FactoryGirl.build(:amazon).url)
       end 
-      
-      it "should return correct model info for a random product" do
-        amazon_check(FactoryGirl.build(:amazon2).url)
-      end
     end
   end
 end  

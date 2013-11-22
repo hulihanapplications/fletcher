@@ -27,10 +27,6 @@ FactoryGirl.define do
   end
 
   factory :amazon, :parent => :base do
-    url "http://www.amazon.com/gp/product/B004HZYA6E/"
-  end
-
-  factory :amazon2, :parent => :base do
     url "http://www.amazon.com/gp/product/B0093162RM/"
   end
 
