@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "fletcher"
-  s.version = "0.6.2"
+  s.version = "0.6.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dave Hulihan", "Hulihan Applications"]
-  s.date = "2012-11-16"
+  s.date = "2013-11-22"
   s.description = "Easily fetch product/model information from third party websites such as Amazon, eBay, etc."
   s.email = "dave@hulihanapplications.com"
   s.executables = ["fletcher"]
@@ -73,7 +73,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/hulihanapplications/fletcher"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.24"
+  s.rubygems_version = "1.8.25"
   s.summary = "A cross-website product/model information fetcher."
 
   if s.respond_to? :specification_version then
