@@ -15,8 +15,8 @@ module Fletcher
           self.name = doc.css("#synopsis .grpDesc .wrapper h1 > span").first_string
           #self.name = doc.css("#synopsis .grpDesc .wrapper > .span").first_string
 
-          #  Description
-          self.description = doc.css("#fullInfo .itmDesc > p").first_string
+          # Description - Not always reliable.
+          self.description = doc.css(".itmDesc > p").first_string
 
           # Get Price (currently disabled because price is displayed after page load)
           #parse_price doc.css("li.price-current").attribute("content").content
