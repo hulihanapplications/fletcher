@@ -1,4 +1,3 @@
-
 module Fletcher
   module CLI
     class Utility < Thor
@@ -6,7 +5,7 @@ module Fletcher
 
       method_option :format, :aliases => "-f", :type => :string, :default => :yaml
       method_option :only, :aliases => "-o", :type => :string, :desc => "Fetch a single attribute [name|description|image|price]", :banner => "ATTRIBUTE"
-      method_option :debug, :aliases => "-d", :type => :bool, :desc => "Print debug information: http response, etc."
+      method_option :debug, :aliases => "-d", :type => :boolean, :desc => "Print debug information: http response, etc."
 
       desc 'fetch [URL]', "Fetch Product information\n\n" + 
                           "Example:\n\s\sfletcher fetch 'http://www.amazon.com/gp/product/B004HZYA6E/'"
@@ -14,6 +13,13 @@ module Fletcher
         product = Fletcher.fetch url
 
         if options[:debug]
+          puts "=======================================\n"
+          puts "START RESPONSE"
+          puts "=======================================\n"
+          puts product.doc.to_s
+          puts "=======================================\n"
+          puts "END RESPONSE"
+          puts "=======================================\n"
         end
 
         # Prep output

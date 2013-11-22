@@ -88,6 +88,12 @@ ThinkGeek
 ...
 ```
 
+Run in debug mode: 
+
+```sh
+fletcher fetch --debug "http://www.amazon.com/gp/product/B004HZYA6E/"
+```
+
 ## Attributes
 
 The following attributes/method are available for a product:
