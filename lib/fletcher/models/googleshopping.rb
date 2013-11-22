@@ -16,10 +16,10 @@ module Fletcher
           self.name = name if name
 
           # Get Description
-          self.description = doc.css("div.product-desc-cont div.product-desc").first_string   
+          self.description = doc.css("#product-description-full").first_string   
 
           # Get Price
-          parse_price( doc.css('div#product-details span.product-price span.main-price').first_string )
+          parse_price( doc.css('#summary-prices .price').first_string )
                           
           # Get Images
           self.images = doc.css('div#product-basic-info img').attribute_array
