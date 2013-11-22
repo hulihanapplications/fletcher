@@ -32,7 +32,7 @@ FactoryGirl.define do
 
   # This may need to be updated if the item is expired/deleted
   factory :ebay, :parent => :base do
-    url "http://www.ebay.com/itm/Franklin-Library-3V-ESSAYS-MONTAIGNE-Leather-Great-Books-1979-Donald-Frame-/190654183378"
+    url "http://www.ebay.com/itm/Unicycle-20-Silver-Chrome-Unicycles-Wheel-Cycling-Outdoor-Sports-Fitness-New-/310729787186?pt=LH_DefaultDomain_0&hash=item4858f04732"
   end
 
   factory :newegg, :parent => :base do
