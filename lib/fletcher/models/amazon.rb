@@ -23,7 +23,9 @@ module Fletcher
           
           # Get Price
           parse_price(doc.css("#priceblock_ourprice").first_string)
-          
+                    
+          parse_price(doc.css("#priceblock_saleprice").first_string) unless self.price
+
           # Get Images
           self.images = doc.xpath("//*[@data-action='main-image-click']//img").attribute_array
           self.image = images.first
