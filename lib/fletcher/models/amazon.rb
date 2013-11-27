@@ -13,7 +13,8 @@ module Fletcher
         case doc
         when Nokogiri::HTML::Document
           # Get Name
-          self.name = doc.css("h1#title").first_string
+          self.name = doc.xpath("string(//title)").split(" - ").first
+          self.name = doc.css("h1#title").first_string unless self.name
            
           # Get Description
           self.description = doc.css("div#productDescriptionWrapper").first_string    
@@ -22,9 +23,10 @@ module Fletcher
           self.description = doc.xpath("//meta[@name='description']/@content").first_string if description.nil?
           
           # Get Price
-          parse_price(doc.css("#priceblock_ourprice").first_string)
-                    
+          parse_price(doc.css("#actualPriceValue").first_string) 
+          parse_price(doc.css("#priceblock_ourprice").first_string) unless self.price                  
           parse_price(doc.css("#priceblock_saleprice").first_string) unless self.price
+          parse_price(doc.xpath("//span[contains(@id, 'price')]").first_string) unless self.price
 
           # Get Images
           self.images = doc.xpath("//*[@data-action='main-image-click']//img").attribute_array
