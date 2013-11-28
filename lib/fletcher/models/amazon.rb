@@ -13,11 +13,11 @@ module Fletcher
         case doc
         when Nokogiri::HTML::Document
           # Get Name
-          self.name = doc.xpath("string(//title)").split(" - ").first
-          self.name = doc.css("h1#title").first_string unless self.name
+          self.name = doc.css("h1#title").first_string 
+          self.name = doc.xpath("string(//title)").split(" - ").first unless self.name
            
           # Get Description
-          self.description = doc.css("div#productDescriptionWrapper").first_string    
+          self.description = doc.css(".productDescriptionWrapper").first_string    
                 
           # Get description from meta title if not found
           self.description = doc.xpath("//meta[@name='description']/@content").first_string if description.nil?
