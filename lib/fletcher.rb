@@ -8,6 +8,12 @@ require File.expand_path("fletcher/string", File.dirname(__FILE__))
 require File.expand_path("fletcher/nokogiri", File.dirname(__FILE__))
 
 module Fletcher  
+  LIBRARY_PATH       = File.join(File.dirname(__FILE__), 'fletcher')
+  CLI_PATH           = File.join(LIBRARY_PATH, 'cli')
+  MODEL_PATH         = File.join(LIBRARY_PATH, 'models')
+  # User Agent (Chrome)
+  USER_AGENT         = "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36"  
+
   # Module Methods
   class << self    
     # Fetch information based on url
@@ -61,9 +67,7 @@ module Fletcher
     end 
   end
 
-  LIBRARY_PATH       = File.join(File.dirname(__FILE__), 'fletcher')
-  CLI_PATH           = File.join(LIBRARY_PATH, 'cli')
-  MODEL_PATH         = File.join(LIBRARY_PATH, 'models')
+
 
   # Autoload CLI
   module CLI
