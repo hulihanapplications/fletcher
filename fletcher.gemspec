@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "fletcher"
-  s.version = "0.6.4"
+  s.version = "0.6.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dave Hulihan", "Hulihan Applications"]
-  s.date = "2013-11-22"
+  s.date = "2013-11-28"
   s.description = "Easily fetch product/model information from third party websites such as Amazon, eBay, etc."
   s.email = "dave@hulihanapplications.com"
   s.executables = ["fletcher"]
