@@ -34,6 +34,11 @@ FactoryGirl.define do
   factory :amazon2, :parent => :base do
     url "http://www.amazon.com/gp/product/B000P4W3LU/"
   end
+  
+  # Model for Kindle Fire, which has very different markup
+  factory :amazon3, :parent => :base do
+    url "http://www.amazon.com/gp/product/B00BWYQ9YE"
+  end
 
   # This may need to be updated if the item is expired/deleted
   factory :ebay, :parent => :base do

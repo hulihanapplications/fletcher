@@ -18,7 +18,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/hulihanapplications/fletcher"
   gem.license = "MIT"
   gem.summary = %Q{A cross-website product/model information fetcher.}
-  gem.description = %Q{Easily fetch product/model information from third party websites such as Amazon, eBay, etc.}
+  gem.description = %Q{Easily fetch product information from third party websites such as Amazon, Steam, eBay, etc.}
   gem.email = "dave@hulihanapplications.com"
   gem.authors = ["Dave Hulihan", "Hulihan Applications"]
   gem.executables = ["fletcher"] 
