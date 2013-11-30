@@ -12,16 +12,6 @@ module Fletcher
       def fetch(url)
         product = Fletcher.fetch url
 
-        if options[:debug]
-          puts "=======================================\n"
-          puts "START RESPONSE"
-          puts "=======================================\n"
-          puts product.doc.to_s
-          puts "=======================================\n"
-          puts "END RESPONSE"
-          puts "=======================================\n"
-        end
-
         # Prep output
         output_hash = Hash.new
         output_hash["name"] = product.name
@@ -45,6 +35,12 @@ module Fletcher
         else 
           say output_hash.to_yaml
         end
+
+        if options[:debug]
+          say "user_agent: #{Fletcher::USER_AGENT}"
+          say "response:\n\n"
+          say product.doc.to_s
+        end        
       end
 
       desc "websites", "Get a list of supported websites"
