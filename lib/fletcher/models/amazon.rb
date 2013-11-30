@@ -31,7 +31,8 @@ module Fletcher
           # Get Images
           self.images = doc.xpath("//*[@data-action='main-image-click']//img").attribute_array
           self.images = doc.xpath("//*[@id='imageBlock']//img").attribute_array unless self.images
-          
+          self.images = doc.xpath("//*[@id='kib-ma-container-0']//img").attribute_array if self.images.empty?
+
           self.image = images.first
         end            
       end
