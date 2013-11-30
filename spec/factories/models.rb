@@ -88,8 +88,8 @@ FactoryGirl.define do
     url "http://store.steampowered.com/app/212580/"
   end
 
-  # DLC Game
-  factory :steam2, :parent=> :base do
+  # Game with Age Check
+  factory :steam_agecheck, :parent=> :base do
     url "http://store.steampowered.com/app/214931/"
   end
 end

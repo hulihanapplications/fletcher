@@ -25,11 +25,20 @@ end
 describe Fletcher::Model::Steam, :vcr do
   describe "parse" do
     context "with valid data" do
-      %w{steam steam2}.each do |name|
+      %w{steam}.each do |name|
         it "should fetch valid info for #{name}" do 
           steam_check(FactoryGirl.build(name.to_sym).url)
         end         
       end     
+
+      it "should fetch valid info for game with agecheck" do
+        model = described_class.new
+        model.parse Fletcher::Data.read(FactoryGirl.build(:steam_agecheck).url)    
+        model.name.should_not be_nil
+        model.images.should_not be_empty
+        model.image.should_not be_nil
+        model.image.src.should_not be_nil            
+      end 
     end
   end
 end

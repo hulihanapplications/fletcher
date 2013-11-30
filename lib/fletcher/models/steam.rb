@@ -12,7 +12,12 @@ module Fletcher
         case doc
         when Nokogiri::HTML::Document
           # Get Name
-          self.name = doc.css('div#main_content div.apphub_AppName').first_string
+          self.name = doc.css('#main_content .apphub_AppName').first_string
+          
+          unless self.name
+            self.name = doc.xpath("string(//title)") 
+            self.name.slice!(" on Steam")
+          end
 
           # Get Description
           self.description = doc.css("div#main_content div#game_area_description").first_string   
@@ -24,6 +29,9 @@ module Fletcher
           self.images = doc.css('div.screenshot_holder > a').collect do |node| 
             {:src => node.attribute("href").value}
           end 
+
+          # Get Image from Age Check
+          self.images = doc.xpath("//div[@id='agegate_box']//img").attribute_array if self.images.empty?
 
           self.image = images.first
         end
