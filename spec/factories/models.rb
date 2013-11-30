@@ -40,6 +40,16 @@ FactoryGirl.define do
     url "http://www.amazon.com/gp/product/B00BWYQ9YE"
   end
 
+  # Skull Replica, Yet another type of markup
+  factory :amazon4, :parent => :base do
+    url "http://www.amazon.com/Life-Size-Human-Skull-Replica-Reproduction/dp/B005DEE96E"
+  end
+
+  # A book with kindle versions
+  factory :amazon5, :parent => :base do 
+    url "http://www.amazon.com/dp/037575721X"
+  end
+
   # This may need to be updated if the item is expired/deleted
   factory :ebay, :parent => :base do
     url "http://www.ebay.com/itm/Unicycle-20-Silver-Chrome-Unicycles-Wheel-Cycling-Outdoor-Sports-Fitness-New-/310729787186?pt=LH_DefaultDomain_0&hash=item4858f04732"
@@ -78,4 +88,8 @@ FactoryGirl.define do
     url "http://store.steampowered.com/app/212580/"
   end
 
+  # DLC Game
+  factory :steam2, :parent=> :base do
+    url "http://store.steampowered.com/app/214931/"
+  end
 end
