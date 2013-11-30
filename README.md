@@ -115,4 +115,4 @@ If you make any changes to fletcher, be sure to run the test suite before creati
 
 * Troubleshooting
 
-	* fletcher uses [vcr](https://github.com/vcr/vcr) to save http requests for faster testing. To pull real-time http data, clear the vcr cache with `rm -rf spec/vcr`.
+	* fletcher uses [vcr](https://github.com/vcr/vcr) to save http requests for faster testing. To pull real-time http data, clear the vcr cache with `rm -rf spec/vcr`. Please clear this cache before making a pull request.

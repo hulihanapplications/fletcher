@@ -28,10 +28,22 @@ module Fletcher
           parse_price(doc.css("#priceblock_saleprice").first_string) unless self.price
           parse_price(doc.xpath("//span[contains(@id, 'price')]").first_string) unless self.price
 
+          # Get Unqualified Price 
+          parse_price(doc.xpath("//*[contains(@id, 'unqualifiedBuyBox')]//span").first_string) unless self.price
+
+          # Get Used Price 
+          parse_price(doc.xpath("//*[contains(@id, 'secondaryUsedAndNew')]//*[@class='price']").first_string) unless self.price
+
+
           # Get Images
           self.images = doc.xpath("//*[@data-action='main-image-click']//img").attribute_array
           self.images = doc.xpath("//*[@id='imageBlock']//img").attribute_array unless self.images
+
+          # Get images for in-house products (kindle, etc.)
           self.images = doc.xpath("//*[@id='kib-ma-container-0']//img").attribute_array if self.images.empty?
+
+          # Get images for third-party sellers
+          self.images = doc.xpath("//*[@id='prodImageContainer']//img").attribute_array if self.images.empty?
 
           self.image = images.first
         end            

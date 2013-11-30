@@ -26,6 +26,7 @@ FactoryGirl.define do
     url "http://www.tigerdirect.com"
   end
 
+  # Example Model: Philips Wake-up light
   factory :amazon, :parent => :base do
     url "http://www.amazon.com/gp/product/B0093162RM/"
   end
