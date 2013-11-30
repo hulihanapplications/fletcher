@@ -23,7 +23,7 @@ end
 describe Fletcher::Model::Amazon do
   describe "parse", :vcr do
     context "with valid data" do
-      %w{amazon amazon2 amazon_3}.each do |name|
+      %w{amazon amazon2 amazon3}.each do |name|
         it "should fetch valid info for #{name}" do 
           amazon_check(FactoryGirl.build(name.to_sym).url)
         end         
