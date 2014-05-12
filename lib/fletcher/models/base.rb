@@ -1,5 +1,6 @@
 require "hashie"
 require "money"
+require "monetize"
 
 module Fletcher
   module Model
@@ -20,6 +21,6 @@ module Fletcher
         return if raw_price.nil?
         self.price = ::Monetize.parse(raw_price)
       end
-    end # Base
+    end # Baseasd
   end # Model
 end # Fletcher

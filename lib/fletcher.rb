@@ -33,7 +33,7 @@ module Fletcher
       product.url = url
       
       return product
-    end  
+    end
     
     # Get gem version
     def version
