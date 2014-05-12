@@ -18,7 +18,7 @@ module Fletcher
       #   model.price.currency.symbol # => '$'
       def parse_price(raw_price = nil)
         return if raw_price.nil?
-        self.price = Monetize.parse(raw_price)
+        self.price = ::Monetize.parse(raw_price)
       end
     end # Base
   end # Model
