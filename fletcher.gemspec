@@ -30,7 +30,6 @@ Gem::Specification.new do |s|
     "VERSION",
     "bin/fletcher",
     "config/locales/fletcher.en.yml",
-    "fletcher-0.6.7.gem",
     "fletcher.gemspec",
     "lib/fletcher.rb",
     "lib/fletcher/cli/utility.rb",
