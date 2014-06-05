@@ -6,7 +6,7 @@ module Fletcher
   class Data
     # Get read url and get data object
     def self.read(url, agent = nil)
-      user_agent = agent.blank? ? Fletcher::USER_AGENT : agent
+      user_agent = agent.nil? ? Fletcher::USER_AGENT : agent
       response = open(url, "User-Agent" => user_agent)
       doc = ::Nokogiri::HTML(response.read)
 
