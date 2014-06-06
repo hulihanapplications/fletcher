@@ -20,7 +20,6 @@ describe Fletcher::Model::Googleshopping, :vcr do
         model.name.should_not be_nil
         model.description.should_not be_nil
         model.price.should_not be_nil        
-        model.image.should_not be_nil        
       end       
     end
   end

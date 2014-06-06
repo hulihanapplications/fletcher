@@ -57,7 +57,7 @@ FactoryGirl.define do
   end
 
   factory :newegg, :parent => :base do
-    url "http://www.newegg.com/Product/Product.aspx?Item=9SIA03E0004DP7"
+    url "http://www.newegg.com/Product/Product.aspx?Item=N82E16817111471"
   end
 
   factory :thinkgeek, :parent => :base do
@@ -70,7 +70,7 @@ FactoryGirl.define do
   end 
 
   factory :etsy, :parent => :base do
-    url "http://www.etsy.com/listing/78608690/farm-fresh-125-x-19-in-pick-your-color"
+    url "https://www.etsy.com/listing/78608690/farm-fresh-125-x-19-in-pick-your-color"
   end
 
   factory :googleshopping, :parent => :base do

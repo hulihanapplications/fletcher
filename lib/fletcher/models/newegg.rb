@@ -25,6 +25,8 @@ module Fletcher
           self.images = [{:src => doc.css('.mainSlide > img').attribute("src").content}]
           self.image = images.first
         end
+      rescue
+        return nil
       end
     end
   end
